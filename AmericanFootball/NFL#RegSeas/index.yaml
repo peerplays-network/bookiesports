@@ -1,0 +1,40 @@
+# This file represents an
+#        Event Group
+# Each sport has 
+#        events
+# as children
+
+name:
+    en: NFL - Regular Season
+    de: NFL - Hauptsaison
+
+aliases:
+  - National Football League
+  - American Football
+  - National Football League - Regular Season
+  - American Football - Regular Season
+
+# .. and blockchain id
+id:
+
+participants: "NFL_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NFL_HCP_2017-18_1
+    - NFL_ML_2017-18_1
+    - NFL_OU_2017-18_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    parameters:
+        - AwayTeam
+        - HomeTeam
+    name: "[AwayTeam] @ [HomeTeam]"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2017/09/07
+finish_date: 2017/12/31

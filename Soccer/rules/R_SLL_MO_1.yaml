@@ -1,0 +1,15 @@
+id:
+name: 
+    de: R_SLL_MO_1
+    en: R_SLL_MO_1
+description:
+    en: Foobar
+    de: Fuubar
+arguments:
+    # First argument
+    - name: SLL_HomeTeamFTScore
+      type: HomeTeam
+    # Second argument
+    - name: SLL_AwayTeamFTScore
+      type: AwayTeam
+grading: HomeTeam > AwayTeam

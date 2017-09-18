@@ -1,0 +1,100 @@
+participants:
+ - name: Buffalo Bills
+   aliases:
+     - BuffBill
+     - Buffy
+     - Bills
+ - name: Miami Dolphins
+   aliases:
+     - Dolphins
+ - name: New England Patriots
+   aliases:
+     - Patriots
+ - name: New York Jets
+   aliases:
+     - Jets
+ - name: Baltimore Ravens
+   aliases:
+     - Ravens
+ - name: Cincinnati Bengals
+   aliases:
+     - Bengals
+ - name: Cleveland Browns
+   aliases:
+     - Browns
+ - name: Pittsburgh Steelers
+   aliases:
+     - Steelers
+ - name: Houston Texans
+   aliases:
+     - Texans
+ - name: Indianapolis Colts
+   aliases:
+     - Colts
+ - name: Jacksonville Jaguars
+   aliases:
+     - Jaguars
+ - name: Tennessee Titans
+   aliases:
+     - Titans
+ - name: Denver Broncos
+   aliases:
+     - Broncos
+ - name: Kansas City Chiefs
+   aliases:
+     - Chiefs
+     - City Chiefs
+ - name: Los Angeles Chargers
+   aliases:
+ - name: Oakland Raiders
+   aliases:
+     - Raiders
+ - name: Dallas Cowboys
+   aliases:
+     - Cowboys
+ - name: New York Giants
+   aliases:
+     - Giants
+ - name: Philadelphia Eagles
+   aliases:
+     - Eagles
+ - name: Washington Redskins
+   aliases:
+     - Redskins
+ - name: Chicago Bears
+   aliases:
+     - Bears
+ - name: Detroit Lions
+   aliases:
+     - Lions
+ - name: Green Bay Packers
+   aliases:
+     - Packers
+     - Green Bay
+ - name: Minnesota Vikings
+   aliases:
+     - Vikings
+ - name: Atlanta Falcons
+   aliases:
+     - Falcons
+ - name: Carolina Panthers
+   aliases:
+     - Panthers
+ - name: New Orleans Saints
+   aliases:
+     - Saints
+ - name: Tampa Bay Buccaneers
+   aliases:
+     - Buccaneers
+ - name: Arizona Cardinals
+   aliases:
+     - Cardinals
+ - name: Los Angeles Rams
+   aliases:
+     - Rams
+ - name: San Francisco 49ers
+   aliases:
+     - 49ers
+ - name: Seattle Seahawks
+   aliases:
+     - Seahawks

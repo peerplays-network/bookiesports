@@ -1,0 +1,63 @@
+# A way of grouping BMG
+group: SLL_MO
+
+# Internationalized name
+name:
+    # Human-readable name of BMG, to be displayed in app
+    display_name: Match Odds
+    # Localized version of BMG_DisplayName
+    en: Match Odds
+    de: Gewinn Verhältnis
+
+# Date-time when the BMG should be turned open for betting
+# We will have an issue with Dynamic BMGs here, which often will not be able to be defined at Event creation
+when_preeventopen: event_create
+
+# Date-time when Pre-Event or Pre-Live phase of the BMG end
+# Is this necessary?
+when_preeventclose: event_start
+
+# Date-time to settle this BMG
+when_settle: post_event
+
+# Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
+dynamic: No
+
+# Number of Betting Markets in this BMG
+number_betting_markets: 3
+
+# Number of winners expected in this BMG
+number_winners: 1
+
+# Is DH settling possible in this BMG?
+allow_dh_settle: No
+
+# WIll this BMG be turned Live at Event start? This is YES for all BMGs at launch
+is_live: Yes
+
+# How long will Live Delay be (in seconds) This will be non-configurable at launch (i.e. same for all BMGs).
+live_delay: 6
+
+# When will this BMG turn Live?
+when_live: event_start
+
+# When will the Live phase of this BMG close?
+when_live_close: event_end
+
+# Settings for Grading
+grading:
+    # Arguments for the Grading algorithm for this BMG
+    arguments:
+        - SLL_HomeTeamFTScore
+        - SLL_AwayTeamFTScore
+
+    # Human readable rules that the Grading Algorithm is a machine-readable instantiation of
+    rules: R_SLL_MO_1
+
+bettingmarkets:
+     - name:
+         en: HomeTeam
+     - name:
+         en: AwayTeam
+     - name:
+         en: Draw

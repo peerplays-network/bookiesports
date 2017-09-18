@@ -1,0 +1,15 @@
+id:
+name: 
+    en: R_EPL_MO_1
+    de: R_EPL_MO_1
+description:
+    en: Foobar
+    de: Fuubar
+arguments:
+    # First argument
+    - name: EPL_HomeTeamFTScore
+      type: HomeTeam
+    # Second argument
+    - name: EPL_AwayTeamFTScore
+      type: AwayTeam
+grading: HomeTeam > AwayTeam
