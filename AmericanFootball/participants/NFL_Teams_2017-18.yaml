@@ -1,5 +1,9 @@
 participants:
- - name: Buffalo Bills
+ - name:
+        en: Buffalo Bills
+        de: Buffalo Bills
+        sen: Bills
+        sde: Bills
    aliases:
      - BuffBill
      - Buffy

@@ -28,11 +28,10 @@ eventscheme:
     parameters:
         - AwayTeam
         - HomeTeam
-    name: "[AwayTeam] @ [HomeTeam]"
+    name:
+        en: "[AwayTeam] @ [HomeTeam]"
+        cn: "[AwayTeam] : [HomeTeam]"
 
-# How long before the event do we create these group? (in days)
-leadtime_Max: 6
-
-# When does the event group/league actually begin and end?
+# Start checking for events within this interval
 start_date: 2017/08/10
 finish_date: 2017/08/31
