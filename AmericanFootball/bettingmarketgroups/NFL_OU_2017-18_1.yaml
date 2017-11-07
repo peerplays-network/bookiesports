@@ -9,6 +9,9 @@ name:
 name_parameters:
    OU: over_under
 
+# Asset to play with
+asset: PPY
+
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: True
 

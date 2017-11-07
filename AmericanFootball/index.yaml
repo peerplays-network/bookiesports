@@ -4,6 +4,9 @@
 #        event groups
 # as children
 
+# Internal Identifier for Database
+identifier: AmericanFootball
+
 # This sport needs to be registered on the blockchain, there it
 # is registered with internationalized names:
 name:

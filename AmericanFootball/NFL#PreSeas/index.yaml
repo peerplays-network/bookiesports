@@ -30,7 +30,6 @@ eventscheme:
         - HomeTeam
     name:
         en: "[AwayTeam] @ [HomeTeam]"
-        cn: "[AwayTeam] : [HomeTeam]"
 
 # Start checking for events within this interval
 start_date: 2017/08/10

@@ -13,16 +13,17 @@ aliases:
   - American Football
   - National Football League - Regular Season
   - American Football - Regular Season
+  - NFL
 
 # .. and blockchain id
-id:
+id: 1.17.16
 
 participants: "NFL_Teams_2017-18"
 
 # Define the betting market groups
 bettingmarketgroups:
-    - NFL_HCP_2017-18_1
     - NFL_ML_2017-18_1
+    - NFL_HCP_2017-18_1
     - NFL_OU_2017-18_1
 
 # How are individual Events named (naming scheme)

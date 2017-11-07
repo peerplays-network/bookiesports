@@ -1,13 +1,16 @@
 # Internationalized name
 name:
     # Human-readable name of BMG, to be displayed in app
-    display_name: Handy Cap - {HC}
+    display_name: Handicap - {HC}
     # Localized version of BMG_DisplayName
-    en: Handy Cap - {HC}
-    de: Handy Cap - {HC}
+    en: Handicap - {HC}
+    de: Handicap - {HC}
 
 name_parameters:
- HC: handy_cap
+ HC: handicap
+
+# Asset to play with
+asset: PPY
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: False
@@ -23,8 +26,8 @@ rules: R_NFL_MO_1
 
 bettingmarkets:
      - name:
-         en: {HomeTeam}
+         en: '{HomeTeam}'
      - name:
-         en: {AwayTeam}
+         en: '{AwayTeam}'
      - name:
          en: Draw
