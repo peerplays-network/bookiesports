@@ -1,71 +1,91 @@
 participants:
- - name: Barcelona FC
-   aliases:
-     - Barcelona
-     - Barca
-     - FC Barcelona
- - name: Real Madrid
-   aliases:
-     - Real
- - name: Real Sociedad
-   aliases:
-     - Sociedad
- - name: Leganes
-   aliases:
-     - Leganes
-     - CD Leganes
- - name: Atletico de Madrid
-   aliases:
-     - Atletico
-     - Atletico Madrid
- - name: Girona
-   aliases:
-     - Girona FC
- - name: Levante
-   aliases:
-     - Levante UD
- - name: Valencia
-   aliases:
-     - Valencia CF
- - name: Sevilla
-   aliases:
-     - Sevilla FC
-     - FC Sevilla
- - name: Athletic Bilbao
-   aliases:
-     - Athletic
-     - Athletic Club
- - name: Eibar
-   aliases:
-     - SD Eibar
- - name: Real Betis
-   aliases:
-     - Betis
- - name: Espanyol
-   aliases:
-     - RCD Espanyol
- - name: Getafe
-   aliases:
-     - Getafe CF
- - name: Deportivo
-   aliases:
-     - RC Deportivo
-     - Deportivo La Coruna
-     - La Coruna
- - name: Celta
-   aliases:
-     - RC Celta
-     - Celta Vigo
- - name: Malaga
-   aliases:
-     - Malaga FC
- - name: Alaves
-   aliases:
-     - D. Alaves
- - name: Villareal
-   aliases:
-     - Villareal CF
-     - Villarreal
- - name: Las Palmas
-   aliases:
-     - UD Las Palmas
+- aliases:
+  - Barcelona
+  - Barca
+  - FC Barcelona
+  name:
+    en: Barcelona FC
+- aliases:
+  - Real
+  name:
+    en: Real Madrid
+- aliases:
+  - Sociedad
+  name:
+    en: Real Sociedad
+- aliases:
+  - Leganes
+  - CD Leganes
+  name:
+    en: Leganes
+- aliases:
+  - Atletico
+  - Atletico Madrid
+  name:
+    en: Atletico de Madrid
+- aliases:
+  - Girona FC
+  name:
+    en: Girona
+- aliases:
+  - Levante UD
+  name:
+    en: Levante
+- aliases:
+  - Valencia CF
+  name:
+    en: Valencia
+- aliases:
+  - Sevilla FC
+  - FC Sevilla
+  name:
+    en: Sevilla
+- aliases:
+  - Athletic
+  - Athletic Club
+  name:
+    en: Athletic Bilbao
+- aliases:
+  - SD Eibar
+  name:
+    en: Eibar
+- aliases:
+  - Betis
+  name:
+    en: Real Betis
+- aliases:
+  - RCD Espanyol
+  name:
+    en: Espanyol
+- aliases:
+  - Getafe CF
+  name:
+    en: Getafe
+- aliases:
+  - RC Deportivo
+  - Deportivo La Coruna
+  - La Coruna
+  name:
+    en: Deportivo
+- aliases:
+  - RC Celta
+  - Celta Vigo
+  name:
+    en: Celta
+- aliases:
+  - Malaga FC
+  name:
+    en: Malaga
+- aliases:
+  - D. Alaves
+  name:
+    en: Alaves
+- aliases:
+  - Villareal CF
+  - Villarreal
+  name:
+    en: Villareal
+- aliases:
+  - UD Las Palmas
+  name:
+    en: Las Palmas
