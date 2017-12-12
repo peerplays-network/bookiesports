@@ -1,5 +1,5 @@
 # Internationalized name
-name:
+description:
     # Human-readable name of BMG, to be displayed in app
     display_name: Match Odds
     # Localized version of BMG_DisplayName
@@ -24,9 +24,9 @@ is_live: True
 rules: R_NFL_MO_1
 
 bettingmarkets:
-     - name:
-         en: '{HomeTeam}'
-     - name:
-         en: '{AwayTeam}'
-     - name:
+     - description:
+         en: '{teams.home} win'
+     - description:
+         en: '{teams.away} win'
+     - description:
          en: Draw

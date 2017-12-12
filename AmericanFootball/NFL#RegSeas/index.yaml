@@ -14,6 +14,8 @@ aliases:
   - National Football League - Regular Season
   - American Football - Regular Season
   - NFL
+  - Regular Season
+  - NFL-REGULAR SEASON
 
 # .. and blockchain id
 id: 1.17.16
@@ -28,10 +30,9 @@ bettingmarketgroups:
 
 # How are individual Events named (naming scheme)
 eventscheme:
-    parameters:
-        - AwayTeam
-        - HomeTeam
-    name: "[AwayTeam] @ [HomeTeam]"
+    name:
+     en: "{teams.home} : {teams.away}"
+     en_us: "{teams.away} @ {teams.home}"
 
 # How long before the event do we create these group? (in days)
 leadtime_Max: 6

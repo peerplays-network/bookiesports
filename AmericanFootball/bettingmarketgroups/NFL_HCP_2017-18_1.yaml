@@ -1,5 +1,5 @@
 # Internationalized name
-name:
+description:
     # Human-readable name of BMG, to be displayed in app
     display_name: Handicap - {HC}
     # Localized version of BMG_DisplayName
@@ -13,7 +13,7 @@ name_parameters:
 asset: PPY
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
-dynamic: False
+dynamic: True
 
 # Number of Betting Markets in this BMG
 number_betting_markets: 3
@@ -25,9 +25,9 @@ is_live: True
 rules: R_NFL_MO_1
 
 bettingmarkets:
-     - name:
-         en: '{HomeTeam}'
-     - name:
-         en: '{AwayTeam}'
-     - name:
+     - description:
+         en: '{teams.home} win'
+     - description:
+         en: '{teams.away} win'
+     - description:
          en: Draw

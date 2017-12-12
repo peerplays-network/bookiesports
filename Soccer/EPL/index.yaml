@@ -23,10 +23,9 @@ bettingmarketgroups:
 
 # How are individual Events named (naming scheme)
 eventscheme:
-    parameters:
-        - HomeTeam
-        - AwayTeam
-    name: "[HomeTeam] @ [AwayTeam]"
+    name:
+     en: "{teams.home} : {teams.away}"
+     en_us: "{teams.away} @ {teams.home}"
 
 # How long before the event do we create these group? (in days)
 leadtime_Max: 6

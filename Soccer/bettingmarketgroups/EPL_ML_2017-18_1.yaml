@@ -1,5 +1,5 @@
 # Internationalized name
-name:
+description:
     # Human-readable name of BMG, to be displayed in app
     display_name: Match Odds
     # Localized version of BMG_DisplayName
@@ -37,9 +37,9 @@ grading:
 rules: R_EPL_MO_1
 
 bettingmarkets:
-     - name:
-         en: {HomeTeam}
-     - name:
-         en: {AwayTeam}
-     - name:
+     - description:
+         en: '{teams.home} wins'
+     - description:
+         en: '{teams.away} wins'
+     - description:
          en: Draw

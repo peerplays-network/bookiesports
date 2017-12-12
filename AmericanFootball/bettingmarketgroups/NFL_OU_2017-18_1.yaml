@@ -1,5 +1,5 @@
 # Internationalized name
-name:
+description:
     # Human-readable name of BMG, to be displayed in app
     display_name: Over/Under {OU}
     # Localized version of BMG_DisplayName
@@ -25,7 +25,7 @@ is_live: True
 rules: R_NFL_MO_1
 
 bettingmarkets:
-     - name:
-         en: Over
-     - name:
-         en: Under
+     - description:
+         en: "Over"
+     - description:
+         en: "Under"

@@ -13,6 +13,9 @@ name:
     en: American Football
     de: Amerikanisches Football 
 
+aliases:
+ - AMERICAN FOOTBALL
+
 # After creation, of the sports object, we will end up with an id
 id: 1.16.0
 
@@ -20,4 +23,3 @@ id: 1.16.0
 eventgroups:
   - NFL#PreSeas
   - NFL#RegSeas
-

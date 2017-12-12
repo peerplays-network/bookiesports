@@ -25,11 +25,9 @@ bettingmarketgroups:
 
 # How are individual Events named (naming scheme)
 eventscheme:
-    parameters:
-        - AwayTeam
-        - HomeTeam
     name:
-        en: "[AwayTeam] @ [HomeTeam]"
+     en: "{teams.home} : {teams.away}"
+     en_us: "{teams.away} @ {teams.home}"
 
 # Start checking for events within this interval
 start_date: 2017/08/10
