@@ -1,0 +1,38 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::EventGroup
+description: Format for BookieSports::EventGroup
+type: object
+properties:
+
+ name:
+  $ref: "#/definitions/internationalized_name"
+
+ aliases:
+  $ref: "#/definitions/aliases"
+
+ id:
+  $ref: "#/definitions/id"
+
+ participants:
+  description: Identifier for the teams
+  type: string
+
+ bettingmarketgroups:
+  type: array
+  description: list of identifiers for the betting market groups
+  items:
+   type: string
+
+ eventscheme:
+  type: object
+  description: Internationalized name after which the events are named on creation
+  properties:
+   name:
+    $ref: "#/definitions/internationalized_name"
+
+required:
+ - name
+ - id
+ - participants
+ - bettingmarketgroups
+ - eventscheme

@@ -1,13 +1,10 @@
 # Internationalized name
 description:
     # Human-readable name of BMG, to be displayed in app
-    display_name: Handicap - {HC}
+    display_name: Handicap - {handicap}
     # Localized version of BMG_DisplayName
-    en: Handicap - {HC}
-    de: Handicap - {HC}
-
-name_parameters:
- HC: handicap
+    en: Handicap - {handicap}
+    de: Handicap - {handicap}
 
 # Asset to play with
 asset: PPY

@@ -1,0 +1,29 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::Sport
+description: Format for BookieSports::Sport
+type: object
+properties:
+
+ identifier:
+  $ref: "#/definitions/identifier"
+
+ name:
+  $ref: "#/definitions/internationalized_name"
+
+ aliases:
+  $ref: "#/definitions/aliases"
+
+ id:
+  $ref: "#/definitions/id"
+
+ eventgroups:
+  type: array
+  description: list of event groups that are in this sport
+  items:
+   type: string
+
+required:
+ - identifier
+ - name
+ - id
+ - eventgroups
