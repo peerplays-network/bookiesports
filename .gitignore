@@ -59,10 +59,3 @@ target/
 # Vim temp files
 .ropeproject/
 *.swp
-
-peerplays
-bookiesports
-bookied_scrapers
-test-scraping-data
-test_*.py
-config.yaml

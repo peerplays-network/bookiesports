@@ -1,0 +1,167 @@
+participants:
+- aliases:
+  - BuffBill
+  - Buffy
+  - Bills
+  name:
+    de: Buffalo Bills
+    en: Buffalo Bills
+    sde: Bills
+    sen: Bills
+- aliases:
+  - Dolphins
+  name:
+    en: Miami Dolphins
+    sen: Miami Dolphins
+- aliases:
+  - Patriots
+  name:
+    en: New England Patriots
+    sen: New England Patriots
+- aliases:
+  - Jets
+  name:
+    en: New York Jets
+    sen: New York Jets
+- aliases:
+  - Ravens
+  name:
+    en: Baltimore Ravens
+    sen: Baltimore Ravens
+- aliases:
+  - Bengals
+  name:
+    en: Cincinnati Bengals
+    sen: Cincinnati Bengals
+- aliases:
+  - Browns
+  name:
+    en: Cleveland Browns
+    sen: Cleveland Browns
+- aliases:
+  - Steelers
+  name:
+    en: Pittsburgh Steelers
+    sen: Pittsburgh Steelers
+- aliases:
+  - Texans
+  name:
+    en: Houston Texans
+    sen: Houston Texans
+- aliases:
+  - Colts
+  name:
+    en: Indianapolis Colts
+    sen: Indianapolis Colts
+- aliases:
+  - Jaguars
+  name:
+    en: Jacksonville Jaguars
+    sen: Jacksonville Jaguars
+- aliases:
+  - Titans
+  name:
+    en: Tennessee Titans
+    sen: Tennessee Titans
+- aliases:
+  - Broncos
+  name:
+    en: Denver Broncos
+    sen: Denver Broncos
+- aliases:
+  - Chiefs
+  - City Chiefs
+  name:
+    en: Kansas City Chiefs
+    sen: Kansas City Chiefs
+- aliases:
+  - Chargers
+  name:
+    en: Los Angeles Chargers
+    sen: Los Angeles Chargers
+- aliases:
+  - Raiders
+  name:
+    en: Oakland Raiders
+    sen: Oakland Raiders
+- aliases:
+  - Cowboys
+  name:
+    en: Dallas Cowboys
+    sen: Dallas Cowboys
+- aliases:
+  - Giants
+  name:
+    en: New York Giants
+    sen: New York Giants
+- aliases:
+  - Eagles
+  name:
+    en: Philadelphia Eagles
+    sen: Philadelphia Eagles
+- aliases:
+  - Redskins
+  name:
+    en: Washington Redskins
+    sen: Washington Redskins
+- aliases:
+  - Bears
+  name:
+    en: Chicago Bears
+    sen: Chicago Bears
+- aliases:
+  - Lions
+  name:
+    en: Detroit Lions
+    sen: Detroit Lions
+- aliases:
+  - Packers
+  - Green Bay
+  name:
+    en: Green Bay Packers
+    sen: Green Bay Packers
+- aliases:
+  - Vikings
+  name:
+    en: Minnesota Vikings
+    sen: Minnesota Vikings
+- aliases:
+  - Falcons
+  name:
+    en: Atlanta Falcons
+    sen: Atlanta Falcons
+- aliases:
+  - Panthers
+  name:
+    en: Carolina Panthers
+    sen: Carolina Panthers
+- aliases:
+  - Saints
+  name:
+    en: New Orleans Saints
+    sen: New Orleans Saints
+- aliases:
+  - Buccaneers
+  name:
+    en: Tampa Bay Buccaneers
+    sen: Tampa Bay Buccaneers
+- aliases:
+  - Cardinals
+  name:
+    en: Arizona Cardinals
+    sen: Arizona Cardinals
+- aliases:
+  - Rams
+  name:
+    en: Los Angeles Rams
+    sen: Los Angeles Rams
+- aliases:
+  - 49ers
+  name:
+    en: San Francisco 49ers
+    sen: San Francisco 49ers
+- aliases:
+  - Seahawks
+  name:
+    en: Seattle Seahawks
+    sen: Seattle Seahawks

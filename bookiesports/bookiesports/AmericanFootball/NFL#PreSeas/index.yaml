@@ -1,0 +1,35 @@
+# This file represents an
+#        Event Group
+# Each sport has 
+#        events
+# as children
+#
+
+name:
+    en: NFL - Pre-Season
+    de: NFL - Vorseason
+
+aliases:
+  - National Football League - Pre-Season
+  - American Football - Pre-Season
+
+# .. and blockchain id
+id:
+
+participants: "NFL_Teams_2017-18"
+
+# Define the betting market groups (each one has a subfolder)
+bettingmarketgroups:
+    - NFL_HCP_2017-18_1
+    - NFL_ML_2017-18_1
+    - NFL_OU_2017-18_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.home} : {teams.away}"
+     en_us: "{teams.away} @ {teams.home}"
+
+# Start checking for events within this interval
+start_date: 2017/08/10
+finish_date: 2017/08/31

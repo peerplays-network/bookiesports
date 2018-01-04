@@ -1,0 +1,110 @@
+participants:
+- aliases:
+  - Bournemouth
+  - AFC
+  name:
+    en: AFC Bournemouth
+- aliases:
+  - Arsenal
+  - ARS
+  - ARSNL
+  name:
+    en: Arsenal FC
+- aliases:
+  - Brighton
+  - Brighton & Hove Albion
+  - Brighton and Hove Albion
+  name:
+    en: Brighton
+- aliases:
+  - Burnley
+  name:
+    en: Burnley
+- aliases:
+  - Chelsea
+  - CFC
+  name:
+    en: Chelsea FC
+- aliases:
+  - Crystal Palace
+  - Crystal
+  - Palace
+  - CP
+  name:
+    en: Crystal Palace
+- aliases:
+  - Everton
+  name:
+    en: Everton
+- aliases:
+  - Huddersfield
+  - Huddersfield Town
+  name:
+    en: Huddersfield
+- aliases:
+  - Leicester
+  - Leicester City
+  name:
+    en: Leicester City FC
+- aliases:
+  - Liverpool
+  name:
+    en: Liverpool FC
+- aliases:
+  - Manchester City
+  - City
+  - MUC
+  - Man City
+  - Man. City
+  name:
+    en: Manchester City FC
+- aliases:
+  - United
+  - ManU
+  - Man U
+  - Manchester Utd
+  - Man Utd
+  name:
+    en: Manchester United
+- aliases:
+  - Newcastle
+  - Newcastle United
+  - NU
+  name:
+    en: Newcastle United
+- aliases:
+  - Southampton
+  name:
+    en: Southampton
+- aliases:
+  - Stoke City
+  - Stoke
+  name:
+    en: Stoke City
+- aliases:
+  - Swansea
+  - Swansea City
+  name:
+    en: Swansea City
+- aliases:
+  - Tottenham
+  - Spurs
+  - Hotspur
+  - Tottenham Hotspur
+  name:
+    en: Tottenham Hotspur FC
+- aliases:
+  - Watford
+  name:
+    en: Watford
+- aliases:
+  - West Brom
+  - West Bromwich Albion
+  - West Bromwich
+  name:
+    en: West Bromwich Albion
+- aliases:
+  - West Ham
+  - West Ham United
+  name:
+    en: West Ham

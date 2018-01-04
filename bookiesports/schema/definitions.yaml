@@ -1,0 +1,37 @@
+definitions:
+
+ identifier:
+  type: string
+  description: Identification string for the 
+
+ id:
+  description: Blockchain id of the object (e.g. 1.16.0)
+  pattern: "^[0-9]*\\.[0-9]*\\.[0-9]*$"
+
+ internationalized_name:
+  type: object
+  description: Internationalized name
+  properties:
+   en:
+    type: string
+    description: English name of the sport
+  required:
+   - en
+
+ aliases:
+  type:
+   - "null"
+   - array
+  oneOf:
+   - type: "null"
+   - type: array
+     description: List of known aliases
+     items:
+      type: string
+
+ asset:
+  type: string
+  description: Asset symbol
+  enum:
+   - PPY
+   - BTC

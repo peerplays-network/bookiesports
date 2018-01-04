@@ -1,0 +1,91 @@
+participants:
+- aliases:
+  - Barcelona
+  - Barca
+  - FC Barcelona
+  name:
+    en: Barcelona FC
+- aliases:
+  - Real
+  name:
+    en: Real Madrid
+- aliases:
+  - Sociedad
+  name:
+    en: Real Sociedad
+- aliases:
+  - Leganes
+  - CD Leganes
+  name:
+    en: Leganes
+- aliases:
+  - Atletico
+  - Atletico Madrid
+  name:
+    en: Atletico de Madrid
+- aliases:
+  - Girona FC
+  name:
+    en: Girona
+- aliases:
+  - Levante UD
+  name:
+    en: Levante
+- aliases:
+  - Valencia CF
+  name:
+    en: Valencia
+- aliases:
+  - Sevilla FC
+  - FC Sevilla
+  name:
+    en: Sevilla
+- aliases:
+  - Athletic
+  - Athletic Club
+  name:
+    en: Athletic Bilbao
+- aliases:
+  - SD Eibar
+  name:
+    en: Eibar
+- aliases:
+  - Betis
+  name:
+    en: Real Betis
+- aliases:
+  - RCD Espanyol
+  name:
+    en: Espanyol
+- aliases:
+  - Getafe CF
+  name:
+    en: Getafe
+- aliases:
+  - RC Deportivo
+  - Deportivo La Coruna
+  - La Coruna
+  name:
+    en: Deportivo
+- aliases:
+  - RC Celta
+  - Celta Vigo
+  name:
+    en: Celta
+- aliases:
+  - Malaga FC
+  name:
+    en: Malaga
+- aliases:
+  - D. Alaves
+  name:
+    en: Alaves
+- aliases:
+  - Villareal CF
+  - Villarreal
+  name:
+    en: Villareal
+- aliases:
+  - UD Las Palmas
+  name:
+    en: Las Palmas

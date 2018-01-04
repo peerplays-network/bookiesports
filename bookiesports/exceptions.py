@@ -1,0 +1,4 @@
+class SportsNotFoundError(Exception):
+    pass
+
+

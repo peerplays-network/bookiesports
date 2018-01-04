@@ -1,0 +1,23 @@
+identifier: R_NFL_MO_1
+id:
+name:
+    en: R_NFL_MO_1
+    de: R_NFL_MO_1
+description:
+    en: Foobar
+    de: Fuubar
+grading:
+ metric: "{result.hometeam} - {result.awayteam}"
+ resolutions:
+   # First betting market is the "home team wins"
+   - win: "{metric} > 0"
+     not_win: "{metric} <= 0"
+     void: "False"
+   # Second betting market is "away team wins"
+   - win: "{metric} < 0"
+     not_win: "{metric} >= 0"
+     void: "False"
+   # third betting market is 'draw'
+   - win: "{metric} == 0"
+     not_win: "{metric} != 0"
+     void: "False"

@@ -1,0 +1,53 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::MarketBettingGroup
+description: Format for BookieSports::MarketBettingGroup
+type: object
+properties:
+
+ identifier:
+  $ref: "#/definitions/identifier"
+
+ name:
+  $ref: "#/definitions/internationalized_name"
+
+ description:
+  $ref: "#/definitions/internationalized_name"
+
+ id:
+  $ref: "#/definitions/id"
+
+ grading:
+  type: object
+  description: Grading for the rule
+  properties:
+
+   metric:
+    type: string
+    description: Calculate metric according to this
+
+   resolutions:
+    type: array
+    descriptions: Resolve betting markets according to the rules here
+    items:
+     type: object
+     properties:
+      win:
+       type: string
+       description: If true this market is win
+      not_win:
+       type: string
+       description: If true this market is not_win
+      void:
+       type: string
+       description: If true this market is void
+
+  required:
+   - metric
+   - resolutions
+
+required:
+ - identifier
+ - id
+ - name
+ - description
+ - grading

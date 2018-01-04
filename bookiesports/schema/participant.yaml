@@ -1,0 +1,21 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::MarketBettingGroup
+description: Format for BookieSports::MarketBettingGroup
+type: object
+properties:
+
+ participants:
+  description: List of participants
+  type: array
+  items:
+   type: object
+   properties:
+
+    aliases:
+     $ref: "#/definitions/aliases"
+
+    name:
+     $ref: "#/definitions/internationalized_name"
+
+required:
+ - participants

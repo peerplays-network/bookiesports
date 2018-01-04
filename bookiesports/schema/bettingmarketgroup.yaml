@@ -1,0 +1,47 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::MarketBettingGroup
+description: Format for BookieSports::MarketBettingGroup
+type: object
+properties:
+
+ description:
+  $ref: "#/definitions/internationalized_name"
+
+ asset:
+  $ref: "#/definitions/asset"
+
+ dynamic:
+  type: boolean
+  description: Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
+
+ number_betting_markets:
+  type: number
+  description: Number of Betting Markets in this BMG
+  items:
+   type: string
+
+ is_live:
+  type: boolean
+  description: WIll this BMG be turned Live at Event start? This is YES for all BMGs at launch
+
+ rules:
+  type: string
+  description: Human readable rules that the Grading Algorithm is a machine-readable instantiation of
+
+ bettingmarkets:
+  type: array
+  description: Betting markets to open
+  items:
+   type: object
+   properties:
+    description:
+     $ref: "#/definitions/internationalized_name"
+
+required:
+ - description
+ - asset
+ - dynamic
+ - number_betting_markets
+ - is_live
+ - rules
+ - bettingmarkets

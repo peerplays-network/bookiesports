@@ -1,0 +1,37 @@
+# This file represents an
+#        Event Group
+# Each sport has 
+#        events
+# as children
+
+name:
+    en: Spanish La Liga
+    de: SLL
+
+aliases:
+ - Spanish Premier League
+ - La Liga Espanyol
+ - La Liga
+ - La Liga Santander
+
+# .. and blockchain id
+id:
+
+participants: "SLL_Teams_2017-18"
+
+# Define the betting market groups (each one has a subfolder)
+bettingmarketgroups:
+    - SLL_ML_2017-18_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.home} : {teams.away}"
+     en_us: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2017/08/11
+finish_date: 2018/05/31
