@@ -54,10 +54,7 @@ class BookieSports(dict):
 
         # Do not reload sports if already stored in data
         if not BookieSports.data:
-            if not os.path.isdir(
-                os.path.join(
-                    self._cwd,
-                    BookieSports.sports_folder)):
+            if not os.path.isdir(BookieSports.sports_folder):
                 # Reset the sports_folder (since it is a singelton)
                 BookieSports.sports_folder = None
                 raise SportsNotFoundError(
