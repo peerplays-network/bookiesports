@@ -89,7 +89,7 @@ class BookieSports(dict):
             :param str f: YAML File location
         """
         try:
-            with open(f) as fid:
+            with open(f, encoding="utf-8") as fid:
                 t = yaml.load(fid)
             return t
         except yaml.YAMLError as exc:
