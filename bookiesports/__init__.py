@@ -42,7 +42,14 @@ class BookieSports(dict):
         # self._cwd = os.getcwd()
 
         if BookieSports.sports_folder is None:
-            BookieSports.sports_folder = sports_folder or "bookiesports"
+            if not sports_folder:
+                # Load bundled sports
+                BookieSports.sports_folder = os.path.join(
+                    self._cwd,
+                    "bookiesports")
+            else:
+                # Load custom sports
+                BookieSports.sports_folder = sports_folder
         elif sports_folder and sports_folder != BookieSports.sports_folder:
             # clear .data
             BookieSports._clear()
@@ -58,8 +65,8 @@ class BookieSports(dict):
                 # Reset the sports_folder (since it is a singelton)
                 BookieSports.sports_folder = None
                 raise SportsNotFoundError(
-                    "You need to clone the bookiesports repository into your "
-                    "working directory first! ({})".format(BookieSports.sports_folder)
+                    "You need to obtain bookiesports, first! ({})".format(
+                        BookieSports.sports_folder)
                 )
 
             # Load sports
@@ -88,7 +95,7 @@ class BookieSports(dict):
         except yaml.YAMLError as exc:
             log.error("Error in configuration file {}: {}".format(f, exc))
             sys.exit(1)
-        except Exception as e:
+        except Exception:
             log.error("The file {} is required but doesn't exist!".format(f))
             sys.exit(1)
 
@@ -98,7 +105,8 @@ class BookieSports(dict):
         defs = self._loadyaml(os.path.join(dirname, "definitions.yaml"))
         sport = self._loadyaml(os.path.join(dirname, "sport.yaml"))
         eventgroup = self._loadyaml(os.path.join(dirname, "eventgroup.yaml"))
-        bettingmarketgroup = self._loadyaml(os.path.join(dirname, "bettingmarketgroup.yaml"))
+        bettingmarketgroup = self._loadyaml(
+            os.path.join(dirname, "bettingmarketgroup.yaml"))
         participant = self._loadyaml(os.path.join(dirname, "participant.yaml"))
         rule = self._loadyaml(os.path.join(dirname, "rule.yaml"))
 
@@ -145,7 +153,8 @@ class BookieSports(dict):
         eventgroups = dict()
         for eventgroupname in sport["eventgroups"]:
             eventgroupDir = os.path.join(sportDir, eventgroupname)
-            eventgroup = self._loadyaml(os.path.join(eventgroupDir, "index.yaml"))
+            eventgroup = self._loadyaml(
+                os.path.join(eventgroupDir, "index.yaml"))
 
             # Validate
             jsonschema.validate(eventgroup, self.schema["eventgroup"])
@@ -176,7 +185,8 @@ class BookieSports(dict):
         for participantDir in glob(os.path.join(participantsDir, "*")):
             if ".yaml" not in participantDir:
                 continue
-            participant_name = os.path.basename(participantDir).replace(".yaml", "")
+            participant_name = os.path.basename(
+                participantDir).replace(".yaml", "")
             participant = self._loadyaml(participantDir)
 
             # Validate
