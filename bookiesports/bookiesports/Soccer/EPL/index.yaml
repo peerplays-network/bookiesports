@@ -4,6 +4,8 @@
 #        events
 # as children
 
+identifier: "EPL"
+
 name:
     en: English Premier League
     de: EPL

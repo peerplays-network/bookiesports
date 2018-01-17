@@ -4,6 +4,8 @@
 #        events
 # as children
 
+identifier: "LaLiga"
+
 name:
     en: Spanish La Liga
     de: SLL

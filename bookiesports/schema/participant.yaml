@@ -11,6 +11,9 @@ properties:
    type: object
    properties:
 
+    identifier:
+     $ref: "#/definitions/identifier"
+
     aliases:
      $ref: "#/definitions/aliases"
 

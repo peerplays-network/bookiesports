@@ -3,6 +3,7 @@ participants:
   - BuffBill
   - Buffy
   - Bills
+  identifier: "Buffalo Bills"
   name:
     de: Buffalo Bills
     en: Buffalo Bills
@@ -10,158 +11,189 @@ participants:
     sen: Bills
 - aliases:
   - Dolphins
+  identifier: "Miami Dolphins"
   name:
     en: Miami Dolphins
     sen: Miami Dolphins
 - aliases:
   - Patriots
+  identifier: "New England Patriots"
   name:
     en: New England Patriots
     sen: New England Patriots
 - aliases:
   - Jets
+  identifier: "New York Jets"
   name:
     en: New York Jets
     sen: New York Jets
 - aliases:
   - Ravens
+  identifier: "Baltimore Ravens"
   name:
     en: Baltimore Ravens
     sen: Baltimore Ravens
 - aliases:
   - Bengals
+  identifier: "Cincinnati Bengals"
   name:
     en: Cincinnati Bengals
     sen: Cincinnati Bengals
 - aliases:
   - Browns
+  identifier: "Cleveland Browns"
   name:
     en: Cleveland Browns
     sen: Cleveland Browns
 - aliases:
   - Steelers
+  identifier: "Pittsburgh Steelers"
   name:
     en: Pittsburgh Steelers
     sen: Pittsburgh Steelers
 - aliases:
   - Texans
+  identifier: "Houston Texans"
   name:
     en: Houston Texans
     sen: Houston Texans
 - aliases:
   - Colts
+  identifier: "Indianapolis Colts"
   name:
     en: Indianapolis Colts
     sen: Indianapolis Colts
 - aliases:
   - Jaguars
+  identifier: "Jacksonville Jaguars"
   name:
     en: Jacksonville Jaguars
     sen: Jacksonville Jaguars
 - aliases:
   - Titans
+  identifier: "Tennessee Titans"
   name:
     en: Tennessee Titans
     sen: Tennessee Titans
 - aliases:
   - Broncos
+  identifier: "Denver Broncos"
   name:
     en: Denver Broncos
     sen: Denver Broncos
 - aliases:
   - Chiefs
   - City Chiefs
+  identifier: "Kansas City Chiefs"
   name:
     en: Kansas City Chiefs
     sen: Kansas City Chiefs
 - aliases:
   - Chargers
+  identifier: "Los Angeles Chargers"
   name:
     en: Los Angeles Chargers
     sen: Los Angeles Chargers
 - aliases:
   - Raiders
+  identifier: "Oakland Raiders"
   name:
     en: Oakland Raiders
     sen: Oakland Raiders
 - aliases:
   - Cowboys
+  identifier: "Dallas Cowboys"
   name:
     en: Dallas Cowboys
     sen: Dallas Cowboys
 - aliases:
   - Giants
+  identifier: "New York Giants"
   name:
     en: New York Giants
     sen: New York Giants
 - aliases:
   - Eagles
+  identifier: "Philadelphia Eagles"
   name:
     en: Philadelphia Eagles
     sen: Philadelphia Eagles
 - aliases:
   - Redskins
+  identifier: "Washington Redskins"
   name:
     en: Washington Redskins
     sen: Washington Redskins
 - aliases:
   - Bears
+  identifier: "Chicago Bears"
   name:
     en: Chicago Bears
     sen: Chicago Bears
 - aliases:
   - Lions
+  identifier: "Detroit Lions"
   name:
     en: Detroit Lions
     sen: Detroit Lions
 - aliases:
   - Packers
   - Green Bay
+  identifier: "Green Bay Packers"
   name:
     en: Green Bay Packers
     sen: Green Bay Packers
 - aliases:
   - Vikings
+  identifier: "Minnesota Vikings"
   name:
     en: Minnesota Vikings
     sen: Minnesota Vikings
 - aliases:
   - Falcons
+  identifier: "Atlanta Falcons"
   name:
     en: Atlanta Falcons
     sen: Atlanta Falcons
 - aliases:
   - Panthers
+  identifier: "Carolina Panthers"
   name:
     en: Carolina Panthers
     sen: Carolina Panthers
 - aliases:
   - Saints
+  identifier: "New Orleans Saints"
   name:
     en: New Orleans Saints
     sen: New Orleans Saints
 - aliases:
   - Buccaneers
+  identifier: "Tampa Bay Buccaneers"
   name:
     en: Tampa Bay Buccaneers
     sen: Tampa Bay Buccaneers
 - aliases:
   - Cardinals
+  identifier: "Arizona Cardinals"
   name:
     en: Arizona Cardinals
     sen: Arizona Cardinals
 - aliases:
   - Rams
+  identifier: "Los Angeles Rams"
   name:
     en: Los Angeles Rams
     sen: Los Angeles Rams
 - aliases:
   - 49ers
+  identifier: "San Francisco 49ers"
   name:
     en: San Francisco 49ers
     sen: San Francisco 49ers
 - aliases:
   - Seahawks
+  identifier: "Seattle Seahawks"
   name:
     en: Seattle Seahawks
     sen: Seattle Seahawks

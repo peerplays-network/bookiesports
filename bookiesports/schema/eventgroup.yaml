@@ -4,6 +4,9 @@ description: Format for BookieSports::EventGroup
 type: object
 properties:
 
+ identifier:
+  $ref: "#/definitions/identifier"
+
  name:
   $ref: "#/definitions/internationalized_name"
 
@@ -31,6 +34,7 @@ properties:
     $ref: "#/definitions/internationalized_name"
 
 required:
+ - identifier
  - name
  - id
  - participants

@@ -4,6 +4,8 @@
 #        events
 # as children
 
+identifier: "NFL RegularSeason"
+
 name:
     en: NFL - Regular Season
     de: NFL - Hauptsaison
