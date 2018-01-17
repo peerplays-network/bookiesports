@@ -23,11 +23,38 @@ log.addHandler(stream)
 
 
 class BookieSports(dict):
+    """ This class allows to read the data provided by bookiesports
+
+        On instantiation of this class the following procedure happens
+        internally:
+
+            1. Open the directory that stores the sports
+            2. Load all Sports
+            3. For each sport, load the corresponding data subset (event groups, events, rules, participants, etc.)
+            4. Validate each data subset
+            5. Perform consistency checks
+            6. Instantiate a dictionary (``self``)
+
+        As a result, the following call will return a dictionary with all the
+        bookiesports:
+
+        .. code-block:: python
+
+            from bookiesports import BookieSports
+            x = BookieSports()
+
+        It is possible to overload a custom sports_folder by providing it to
+        ``BookieSports`` as parameter.
+    """
 
     #: Singelton to store data and prevent rereading if Lookup is
     #: instantiated multiple times
     data = dict()
+
+    #: Folder where the data is actually stored
     sports_folder = None
+
+    #: Schema for validation of the data
     schema = None
 
     def __init__(
@@ -80,6 +107,8 @@ class BookieSports(dict):
 
     @staticmethod
     def _clear():
+        """ Clear data
+        """
         BookieSports.data = dict()
         BookieSports.sports_folder = None
 
@@ -100,6 +129,8 @@ class BookieSports(dict):
             sys.exit(1)
 
     def _loadschema(self):
+        """ Load the validation schema
+        """
         dirname = os.path.join(self._cwd, "schema")
 
         defs = self._loadyaml(os.path.join(dirname, "definitions.yaml"))
