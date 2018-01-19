@@ -1,6 +1,6 @@
-# This file represents a 
+# This file represents a
 #        Sport
-# Each sport has 
+# Each sport has
 #        event groups
 # as children
 
@@ -11,10 +11,11 @@ identifier: Soccer
 # is registered with internationalized names:
 name:
     en: Soccer
-    de: Fußball
+    sen: Soccer
 
 aliases:
-
+    - Football
+    
 # After creation, of the sports object, we will end up with an id
 id: 1.16.6
 

@@ -1,6 +1,6 @@
 # This file represents an
 #        Event Group
-# Each sport has 
+# Each sport has
 #        events
 # as children
 
@@ -8,11 +8,14 @@ identifier: "EPL"
 
 name:
     en: English Premier League
-    de: EPL
+    sen: EPL
 
 aliases:
   - English Premier League
+  - EnglishPremierLeague
   - Premier League
+  - PremierLeague
+  - EPL
 
 # .. and blockchain id
 id:
@@ -21,13 +24,20 @@ participants: "EPL_Teams_2017-18"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
-    - EPL_ML_2017-18_1
+    - Soccer_ML_1
+    - Soccer_OU_0.5_1
+    - Soccer_OU_1.5_1
+    - Soccer_OU_2.5_1
+    - Soccer_OU_3.5_1
+    - Soccer_OU_4.5_1
+    - Soccer_OU_5.5_1
+    - Soccer_OU_6.5_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
     name:
-     en: "{teams.home} : {teams.away}"
-     en_us: "{teams.away} @ {teams.home}"
+     en: "{teams.home} v {teams.away}"
+
 
 # How long before the event do we create these group? (in days)
 leadtime_Max: 6
