@@ -167,7 +167,7 @@ participants:
   - TottenhamHotspurFC
   - TottenhamHotspur
   name:
-    en: Tottenham Hotspur
+    en: Tottenham
     sen: Tottenham
 - aliases:
   - Watford
@@ -181,9 +181,14 @@ participants:
   - West Bromwich Albion
   - West Bromwich Albion FC
   - West Bromwich
+  - WestBrom
+  - WestBromwichAlbion
+  - WestBromwichAlbion FC
+  - WestBromwichAlbionFC
+  - WestBromwich
   - WBA
   name:
-    en: West Bromwich Albion
+    en: West Brom
     sen: West Brom
 - aliases:
   - West Ham

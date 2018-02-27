@@ -1,37 +1,49 @@
 # This file represents an
 #        Event Group
-# Each sport has 
+# Each sport has
 #        events
 # as children
-#
 
-identifier: "NFL PreSeason"
+identifier: "NFL Preseason"
 
 name:
-    en: NFL - Pre-Season
-    de: NFL - Vorseason
+    en: NFL Preseason
+    sen: NFL
 
 aliases:
-  - National Football League - Pre-Season
-  - American Football - Pre-Season
+  - National Football League
+  - NationalFootballLeague
+  - NationalFootballLeague - Preseason
+  - National Football League - Preseason
+  - NationalFootballLeague Preseason
+  - National Football League Preseason
+  - NFL
+  - NFL-PRE SEASON
+  - NFL-PRESEASON
+  - NFL PRE SEASON
+  - NFL PRESEASON
+  - NFLPRE SEASON
+  - NFLPRESEASON
 
 # .. and blockchain id
-id:
+id: 1.17.16
 
-participants: "NFL_Teams_2017-18"
+participants: "NFL_Teams_2018-19"
 
-# Define the betting market groups (each one has a subfolder)
+# Define the betting market groups
 bettingmarketgroups:
-    - NFL_HCP_2017-18_1
-    - NFL_ML_2017-18_1
-    - NFL_OU_2017-18_1
+    - NFL_ML_1
+    - NFL_HCP_1
+    - NFL_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
     name:
-     en: "{teams.home} : {teams.away}"
-     en_us: "{teams.away} @ {teams.home}"
+     en: "{teams.away} @ {teams.home}"
 
-# Start checking for events within this interval
-start_date: 2017/08/10
-finish_date: 2017/08/31
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2018/08/01
+finish_date: 2018/08/31

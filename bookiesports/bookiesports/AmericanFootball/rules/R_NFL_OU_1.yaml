@@ -1,0 +1,24 @@
+identifier: R_NFL_OU_1
+id:
+name:
+    en: R_NFL_OU_1
+description:
+    en:
+      MARKET INFORMATION
+      How many points in total will be scored in this match - Over or Under the stated number? This market will be settled according to the final score, including overtime.
+      At the start of play any unmatched bets will be automatically cancelled and the market will turn in-play.
+      Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
+      Please also be aware that transmissions described as “live” may actually involve a certain time delay which can vary from case to case.
+      Commission and Transaction Fees apply to all bets placed in this market.
+      For further information please see Bookie Rules.
+grading:
+ metric: "{result.awayteam} + {result.hometeam}"
+ resolutions:
+   # First betting market is "Under the stated Total Points"
+   - win: "{metric} > XXX"
+     not_win: "{metric} < XXX"
+     void: "False"
+   # Second betting market is "Over the stated Total Points"
+   - win: "{metric} < XXX"
+     not_win: "{metric} > XXX"
+     void: "False"

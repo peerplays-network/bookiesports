@@ -16,6 +16,7 @@ aliases:
  - La Liga Espanyol
  - La Liga
  - La Liga Santander
+ - LaLiga Santander
  - LaLiga
  - LA LIGA
  - PRIMERA DIVISION
@@ -29,7 +30,7 @@ participants: "SLL_Teams_2017-18"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
-    - Soccer_ML_1
+    - Soccer_MO_1
     - Soccer_OU_0.5_1
     - Soccer_OU_1.5_1
     - Soccer_OU_2.5_1

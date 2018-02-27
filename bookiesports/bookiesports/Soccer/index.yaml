@@ -15,7 +15,8 @@ name:
 
 aliases:
     - Football
-    
+    - Fitba
+
 # After creation, of the sports object, we will end up with an id
 id: 1.16.6
 
@@ -23,3 +24,4 @@ id: 1.16.6
 eventgroups:
   - EPL
   - SLL
+  - CL

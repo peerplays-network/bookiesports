@@ -84,6 +84,9 @@ participants:
   - Sevilla Fútbol Club
   - Sevilla Futbol Club
   - FC Sevilla
+  - FCSevilla
+  - CFSevilla
+  - CF Sevilla
   name:
     en: Sevilla
     sen: Sevilla
@@ -115,6 +118,7 @@ participants:
 - aliases:
   - RCD Espanyol
   - RCDEspanyol
+  - Espanyol Barcelona
   - Reial Club Deportiu Espanyol de Barcelona
   name:
     en: Espanyol
@@ -146,6 +150,7 @@ participants:
   - Celta
   - CeltaVigo
   - Real Club Celta de Vigo
+  - Celta de Vigo
   name:
     en: Celta Vigo
     sen: Celta Vigo
@@ -182,6 +187,7 @@ participants:
     sen: Villarreal
 - aliases:
   - UD Las Palmas
+  - Las Palmas UD
   - LasPalmas
   - Unión Deportiva Las Palmas
   - Union Deportiva Las Palmas
