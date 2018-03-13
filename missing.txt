@@ -1,0 +1,82 @@
+Ice Hockey/NHL Regular Season/COLOMBUS BLUE JACKETS
+Soccer/Cup
+Soccer/Cup/Kayserispor
+Soccer/Cup/Eyupspor
+Ice Hockey/NHL-ALL STAR GAME
+Ice Hockey/NHL-ALL STAR GAME/ATLANTIC
+Ice Hockey/NHL-ALL STAR GAME/METROPOLITAN
+Ice Hockey/NHL-ALL STAR GAME/PACIFIC
+Ice Hockey/NHL-ALL STAR GAME/CENTRAL
+Soccer/UEFA EUROPA LEAGUE-ROUND 32
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/CRVENA ZVEZDA
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/CSKA MOSCOW
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/FC ASTANA
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/SPORTING CP
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/ATALANTA
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/LUDOGORETS
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/AC MILAN
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/MARSEILLE
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/SC BRAGA
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/NICE
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/LOKOMOTIV MOSCOW
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/OSTERSUNDS FK
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/RED BULL SALZBURG
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/SPARTAK MOSCOW
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/AEK ATHENS
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/DYNAMO KYIV
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/CELTIC
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/ZENIT SAINT PETERSBURG
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/FC COPENHAGEN
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/FCSB
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/LAZIO
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/FK PARTIZAN
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/PLZEN
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/LYON
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/NAPOLI
+Soccer/UEFA EUROPA LEAGUE-ROUND 32/RB LEIPZIG
+Soccer/UEFA Champions League/SHAKHTAR DONETSK
+Soccer/UEFA EUROPA LEAGUE-ROUND 16
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/AC MILAN
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/LOKOMOTIV MOSCOW
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/RED BULL SALZBURG
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/CSKA MOSCOW
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/LYON
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/LAZIO
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/DYNAMO KYIV
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/MARSEILLE
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/RB LEIPZIG
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/ZENIT SAINT PETERSBURG
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/SPORTING CP
+Soccer/UEFA EUROPA LEAGUE-ROUND 16/PLZEN
+Soccer/UEFA Champions League - Round of 16
+Basketball/NBA Regular Season/L. A. Lakers
+Basketball/NBA Regular Season/L. A. Clippers
+Soccer/Europa League Final Stage
+Soccer/Europa League Final Stage/FK Crvena Zvezda
+Soccer/Europa League Final Stage/CSKA Moscow
+Soccer/Champions League Final Stage
+Soccer/Europa League Final Stage/FC Astana
+Soccer/Europa League Final Stage/Sporting CP
+Soccer/Europa League Final Stage/Atalanta
+Soccer/Europa League Final Stage/Ludogorets Razgrad
+Soccer/Europa League Final Stage/AC Milan
+Soccer/Europa League Final Stage/Marseille
+Soccer/Europa League Final Stage/Braga
+Soccer/Europa League Final Stage/Nice
+Soccer/Europa League Final Stage/Lokomotiv Moscow
+Soccer/Europa League Final Stage/Oestersunds FK
+Soccer/Europa League Final Stage/Salzburg
+Soccer/Europa League Final Stage/Spartak Moscow
+Soccer/Europa League Final Stage/AEK Athens
+Soccer/Europa League Final Stage/Dynamo Kyiv
+Soccer/Europa League Final Stage/Celtic
+Soccer/Europa League Final Stage/Zenit St. Petersburg
+Soccer/Europa League Final Stage/FC FCSB
+Soccer/Europa League Final Stage/Lazio
+Soccer/Europa League Final Stage/FC Koebenhavn
+Soccer/Europa League Final Stage/Lyon
+Soccer/Europa League Final Stage/Partizan Beograd
+Soccer/Europa League Final Stage/Viktoria Plzen
+Soccer/Europa League Final Stage/SSC Napoli
+Soccer/Europa League Final Stage/RasenBallsport Leipzig
+Soccer/Champions League Final Stage/Shakhtar Donetsk 
