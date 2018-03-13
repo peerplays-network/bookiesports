@@ -31,8 +31,14 @@ setup(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
     ],
-    entry_points={},
+    entry_points={
+        'console_scripts': [
+            'bookiesports = bookiesports.cli:main',
+        ],
+    },
     install_requires=[
+        "peerplays>=0.1.14",
+        "bookied-sync",
         "pyyaml",
         "jsonschema",
         "colorlog",

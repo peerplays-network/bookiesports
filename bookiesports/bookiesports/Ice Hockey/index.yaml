@@ -18,7 +18,7 @@ aliases:
  - IceHockey
 
 # After creation, of the sports object, we will end up with an id
-id: 1.16.0
+id:
 
 # List Event Groups (each of them has a subfolder)
 eventgroups:
