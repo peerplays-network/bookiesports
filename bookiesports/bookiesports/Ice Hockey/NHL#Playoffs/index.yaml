@@ -25,7 +25,7 @@ aliases:
   - NHLPLAY OFFS
 
 # .. and blockchain id
-id:
+id: 1.17.16
 
 participants: "NHL_Teams_2017-18"
 
