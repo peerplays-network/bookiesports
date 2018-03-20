@@ -79,4 +79,12 @@ Soccer/Europa League Final Stage/Partizan Beograd
 Soccer/Europa League Final Stage/Viktoria Plzen
 Soccer/Europa League Final Stage/SSC Napoli
 Soccer/Europa League Final Stage/RasenBallsport Leipzig
-Soccer/Champions League Final Stage/Shakhtar Donetsk 
+Soccer/Champions League Final Stage/Shakhtar Donetsk
+Soccer/UEFA CHAMPIONS LEAGUE-QUARTER FINALS
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/CSKA MOSCOW
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/SPORTING CP
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/LAZIO
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/RED BULL SALZBURG
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/RB LEIPZIG
+Soccer/UEFA EUROPA LEAGUE-QUARTER FINALS/MARSEILLE
