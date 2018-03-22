@@ -15,6 +15,22 @@ aliases:
   - ChampionsLeague
   - UEFA ChampionsLeague
   - UEFAChampionsLeague
+  - UEFA Champions League - Final Stage
+  - Champions League - Final Stage
+  - UEFA Champions League Final Stage
+  - Champions League Final Stage
+  - UEFA Champions League - Round of 16
+  - Champions League - Round of 16
+  - UEFA Champions League Round of 16
+  - Champions League Round of 16
+  - UEFA Champions League - Round of 8
+  - Champions League - Round of 8
+  - UEFA Champions League Round of 8
+  - Champions League Round of 8
+  - UEFA Champions League - Round of 4
+  - Champions League - Round of 4
+  - UEFA Champions League Round of 4
+  - Champions League Round of 4  
   - UEFA CHAMPIONS LEAGUE-ROUND 16
   - UEFA CHAMPIONS LEAGUE-ROUND 8
   - UEFA CHAMPIONS LEAGUE-ROUND 4
@@ -25,7 +41,7 @@ aliases:
 # .. and blockchain id
 id: 1.17.19
 
-participants: "CL_Teams_2017-18"
+participants: "EuropeClub_Teams_2017-18"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:

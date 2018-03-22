@@ -60,6 +60,9 @@ participants:
   - Blue Jackets
   - Blue Jacket
   - Columbus Blue Jacket
+  - Colombus Blue Jacket
+  - Colombus Blue Jackets
+  - Colombus
   identifier: "Columbus Blue Jackets"
   name:
     en: Columbus Blue Jackets
@@ -228,3 +231,28 @@ participants:
   name:
     en: Winnipeg Jets
     sen: Jets
+# These four teams are for the three AllStar games
+- aliases:
+  - Atlantic
+  identifier: "Atlantic"
+  name:
+    en: Atlantic
+    sen: Atlantic
+- aliases:
+  - Pacific
+  identifier: "Pacific"
+  name:
+    en: Pacific
+    sen: Pacific
+- aliases:
+  - Central
+  identifier: "Central"
+  name:
+    en: Central
+    sen: Central
+- aliases:
+  - Metropolitan
+  identifier: "Metropolitan"
+  name:
+    en: Metropolitan
+    sen: Metropolitan

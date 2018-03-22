@@ -87,6 +87,7 @@ participants:
 - aliases:
   - Clippers
   - L.A. Clippers
+  - L. A. Clippers
   - LA Clippers
   - LAClippers
   identifier: "Los Angeles Clippers"
@@ -96,6 +97,7 @@ participants:
 - aliases:
   - Lakers
   - L.A. Lakers
+  - L. A. Lakers
   - LA Lakers
   - LALakers
   identifier: "Los Angeles Lakers"
@@ -216,4 +218,4 @@ participants:
   identifier: "Washington Wizards"
   name:
     en: Washington Wizards
-    sen: Wizards    
+    sen: Wizards

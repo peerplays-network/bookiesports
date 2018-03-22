@@ -12,17 +12,27 @@ name:
 
 aliases:
   - National Hockey League
-  - National Hockey League - Playoffs
-  - NationalHockeyLeague - Playoffs
-  - National Hockey League Playoffs
-  - NationalHockeyLeague Playoffs
+  - National Hockey League - AllStar
+  - NationalHockeyLeague - AllStar
+  - National Hockey League AllStar
+  - NationalHockeyLeague AllStar
+  - National Hockey League - All Star
+  - NationalHockeyLeague - All Star
+  - National Hockey League All Star
+  - NationalHockeyLeague All Star
   - NHL
-  - NHL-PLAYOFFS
-  - NHL-PLAY OFFS
-  - NHL PLAYOFFS
-  - NHL PLAY OFFS
-  - NHLPLAYOFFS
-  - NHLPLAY OFFS
+  - NHL-ALLSTAR
+  - NHL-ALL STAR
+  - NHL ALLSTAR
+  - NHL ALL STAR
+  - NHLALLSTAR
+  - NHLALL STAR
+  - NHL-ALLSTAR GAME
+  - NHL-ALL STAR GAME
+  - NHL ALLSTAR GAME
+  - NHL ALL STAR GAME
+  - NHLALLSTAR GAME
+  - NHLALL STAR GAME
 
 # .. and blockchain id
 id: 1.17.16
@@ -41,8 +51,8 @@ eventscheme:
      en: "{teams.away} @ {teams.home}"
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 2
+leadtime_Max: 5
 
 # When does the event group/league actually begin and end?
-start_date: 2018/04/10
-finish_date: 2018/06/30
+start_date: 2018/01/10
+finish_date: 2018/01/30
