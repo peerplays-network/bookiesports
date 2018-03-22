@@ -279,7 +279,7 @@ participants:
   - SportingClubedePortugal
   - Sporting CP
   - SportingCP
-    name:
+  name:
     en: Sporting Lisbon
     sen: Sporting Lisbon
 # Romanian teams
@@ -288,14 +288,14 @@ participants:
   - FC FCSB
   - Fotbal Club Steaua Bucuresti
   - FC Steaua Bucharest
-    name:
+  name:
     en: Steaua Bucharest
     sen: Steaua Buchar.
 # Russian teams
 - aliases:
   - CSKA
   - CSKAMoscow
-    name:
+  name:
     en: CSKA Moscow
     sen: CSKA Moscow
 - aliases:
@@ -305,7 +305,7 @@ participants:
   - Lok. Moscow
   - Lok.Moscow
   - LokomotivMoscow
-    name:
+  name:
     en: Lokomotiv Moscow
     sen: Lok. Moscow
 - aliases:
@@ -313,7 +313,7 @@ participants:
   - FCSpartakMoscow
   - FC Spartak Moscow
   - SpartakMoscow
-    name:
+  name:
     en: Spartak Moscow
     sen: Spartak Moscow
 - aliases:
@@ -326,7 +326,7 @@ participants:
   - Zenit Saint Petersburg
   - FC Zenit Saint Petersburg
   - Zenit
-    name:
+  name:
     en: Zenit St Petersburg
     sen: Zenit St P.
 # Scottish teams
