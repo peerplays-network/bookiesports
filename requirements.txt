@@ -1,0 +1,5 @@
+peerplays
+bookied-sync
+pyyaml
+jsonschema
+colorlog
