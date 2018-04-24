@@ -10,7 +10,7 @@ name_parameters:
    OU: over_under
 
 # Asset to play with
-asset: BTCTEST
+asset: BTC
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: True
