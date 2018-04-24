@@ -37,7 +37,7 @@ aliases:
   - MLBPOST SEASON
 
 # .. and blockchain id
-id: 1.17.13
+id:
 
 participants: "MLB_Teams_2017-18"
 

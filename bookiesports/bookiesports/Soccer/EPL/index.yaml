@@ -18,7 +18,7 @@ aliases:
   - EPL
 
 # .. and blockchain id
-id: 1.17.17
+id:
 
 participants: "EPL_Teams_2017-18"
 

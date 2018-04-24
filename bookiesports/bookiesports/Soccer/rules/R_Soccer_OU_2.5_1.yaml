@@ -1,5 +1,5 @@
 identifier: R_Soccer_OU_2.5_1
-id: 1.19.18
+id:
 name:
     # Unclear what this name field should contain.
     # Is it the name of the BMG? But that is already in the matching BMG yaml file...

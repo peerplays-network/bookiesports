@@ -22,7 +22,7 @@ aliases:
   - The English FA Cup
 
 # .. and blockchain id
-id: 1.17.19
+id:
 
 participants: "FACup_Teams_2017-18"
 

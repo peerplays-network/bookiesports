@@ -29,7 +29,7 @@ aliases:
   - MLBWORLDSERIES
 
 # .. and blockchain id
-id: 1.17.14
+id:
 
 participants: "MLB_Teams_2017-18"
 
