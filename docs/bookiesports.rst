@@ -1,5 +1,18 @@
-BookieSports
-============
+bookiesports package
+====================
 
-.. autoclass:: bookiesports.BookieSports
+Submodules
+----------
+
+.. toctree::
+
+   bookiesports.cli
+   bookiesports.exceptions
+
+Module contents
+---------------
+
+.. automodule:: bookiesports
     :members:
+    :undoc-members:
+    :show-inheritance:

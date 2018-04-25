@@ -1,23 +1,16 @@
 # BookieSports
 
-This repository contains
+![](https://img.shields.io/pypi/v/bookiesports.svg?style=for-the-badge)
+![](https://img.shields.io/github/downloads/pbsa/bookiesports/total.svg?style=for-the-badge)
+![](https://img.shields.io/pypi/pyversions/bookiesports.svg?style=for-the-badge)
 
-* the sports with emta data supported by bookied
-* schema files for validation of the provided data
-* a python module to facilitate loading of the data
+[![docs master](https://readthedocs.org/projects/bookiesports/badge/?version=latest)](http://bookiesports.rtfd.io/en/latest/)
 
+`bookiesports` is a module that contains the management information for
+BOS. This management information describes which sports are supported,
+which leagues and participants are available and how and what betting
+markets are created and resolved.
 
-### `bookiesports/`
+## Documentation
 
-Contains the module that can be loaded from python to obtain the sports
-data.
-
-### `schema/`
-
-Contains the yaml formated json schemata for validation of the bookie
-sports files.
-
-### `sports/`
-
-Each sport has it's own folder which carries the most important
-information in a sports-specific `index.yaml` file.
+[![docs master](https://readthedocs.org/projects/bookiesports/badge/?version=latest)](http://bookiesports.rtfd.io/en/latest/)
