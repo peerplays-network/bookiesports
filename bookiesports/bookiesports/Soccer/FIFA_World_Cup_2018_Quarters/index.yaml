@@ -4,27 +4,27 @@
 #        events
 # as children
 
-identifier: "FA Cup"
+identifier: "World Cup 2018: Quarters"
 
 name:
-    en: FA Cup
-    sen: FA Cup
+    en: WC 2018: Quarters
+    sen: WC 2018
 
 aliases:
-  - FACup
-  - The Football Association Challenge Cup
-  - Football Association Challenge Cup
-  - The FA Cup
-  - The FACup
-  - The Emirates FA Cup
-  - Emirates FA Cup
-  - English FA Cup
-  - The English FA Cup
+  - World Cup 2018
+  - WORLD CUP 2018
+  - FIFA World Cup 2018
+  - FIFA WORLD CUP 2018
+  - WorldCup2018
+  - WORLDCUP2018
+  - FIFA WorldCup2018
+  - FIFA WORLDCUP2018
+  - World Cup Quarter Finals
 
 # .. and blockchain id
 id:
 
-participants: "FACup_Teams_2017-18"
+participants: "FIFA_World_Cup_2018"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
@@ -44,8 +44,8 @@ eventscheme:
 
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 10
+leadtime_Max: 7
 
 # When does the event group/league actually begin and end?
-start_date: 2018-01-01T00:00:00Z
-finish_date: 2018-05-31T23:59:59Z
+start_date: 2018-07-06T00:00:00Z
+finish_date: 2018-07-07T23:59:59Z
