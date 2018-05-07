@@ -7,7 +7,7 @@
 identifier: "World Cup 2018: 3rd Place"
 
 name:
-    en: "WC 2018: 3rd Place"
+    en: WC 2018: 3rd Place
     sen: WC 2018
 
 aliases:
@@ -20,6 +20,7 @@ aliases:
   - FIFA WorldCup2018
   - FIFA WORLDCUP2018
   - World Cup Bronze Match
+  - WORLD CUP RUSSIA 2018-PETIT FINAL
 
 # .. and blockchain id
 id:

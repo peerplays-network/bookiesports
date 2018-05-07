@@ -4,10 +4,10 @@
 #        events
 # as children
 
-identifier: "World Cup 2018: FINAL"
+identifier: "World Cup 2018: Final"
 
 name:
-    en: "WC 2018: Final"
+    en: WC 2018: Final
     sen: WC 2018
 
 aliases:
@@ -20,6 +20,7 @@ aliases:
   - FIFA WorldCup2018
   - FIFA WORLDCUP2018
   - World Cup Final
+  - WORLD CUP RUSSIA 2018-FINAL
 
 # .. and blockchain id
 id:
