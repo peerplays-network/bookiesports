@@ -1,4 +1,4 @@
-$schema: "http://json-schema.org/draft-06/schema#"
+$schema: "http://json-schema.org/draft-04/schema#"
 title: BookieSports::EventGroup
 description: Format for BookieSports::EventGroup
 type: object
@@ -33,6 +33,17 @@ properties:
    name:
     $ref: "#/definitions/internationalized_name"
 
+ start_date:
+  type: string
+  format: date-time
+
+ finish_date:
+  type: string
+  format: date-time
+
+ leadtime_Max:
+  type: number
+
 required:
  - identifier
  - name
@@ -40,3 +51,6 @@ required:
  - participants
  - bettingmarketgroups
  - eventscheme
+   #- start_date
+   #- finish_date
+   #- leadtime_Max

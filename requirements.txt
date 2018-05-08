@@ -3,3 +3,4 @@ bookied-sync
 pyyaml
 jsonschema
 colorlog
+dateutil

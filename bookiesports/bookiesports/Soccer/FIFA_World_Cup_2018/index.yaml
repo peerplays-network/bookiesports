@@ -46,5 +46,5 @@ eventscheme:
 leadtime_Max: 50
 
 # When does the event group/league actually begin and end?
-start_date: 2018/06/14
-finish_date: 2018/07/16
+start_date: 2018-06-14T00:00:00Z
+finish_date: 2018-07-16T23:59:59Z

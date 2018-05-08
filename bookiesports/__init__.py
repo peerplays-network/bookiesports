@@ -3,6 +3,7 @@ import sys
 import yaml
 import logging
 import jsonschema
+from dateutil import parser
 from .exceptions import SportsNotFoundError
 from glob import glob
 from colorlog import ColoredFormatter
@@ -187,8 +188,17 @@ class BookieSports(dict):
             eventgroup = self._loadyaml(
                 os.path.join(eventgroupDir, "index.yaml"))
 
+            # Because yaml parses our times already and jsonschema cannot deal
+            # with it properly, we convert them to strings
+            for t in ["start_date", "finish_date"]:
+                if t in eventgroup:
+                    eventgroup[t] = str(eventgroup.get(t))
             # Validate
             jsonschema.validate(eventgroup, self.schema["eventgroup"])
+
+            for t in ["start_date", "finish_date"]:
+                if t in eventgroup:
+                    eventgroup[t] = parser.parse(eventgroup[t])
 
             # Store in structure
             eventgroups[eventgroupname] = eventgroup
