@@ -70,7 +70,7 @@ class BookieSports(dict):
 
     def __init__(
         self,
-        network="baxter",
+        network=None,
         sports_folder=None,
         *args,
         **kwargs
@@ -78,13 +78,16 @@ class BookieSports(dict):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
-        BookieSports._network_name = network
 
         if (
             BookieSports.sports_folder is None or
-            BookieSports.network_name != network
+            BookieSports.network_name is None
         ):
             if not sports_folder:
+
+                BookieSports._network_name = network
+                assert network in BookieSports.list_networks(), "Unknown network {}".format(network)
+
                 # Load bundled sports
                 BookieSports.sports_folder = os.path.join(
                     self._cwd,
