@@ -1,5 +1,6 @@
 import unittest
 from bookiesports import BookieSports
+from pprint import pprint
 
 
 class Testcases(unittest.TestCase):
@@ -25,3 +26,8 @@ class Testcases(unittest.TestCase):
         self.assertIn("alice", networks)
         self.assertIn("baxter", networks)
         self.assertIn("charlie", networks)
+
+    def test_version(self):
+        print()
+        pprint(BookieSports.version())
+        print()

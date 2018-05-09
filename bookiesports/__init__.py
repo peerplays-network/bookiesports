@@ -129,7 +129,7 @@ class BookieSports(dict):
                 name: pkg_resources.require(name)[0].version
                 for name in ["peerplays", "bookiesports"]
             },
-            'supported_networks': BookieSports._list_networks()
+            'supported_networks': BookieSports.list_networks()
         }
 
     @staticmethod
