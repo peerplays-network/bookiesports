@@ -19,3 +19,9 @@ class Testcases(unittest.TestCase):
     def test_charlie(self):
         charlie = BookieSports("charlie")
         self.assertEqual(charlie.chain_id, "*")
+
+    def test_list_networks(self):
+        networks = BookieSports.list_networks()
+        self.assertIn("alice", networks)
+        self.assertIn("baxter", networks)
+        self.assertIn("charlie", networks)

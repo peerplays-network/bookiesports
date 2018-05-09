@@ -3,6 +3,7 @@ import sys
 import yaml
 import logging
 import jsonschema
+import pkg_resources
 from dateutil import parser
 from .exceptions import SportsNotFoundError
 from glob import glob
@@ -120,6 +121,25 @@ class BookieSports(dict):
 
             # _tests
             self._tests()
+
+    @staticmethod
+    def version():
+        return {
+            'versions': {
+                name: pkg_resources.require(name)[0].version
+                for name in ["peerplays", "bookiesports"]
+            },
+            'supported_networks': BookieSports._list_networks()
+        }
+
+    @staticmethod
+    def list_networks():
+        return [os.path.basename(network) for network in glob(
+            os.path.join(
+                os.path.dirname(os.path.realpath(__file__)),
+                "bookiesports",
+                '*')
+        )]
 
     @staticmethod
     def _clear():
