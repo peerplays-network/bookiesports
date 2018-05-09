@@ -3,7 +3,7 @@
 from setuptools import setup
 import sys
 
-__VERSION__ = '0.0.20'
+__VERSION__ = '0.0.21'
 
 assert sys.version_info[0] == 3, "We require Python > 3"
 
