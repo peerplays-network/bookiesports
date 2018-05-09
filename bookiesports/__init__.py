@@ -61,6 +61,9 @@ class BookieSports(dict):
     #: Folder where the data is actually stored
     sports_folder = None
 
+    #: Network name
+    _network_name = None
+
     #: Schema for validation of the data
     schema = None
 
@@ -74,8 +77,12 @@ class BookieSports(dict):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
+        BookieSports._network_name = network
 
-        if BookieSports.sports_folder is None:
+        if (
+            BookieSports.sports_folder is None or
+            BookieSports.network_name != network
+        ):
             if not sports_folder:
                 # Load bundled sports
                 BookieSports.sports_folder = os.path.join(
@@ -108,7 +115,7 @@ class BookieSports(dict):
             # Load sports
             dict.__init__(
                 self,
-                self._loadSports(BookieSports.sports_folder)
+                self._loadNetwork(BookieSports.sports_folder)
             )
 
             # _tests
@@ -143,6 +150,7 @@ class BookieSports(dict):
         dirname = os.path.join(self._cwd, "schema")
 
         defs = self._loadyaml(os.path.join(dirname, "definitions.yaml"))
+        network = self._loadyaml(os.path.join(dirname, "network.yaml"))
         sport = self._loadyaml(os.path.join(dirname, "sport.yaml"))
         eventgroup = self._loadyaml(os.path.join(dirname, "eventgroup.yaml"))
         bettingmarketgroup = self._loadyaml(
@@ -155,6 +163,7 @@ class BookieSports(dict):
         bettingmarketgroup.update(defs)
         participant.update(defs)
         rule.update(defs)
+        network.update(defs)
 
         return dict(
             defs=defs,
@@ -162,17 +171,37 @@ class BookieSports(dict):
             eventgroup=eventgroup,
             bettingmarketgroup=bettingmarketgroup,
             participant=participant,
-            rule=rule
+            rule=rule,
+            network=network
         )
 
-    def _loadSports(self, sports_folder):
+    @property
+    def network(self):
+        return self._network
+
+    @property
+    def chain_id(self):
+        return self._network["chain_id"]
+
+    @property
+    def network_name(self):
+        return BookieSports._network_name
+
+    def _loadNetwork(self, network_folder):
         """ This loads all sports recursively from the ``sports/`` folder
         """
+        network = self._loadyaml(os.path.join(network_folder, "index.yaml"))
+
+        # Validate
+        jsonschema.validate(network, self.schema["network"])
+
+        self._network = network
+
         ret = dict()
         for sportDir in glob(
             os.path.join(
                 self._cwd,
-                sports_folder,
+                network_folder,
                 "*")):
             if not os.path.isdir(sportDir):
                 continue

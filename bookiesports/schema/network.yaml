@@ -1,0 +1,13 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+title: BookieSports::Network
+description: Format for BookieSports::Network
+type: object
+properties:
+
+ chain_id:
+  type: string
+  description: Chain ID for which this bookiesport is valid
+
+required:
+ - chain_id
+
