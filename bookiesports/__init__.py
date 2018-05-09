@@ -124,11 +124,17 @@ class BookieSports(dict):
 
     @staticmethod
     def version():
+        versions = {}
+        for name in ["peerplays", "bookiesports"]:
+            try:
+                versions[name] = pkg_resources.require(name)[0].version
+            except pkg_resources.DistributionNotFound:
+                if name == "bookiesports":
+                    versions[name] = "dev"
+                else:
+                    versions[name] = "not installed"
         return {
-            'versions': {
-                name: pkg_resources.require(name)[0].version
-                for name in ["peerplays", "bookiesports"]
-            },
+            'versions': versions,
             'supported_networks': BookieSports.list_networks()
         }
 
