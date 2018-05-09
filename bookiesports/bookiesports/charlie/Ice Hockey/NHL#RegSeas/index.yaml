@@ -1,0 +1,49 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "NHL Regular Season"
+
+name:
+    en: NHL Regular Season
+    sen: NHL
+
+aliases:
+  - National Hockey League
+  - NationalHockeyLeague - Regular Season
+  - National Hockey League - RegularSeason
+  - NationalHockeyLeagueRegular Season
+  - National Hockey League RegularSeason
+  - NHL
+  - NHL-REGULAR SEASON
+  - NHL-REGULARSEASON
+  - NHL REGULAR SEASON
+  - NHL REGULARSEASON
+  - NHLREGULAR SEASON
+  - NHLREGULARSEASON
+
+
+# .. and blockchain id
+id:
+
+participants: "NHL_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NHL_ML_1
+    - NHL_HCP_1
+    - NHL_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 2
+
+# When does the event group/league actually begin and end?
+start_date: 2017-10-04T00:00:00Z
+finish_date: 2018-04-10T23:59:59Z

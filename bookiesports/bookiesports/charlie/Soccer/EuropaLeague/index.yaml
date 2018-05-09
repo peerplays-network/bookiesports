@@ -1,0 +1,88 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "UEFA Europa League"
+
+name:
+    en: UEFA Europa League
+    sen: Europa League
+
+aliases:
+  - Europa League
+  - EuropaLeague
+  - UEFA EuropaLeague
+  - UEFA Europa League
+  - UEFA Europa League - Final Stage
+  - Europa League - Final Stage
+  - UEFA Europa League Final Stage
+  - Europa League Final Stage
+  - UEFA Europa League - Round of 32
+  - Europa League - Round of 32
+  - UEFA Europa League Round of 32
+  - Europa League Round of 32
+  - UEFA Europa League - Round of 16
+  - Europa League - Round of 16
+  - UEFA Europa League Round of 16
+  - Europa League Round of 16
+  - UEFA Europa League - Round of 8
+  - Europa League - Round of 8
+  - UEFA Europa League Round of 8
+  - Europa League Round of 8
+  - UEFA Europa League - Round of 4
+  - Europa League - Round of 4
+  - UEFA Europa League Round of 4
+  - Europa League Round of 4
+  - UEFA EUROPA LEAGUE-ROUND 32
+  - UEFA EUROPA LEAGUE-ROUND 16
+  - UEFA EUROPA LEAGUE-ROUND 8
+  - UEFA EUROPA LEAGUE-ROUND 4
+  - UEFA EUROPA LEAGUE-ROUND QUARTER-FINAL
+  - UEFA EUROPA LEAGUE-ROUND QUARTER-FINALS
+  - UEFA EUROPA LEAGUE-ROUND SEMI-FINAL
+  - UEFA EUROPA LEAGUE-ROUND SEMI-FINALS
+  - UEFA EUROPA LEAGUE-ROUND FINAL
+  - UEFA EUROPA LEAGUE-QUARTER-FINAL
+  - UEFA EUROPA LEAGUE-QUARTER-FINALS
+  - UEFA EUROPA LEAGUE-SEMI-FINAL
+  - UEFA EUROPA LEAGUE-SEMI-FINALS
+  - UEFA EUROPA LEAGUE-FINAL
+  - UEFA EUROPA LEAGUE-ROUND QUARTER FINAL
+  - UEFA EUROPA LEAGUE-ROUND QUARTER FINALS
+  - UEFA EUROPA LEAGUE-ROUND SEMI FINAL
+  - UEFA EUROPA LEAGUE-ROUND SEMI FINALS
+  - UEFA EUROPA LEAGUE-QUARTER FINAL
+  - UEFA EUROPA LEAGUE-QUARTER FINALS
+  - UEFA EUROPA LEAGUE-SEMI FINAL
+  - UEFA EUROPA LEAGUE-SEMI FINALS
+
+# .. and blockchain id
+id:
+
+participants: "EuropeClub_Teams_2017-18"
+
+# Define the betting market groups (each one has a subfolder)
+bettingmarketgroups:
+    - Soccer_MO_1
+    - Soccer_OU_0.5_1
+    - Soccer_OU_1.5_1
+    - Soccer_OU_2.5_1
+    - Soccer_OU_3.5_1
+    - Soccer_OU_4.5_1
+    - Soccer_OU_5.5_1
+    - Soccer_OU_6.5_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.home} v {teams.away}"
+
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2017-08-11T00:00:00Z
+finish_date: 2018-05-31T23:59:59Z

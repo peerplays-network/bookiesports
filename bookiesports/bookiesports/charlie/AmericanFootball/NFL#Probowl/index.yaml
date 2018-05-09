@@ -1,0 +1,49 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "NFL Pro Bowl"
+
+name:
+    en: NFL Pro Bowl
+    sen: NFL
+
+aliases:
+  - National Football League
+  - NationalFootballLeague - Pro Bowl
+  - National Football League - Pro Bowl
+  - NationalFootballLeague Pro Bowl
+  - National Football League Pro Bowl
+  - NFL
+  - NFL-PRO BOWL
+  - NFL-PROBOWL
+  - NFL PRO BOWL
+  - NFL PROBOWL
+  - NFLPRO BOWL
+  - NFLPROBOWL
+
+
+# .. and blockchain id
+id:
+
+participants: "NFL_Teams_2018-19"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NFL_ML_1
+    - NFL_HCP_1
+    - NFL_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2019-01-23T00:00:00Z
+finish_date: 2019-01-30T23:59:59Z

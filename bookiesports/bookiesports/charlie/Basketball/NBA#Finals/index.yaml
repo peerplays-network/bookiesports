@@ -1,0 +1,46 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "NBA Finals"
+
+name:
+    en: NBA Finals
+    sen: NBA
+
+aliases:
+  - National Basketball Association
+  - National Basketball Association - Finals
+  - NationalBasketballAssociation - Finals
+  - National Basketball Association Finals
+  - NationalBasketballAssociation Finals
+  - NBA
+  - NBA-FINALS
+  - NBA FINALS
+  - NBAFINALS
+
+
+# .. and blockchain id
+id:
+
+participants: "NBA_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NBA_ML_1
+    - NBA_HCP_1
+    - NBA_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 3
+
+# When does the event group/league actually begin and end?
+start_date: 2018-05-31T00:00:00Z
+finish_date: 2018-06-18T23:59:59Z

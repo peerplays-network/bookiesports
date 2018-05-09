@@ -1,0 +1,36 @@
+# This file represents a
+#        Sport
+# Each sport has
+#        event groups
+# as children
+
+# Internal Identifier for Database
+identifier: Soccer
+
+# This sport needs to be registered on the blockchain, there it
+# is registered with internationalized names:
+name:
+    en: Soccer
+    sen: Soccer
+
+aliases:
+    - Football
+    - Fitba
+
+# After creation, of the sports object, we will end up with an id
+id:
+
+# List Event Groups (each of them has a subfolder)
+eventgroups:
+  - EPL
+  - SLL
+  - CL
+  - EuropaLeague
+  - FACup
+  - InternationalFriendlies
+  - FIFA_World_Cup_2018_GroupStages
+  - FIFA_World_Cup_2018_Last16
+  - FIFA_World_Cup_2018_Quarters
+  - FIFA_World_Cup_2018_Semis
+  - FIFA_World_Cup_2018_3rdPlace
+  - FIFA_World_Cup_2018_FINAL

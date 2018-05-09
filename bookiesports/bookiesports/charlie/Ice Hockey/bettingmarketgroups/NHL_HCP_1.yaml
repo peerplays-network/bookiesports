@@ -1,0 +1,29 @@
+# Internationalized name
+description:
+    # Human-readable name of BMG, to be displayed in app
+    display_name: Handicap
+    # Localized version of BMG_DisplayName
+    en: Handicap
+    sen: Handicap
+
+# Asset to play with
+asset: BTC
+
+# Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
+dynamic: True
+
+# Number of Betting Markets in this BMG
+number_betting_markets: 2
+
+# WIll this BMG be turned Live at Event start? This is YES for all BMGs at launch
+is_live: True
+
+# Human readable rules that the Grading Algorithm is a machine-readable instantiation of
+rules: R_NHL_HCP_1
+
+bettingmarkets:
+# This needs work!
+     - description:
+         en: '{teams.home} +/- {handicap}'
+     - description:
+         en: '{teams.away} +/- {handicap}'

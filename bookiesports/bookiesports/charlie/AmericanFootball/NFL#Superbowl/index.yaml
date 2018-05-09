@@ -1,0 +1,61 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "Superbowl LIII"
+
+name:
+    en: Superbowl LIII
+    sen: Superbowl LIII
+
+aliases:
+  - Superbowl
+  - NFL Superbowl LIII
+  - National Football League
+  - NationalFootballLeague - Superbowl LIII
+  - National Football League - Superbowl LIII
+  - NationalFootballLeague Superbowl LIII
+  - National Football League Superbowl LIII
+  - NationalFootballLeague - Superbowl
+  - National Football League - Superbowl
+  - NationalFootballLeague Superbowl
+  - National Football League Superbowl
+  - NFL
+  - NFL-SUPER BOWL
+  - NFL-SUPERBOWL
+  - NFL SUPER BOWL
+  - NFL SUPERBOWL
+  - NFLSUPER BOWL
+  - NFLSUPERBOWL
+  - NFL-SUPER BOWL LIII
+  - NFL-SUPERBOWL LIII
+  - NFL SUPER BOWL LIII
+  - NFL SUPERBOWL LIII
+  - NFLSUPER BOWL LIII
+  - NFLSUPERBOWL LIII
+
+
+# .. and blockchain id
+id:
+
+participants: "NFL_Teams_2018-19"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NFL_ML_1
+    - NFL_HCP_1
+    - NFL_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2019-02-01T00:00:00Z
+finish_date: 2019-02-08T23:59:59Z
