@@ -44,6 +44,12 @@ class BookieSports(dict):
             from bookiesports import BookieSports
             x = BookieSports()
 
+
+        :param string network: One out 'alice', 'baxter', or 'charlie' to
+            identify which network we are working with.
+        :param string sports_filder: An alternative folder to look for sports
+            (manual override)
+
         It is possible to overload a custom sports_folder by providing it to
         ``BookieSports`` as parameter.
     """
@@ -60,6 +66,7 @@ class BookieSports(dict):
 
     def __init__(
         self,
+        network="baxter",
         sports_folder=None,
         *args,
         **kwargs
@@ -67,17 +74,19 @@ class BookieSports(dict):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
-        # self._cwd = os.getcwd()
 
         if BookieSports.sports_folder is None:
             if not sports_folder:
                 # Load bundled sports
                 BookieSports.sports_folder = os.path.join(
                     self._cwd,
-                    "bookiesports")
+                    "bookiesports",
+                    network
+                )
             else:
                 # Load custom sports
                 BookieSports.sports_folder = sports_folder
+
         elif sports_folder and sports_folder != BookieSports.sports_folder:
             # clear .data
             BookieSports._clear()
@@ -91,9 +100,8 @@ class BookieSports(dict):
         if not BookieSports.data:
             if not os.path.isdir(BookieSports.sports_folder):
                 # Reset the sports_folder (since it is a singelton)
-                BookieSports.sports_folder = None
                 raise SportsNotFoundError(
-                    "You need to obtain bookiesports, first! ({})".format(
+                    "No bookiesports, found in {}".format(
                         BookieSports.sports_folder)
                 )
 

@@ -7,3 +7,6 @@ class Testcases(unittest.TestCase):
     def test_bookiesports(self):
         # Validation happens inside
         BookieSports()
+
+    def test_charlie(self):
+        charlie = BookieSports("charlie")
