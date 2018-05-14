@@ -65,7 +65,6 @@ class BookieSports(dict):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
-        network = network.lower()
 
         if (
             BookieSports.sports_folder is None or
@@ -81,7 +80,7 @@ class BookieSports(dict):
                 BookieSports.sports_folder = os.path.join(
                     self._cwd,
                     "bookiesports",
-                    network
+                    network.lower()
                 )
             else:
                 # Load custom sports
