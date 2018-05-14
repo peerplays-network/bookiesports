@@ -7,21 +7,7 @@ import pkg_resources
 from dateutil import parser
 from .exceptions import SportsNotFoundError
 from glob import glob
-from colorlog import ColoredFormatter
-
-# Logging
-LOG_LEVEL = logging.DEBUG
-LOGFORMAT = ("  %(log_color)s%(levelname)-8s%(reset)s |"
-             " %(log_color)s%(message)s%(reset)s")
-logging.root.setLevel(LOG_LEVEL)
-formatter = ColoredFormatter(LOGFORMAT)
-stream = logging.StreamHandler()
-stream.setLevel(LOG_LEVEL)
-stream.setFormatter(formatter)
 log = logging.getLogger(__name__)
-log.setLevel(LOG_LEVEL)
-log.addHandler(stream)
-# logging.basicConfig(level=logging.DEBUG)
 
 
 class BookieSports(dict):
@@ -32,7 +18,8 @@ class BookieSports(dict):
 
             1. Open the directory that stores the sports
             2. Load all Sports
-            3. For each sport, load the corresponding data subset (event groups, events, rules, participants, etc.)
+            3. For each sport, load the corresponding data subset (event
+                groups, events, rules, participants, etc.)
             4. Validate each data subset
             5. Perform consistency checks
             6. Instantiate a dictionary (``self``)
@@ -78,6 +65,7 @@ class BookieSports(dict):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
+        network = network.lower()
 
         if (
             BookieSports.sports_folder is None or
@@ -86,7 +74,8 @@ class BookieSports(dict):
             if not sports_folder:
 
                 BookieSports._network_name = network
-                assert network in BookieSports.list_networks(), "Unknown network {}".format(network)
+                assert network in BookieSports.list_networks(), \
+                    "Unknown network {}".format(network)
 
                 # Load bundled sports
                 BookieSports.sports_folder = os.path.join(
