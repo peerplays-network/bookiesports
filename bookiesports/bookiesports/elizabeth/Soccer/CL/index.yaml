@@ -1,0 +1,73 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "UEFA Champions League"
+
+name:
+    en: UEFA Champions League
+    sen: Champions League
+
+aliases:
+  - Champions League
+  - ChampionsLeague
+  - UEFA ChampionsLeague
+  - UEFAChampionsLeague
+  - UEFA Champions League - Final Stage
+  - Champions League - Final Stage
+  - UEFA Champions League Final Stage
+  - Champions League Final Stage
+  - UEFA Champions League - Round of 16
+  - Champions League - Round of 16
+  - UEFA Champions League Round of 16
+  - Champions League Round of 16
+  - UEFA Champions League - Round of 8
+  - Champions League - Round of 8
+  - UEFA Champions League Round of 8
+  - Champions League Round of 8
+  - UEFA Champions League - Round of 4
+  - Champions League - Round of 4
+  - UEFA Champions League Round of 4
+  - Champions League Round of 4
+  - UEFA CHAMPIONS LEAGUE-ROUND 16
+  - UEFA CHAMPIONS LEAGUE-ROUND 8
+  - UEFA CHAMPIONS LEAGUE-ROUND 4
+  - UEFA CHAMPIONS LEAGUE-ROUND SEMI-FINAL
+  - UEFA CHAMPIONS LEAGUE-ROUND SEMI-FINALS
+  - UEFA CHAMPIONS LEAGUE-SEMI FINAL
+  - UEFA CHAMPIONS LEAGUE-SEMI FINALS
+  - UEFA CHAMPIONS LEAGUE-ROUND FINAL
+  - UEFA CHAMPIONS LEAGUE-FINAL
+  - UEFA CHAMPIONS LEAGUE-QUARTER FINALS
+  - UEFA CHAMPIONS LEAGUE-QUARTER FINAL
+
+# .. and blockchain id
+id:
+
+participants: "EuropeClub_Teams_2017-18"
+
+# Define the betting market groups (each one has a subfolder)
+bettingmarketgroups:
+    - Soccer_MO_1
+    - Soccer_OU_0.5_1
+    - Soccer_OU_1.5_1
+    - Soccer_OU_2.5_1
+    - Soccer_OU_3.5_1
+    - Soccer_OU_4.5_1
+    - Soccer_OU_5.5_1
+    - Soccer_OU_6.5_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.home} v {teams.away}"
+
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 6
+
+# When does the event group/league actually begin and end?
+start_date: 2017-08-11T00:00:00Z
+finish_date: 2018-05-31T23:59:59Z

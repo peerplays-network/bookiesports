@@ -1,0 +1,28 @@
+# Internationalized name
+description:
+    # Human-readable name of BMG, to be displayed in app
+    display_name: Over/Under 2.5 Goals
+    # Localized version of BMG_DisplayName
+    en: Over/Under 2.5 Goals
+    sen: O/U 2.5
+
+# Asset to play with
+asset: BTC
+
+# Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
+dynamic: False
+
+# Number of Betting Markets in this BMG
+number_betting_markets: 2
+
+# WIll this BMG be turned Live at Event start? This is YES for all BMGs at launch
+is_live: Yes
+
+# Human readable rules that the Grading Algorithm is a machine-readable instantiation of
+rules: R_Soccer_OU_2.5_1
+
+bettingmarkets:
+     - description:
+         en: Under 2.5 Goals
+     - description:
+         en: Over 2.5 Goals

@@ -1,0 +1,52 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "World Cup 2018: Semis"
+
+name:
+    en: "WC 2018: Semis"
+    sen: WC 2018
+
+aliases:
+  - World Cup 2018
+  - WORLD CUP 2018
+  - FIFA World Cup 2018
+  - FIFA WORLD CUP 2018
+  - WorldCup2018
+  - WORLDCUP2018
+  - FIFA WorldCup2018
+  - FIFA WORLDCUP2018
+  - World Cup Semi Finals
+  - WORLD CUP RUSSIA 2018-SEMI FINALS
+
+# .. and blockchain id
+id:
+
+participants: "FIFA_World_Cup_2018"
+
+# Define the betting market groups (each one has a subfolder)
+bettingmarketgroups:
+    - Soccer_MO_1
+    - Soccer_OU_0.5_1
+    - Soccer_OU_1.5_1
+    - Soccer_OU_2.5_1
+    - Soccer_OU_3.5_1
+    - Soccer_OU_4.5_1
+    - Soccer_OU_5.5_1
+    - Soccer_OU_6.5_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.home} v {teams.away}"
+
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 5
+
+# When does the event group/league actually begin and end?
+start_date: 2018-07-10T00:00:00Z
+finish_date: 2018-07-11T23:59:59Z
