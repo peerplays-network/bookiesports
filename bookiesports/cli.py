@@ -3,51 +3,43 @@ from bookied_sync.lookup import Lookup
 from peerplays.cli.decorators import onlineChain, unlockWallet
 from peerplays.cli.main import main
 from datetime import datetime, timedelta
-import logging
-
-log = logging.getLogger(__name__)
+from .log import log
 
 
 @main.command()
 @click.option("--approver")
 @click.option("--proposer")
+@click.option("--network", default="baxter")
 @click.pass_context
 @onlineChain
 @unlockWallet
-def sync(ctx, approver, proposer):
+def sync(ctx, approver, proposer, network):
     """ Sync the Entities in BookieSports with the blockchain
     """
-    w = Lookup(peerplays_instance=ctx.peerplays)
+    w = Lookup(peerplays_instance=ctx.peerplays, network=network)
     if proposer:
         w.set_proposing_account(proposer)
     if approver:
         w.set_approving_account(approver)
 
-    # Go through all sports
-    for sport in w.list_sports():
+    w.sync_bookiesports()
 
-        log.info("Doing sport {}".format(sport["identifier"]))
+    broadcast = w.broadcast()
+    log.info(dict(broadcast[0]))
 
-        # Update the sport
-        sport.update()
 
-        # Go through all event groups of the sport
-        for e in sport.eventgroups:
-
-            log.info("Doing eventgroup {}".format(e["identifier"]))
-
-            # Update the event group
-            e.update()
-
-        # Go through all the rules linked in the sport
-        for r in sport.rules:
-
-            log.info("Doing rule {}".format(r["identifier"]))
-
-            # Update the rule
-            r.update()
-
-    log.info(w.broadcast())
+@main.command()
+@click.option("--network", default="baxter")
+@click.pass_context
+@onlineChain
+def test(ctx, network):
+    """ Sync the Entities in BookieSports with the blockchain
+    """
+    w = Lookup(peerplays_instance=ctx.peerplays, network=network)
+    if w.is_bookiesports_in_sync:
+        click.echo("In sync!")
+    else:
+        click.echo("NOT in sync! Needs syncing!")
 
 
 if __name__ == "__main__":
