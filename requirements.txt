@@ -3,4 +3,4 @@ bookied-sync
 pyyaml
 jsonschema
 colorlog
-dateutils
+strict_rfc3339
