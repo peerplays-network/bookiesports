@@ -33,85 +33,87 @@ class BookieSports(dict):
             x = BookieSports()
 
 
-        :param string network: One out 'alice', 'baxter', or 'charlie' to
-            identify which network we are working with.
-        :param string sports_filder: An alternative folder to look for sports
-            (manual override)
+        :param string chain: One out 'alice', 'baxter', or 'charlie' to
+            identify which network we are working with. Can also be a relative path to
+            a locally stored copy of a sports folder
+        :param string override_cache: if true, cache is ignored and sports folder is forcibly reloaded and 
+                                      put into cache
+        :param string network: deprecated, please use chain
 
         It is possible to overload a custom sports_folder by providing it to
         ``BookieSports`` as parameter.
     """
 
-    #: Singelton to store data and prevent rereading if Lookup is
+    #: Singelton to store data and prevent rereading if BookieSports is
     #: instantiated multiple times
-    data = dict()
-
-    #: Folder where the data is actually stored
-    sports_folder = None
-
-    #: Network name
-    _network_name = None
+    CHAIN_CACHE = dict()
+#
+#     #: Folder where the data is actually stored
+#     sports_folder = None
+#
+#     #: Network name
+#     _network_name = None
 
     #: Schema for validation of the data
-    schema = None
+    JSON_SCHEMA = None
+
+    DEFAULT_CHAIN = "baxter"
 
     def __init__(
         self,
+        chain=None,
         network=None,
-        sports_folder=None,
-        *args,
-        **kwargs
+        override_cache=False
     ):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
 
-        if (
-            BookieSports.sports_folder is None or
-            BookieSports.network_name is None
-        ):
-            if not sports_folder:
+        if network is not None and chain is None:
+            chain = network
 
-                BookieSports._network_name = network
-                assert network in BookieSports.list_networks(), \
-                    "Unknown network {}".format(network)
+        if chain is None:
+            chain = BookieSports.DEFAULT_CHAIN
 
-                # Load bundled sports
-                BookieSports.sports_folder = os.path.join(
-                    self._cwd,
-                    "bookiesports",
-                    network.lower()
-                )
-            else:
-                # Load custom sports
-                BookieSports.sports_folder = sports_folder
+        assert chain in BookieSports.list_chains(), "Unknown chain {}".format(network)
 
-        elif sports_folder and sports_folder != BookieSports.sports_folder:
-            # clear .data
-            BookieSports._clear()
-            BookieSports.sports_folder = sports_folder
+        self.chain = chain.lower()
 
         # Load schemata
-        if not BookieSports.schema:
+        if not BookieSports.JSON_SCHEMA:
             BookieSports.schema = self._loadschema()
 
         # Do not reload sports if already stored in data
-        if not BookieSports.data:
-            if not os.path.isdir(BookieSports.sports_folder):
-                # Reset the sports_folder (since it is a singelton)
-                raise SportsNotFoundError(
-                    "No bookiesports, found in {}".format(
-                        BookieSports.sports_folder)
-                )
-
-            # Load sports
-            dict.__init__(
-                self,
-                self._loadNetwork(BookieSports.sports_folder)
+        if override_cache or BookieSports.CHAIN_CACHE.get(self.chain, None) is None:
+            # Load bundled sports
+            sports_folder = os.path.join(
+                self._cwd,
+                "bookiesports",
+                self.chain
             )
+            if not os.path.isdir(sports_folder):
+                # was it maybe a relative folder?
+                relative_sports_folder = os.path.join(
+                    self.chain
+                )
+                if not os.path.isdir(relative_sports_folder):
+                    raise SportsNotFoundError(
+                        "No bookiesports, found in {}".format(
+                            BookieSports.sports_folder)
+                    )
+                else:
+                    sports_folder = relative_sports_folder
+            BookieSports.CHAIN_CACHE[self.chain] = self._loadSports(sports_folder)
 
-            # _tests
-            self._tests()
+        # Load sports
+        super(BookieSports, self).__init__(
+            BookieSports.CHAIN_CACHE[self.chain]
+        )
+
+        self.index = self.pop("index")
+
+        # _tests
+        self._tests()
 
     @staticmethod
     def version():
@@ -131,6 +133,13 @@ class BookieSports(dict):
 
     @staticmethod
     def list_networks():
+        """
+        @deprecated please use list_chains
+        """
+        return BookieSports.list_chains()
+
+    @staticmethod
+    def list_chains():
         return [os.path.basename(network) for network in glob(
             os.path.join(
                 os.path.dirname(os.path.realpath(__file__)),
@@ -194,27 +203,33 @@ class BookieSports(dict):
 
     @property
     def network(self):
-        return self._network
+        """
+        @deprecated use self.index
+        """
+        return self.index
 
     @property
     def chain_id(self):
-        return self._network["chain_id"]
+        return self.index["chain_id"]
 
     @property
     def network_name(self):
-        return BookieSports._network_name
+        """
+        @deprecated please use self.chain
+        """
+        return self.chain
 
-    def _loadNetwork(self, network_folder):
+    def _loadSports(self, network_folder):
         """ This loads all sports recursively from the ``sports/`` folder
         """
-        network = self._loadyaml(os.path.join(network_folder, "index.yaml"))
+        index = self._loadyaml(os.path.join(network_folder, "index.yaml"))
 
         # Validate
-        jsonschema.validate(network, self.schema["network"])
-
-        self._network = network
+        jsonschema.validate(index, self.schema["network"])
 
         ret = dict()
+        ret["index"] = index
+
         for sportDir in glob(
             os.path.join(
                 self._cwd,
