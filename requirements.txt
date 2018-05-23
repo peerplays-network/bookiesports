@@ -1,5 +1,5 @@
 peerplays
-bookied-sync
+bos-sync
 pyyaml
 jsonschema
 colorlog
