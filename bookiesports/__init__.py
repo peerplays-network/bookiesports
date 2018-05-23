@@ -62,15 +62,22 @@ class BookieSports(dict):
     def __init__(
         self,
         chain=None,
-        network=None,
-        override_cache=False
+        override_cache=False,
+        **kwargs
     ):
         """ Let's load all the data from the folder and its subfolders
         """
         self._cwd = os.path.dirname(os.path.realpath(__file__))
 
+        # legacy support
+        network = kwargs.pop("network", None)
         if network is not None and chain is None:
             chain = network
+        sports_folder = kwargs.pop("sports_folder", None)
+        if sports_folder is not None and chain is None:
+            chain = sports_folder
+        elif sports_folder is not None and not chain == sports_folder:
+            raise Exception("This legacy call is not supported")
 
         if chain is None:
             chain = BookieSports.DEFAULT_CHAIN
