@@ -237,7 +237,8 @@ class BookieSports(dict):
         ret["index"] = index
 
         for sportDir in glob(
-            os.path.join(network_folder, "*")):
+            os.path.join(network_folder, "*")
+        ):
             if not os.path.isdir(sportDir):
                 continue
             sportname = os.path.basename(sportDir)

@@ -35,4 +35,3 @@ def string_to_date(date_string=None):
         return datetime.utcfromtimestamp(
             strict_rfc3339.rfc3339_to_timestamp(date_string))
     raise Exception("Only string covnersion supported")
-
