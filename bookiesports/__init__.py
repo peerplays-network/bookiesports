@@ -36,7 +36,7 @@ class BookieSports(dict):
         :param string chain: One out 'alice', 'baxter', or 'charlie' to
             identify which network we are working with. Can also be a relative path to
             a locally stored copy of a sports folder
-        :param string override_cache: if true, cache is ignored and sports folder is forcibly reloaded and 
+        :param string override_cache: if true, cache is ignored and sports folder is forcibly reloaded and
                                       put into cache
         :param string network: deprecated, please use chain
 
@@ -59,6 +59,9 @@ class BookieSports(dict):
 
     DEFAULT_CHAIN = "baxter"
 
+    BASE_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "bookiesports")
+    SPORTS_FOLDER = None
+
     def __init__(
         self,
         chain=None,
@@ -73,18 +76,22 @@ class BookieSports(dict):
         network = kwargs.pop("network", None)
         if network is not None and chain is None:
             chain = network
-        sports_folder = kwargs.pop("sports_folder", None)
-        if sports_folder is not None and chain is None:
-            chain = sports_folder
-        elif sports_folder is not None and not chain == sports_folder:
-            raise Exception("This legacy call is not supported")
 
+        # Define chain
         if chain is None:
             chain = BookieSports.DEFAULT_CHAIN
 
-        assert chain in BookieSports.list_chains(), "Unknown chain {}".format(network)
-
         self.chain = chain.lower()
+
+        # Sports to look for chains
+        if "sports_folder" in kwargs and kwargs["sports_folder"]:
+            BookieSports.BASE_FOLDER = kwargs.pop("sports_folder")
+        BookieSports.SPORTS_FOLDER = os.path.join(
+            BookieSports.BASE_FOLDER,
+            self.chain
+        )
+
+        assert chain in BookieSports.list_chains(), "Unknown chain {}".format(network)
 
         # Load schemata
         if not BookieSports.JSON_SCHEMA:
@@ -93,12 +100,7 @@ class BookieSports(dict):
         # Do not reload sports if already stored in data
         if override_cache or BookieSports.CHAIN_CACHE.get(self.chain, None) is None:
             # Load bundled sports
-            sports_folder = os.path.join(
-                self._cwd,
-                "bookiesports",
-                self.chain
-            )
-            if not os.path.isdir(sports_folder):
+            if not os.path.isdir(BookieSports.SPORTS_FOLDER):
                 # was it maybe a relative folder?
                 relative_sports_folder = os.path.join(
                     self.chain
@@ -106,11 +108,11 @@ class BookieSports(dict):
                 if not os.path.isdir(relative_sports_folder):
                     raise SportsNotFoundError(
                         "No bookiesports, found in {}".format(
-                            BookieSports.sports_folder)
+                            BookieSports.SPORTS_FOLDER)
                     )
                 else:
-                    sports_folder = relative_sports_folder
-            BookieSports.CHAIN_CACHE[self.chain] = self._loadSports(sports_folder)
+                    BookieSports.SPORTS_FOLDER = relative_sports_folder
+            BookieSports.CHAIN_CACHE[self.chain] = self._loadSports(BookieSports.SPORTS_FOLDER)
 
         # Load sports
         super(BookieSports, self).__init__(
@@ -148,10 +150,7 @@ class BookieSports(dict):
     @staticmethod
     def list_chains():
         return [os.path.basename(network) for network in glob(
-            os.path.join(
-                os.path.dirname(os.path.realpath(__file__)),
-                "bookiesports",
-                '*')
+            os.path.join(BookieSports.BASE_FOLDER, '*')
         )]
 
     @staticmethod
@@ -238,10 +237,8 @@ class BookieSports(dict):
         ret["index"] = index
 
         for sportDir in glob(
-            os.path.join(
-                self._cwd,
-                network_folder,
-                "*")):
+            os.path.join(network_folder, "*")
+        ):
             if not os.path.isdir(sportDir):
                 continue
             sportname = os.path.basename(sportDir)
