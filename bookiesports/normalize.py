@@ -192,7 +192,7 @@ class IncidentsNormalizer(object):
         return normalized_incident
 
     def _search_in(self, search_for, in_list):
-        return search_for.lower() in [x.lower() for x in in_list]
+        return search_for.strip().lower() in [x.strip().lower() for x in in_list]
 
     @staticmethod
     def not_found(key):
