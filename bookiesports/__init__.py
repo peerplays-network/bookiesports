@@ -84,7 +84,8 @@ class BookieSports(dict):
         self.chain = chain.lower()
 
         # Sports to look for chains
-        BookieSports.BASE_FOLDER = kwargs.pop("sports_folder", BookieSports.BASE_FOLDER)
+        if "sports_folder" in kwargs and kwargs["sports_folder"]:
+            BookieSports.BASE_FOLDER = kwargs.pop("sports_folder")
         BookieSports.SPORTS_FOLDER = os.path.join(
             BookieSports.BASE_FOLDER,
             self.chain
