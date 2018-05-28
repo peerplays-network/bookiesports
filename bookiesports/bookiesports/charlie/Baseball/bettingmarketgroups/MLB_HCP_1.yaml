@@ -24,6 +24,6 @@ rules: R_MLB_HCP_1
 bettingmarkets:
 # This needs work!
      - description:
-         en: '{teams.away}' + 1.5 runs'
+         en: '{teams.away} + 1.5 runs'
      - description:
-         en: '{teams.home}' - 1.5 runs'
+         en: '{teams.home} - 1.5 runs'
