@@ -5,7 +5,7 @@ name:
 description:
     en:
       MARKET INFORMATION
-      How many runs in total will be scored in this match - Over or Under the stated number? This market will be settled according to the score at the end of the match, including overtime.
+      How many runs in total will be scored in this match - Over or Under 8.5 runs? This market will be settled according to the score at the end of the match, including overtime.
       At the start of play all unmatched bets will be cancelled and the market turned in-play.
       Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
       Please also be aware that transmissions described as “live” by some broadcasters may actually be delayed and that not all in-play matches are necessarily televised.
@@ -14,11 +14,11 @@ description:
 grading:
  metric: "{result.awayteam} + {result.hometeam}"
  resolutions:
-   # First betting market is "Under the stated Total Points"
-   - win: "{metric} > XXX"
-     not_win: "{metric} < XXX"
+   # First betting market is "Under 8.5"
+   - win: "{metric} < 8.5"
+     not_win: "{metric} > 8.5"
      void: "False"
-   # Second betting market is "Over the stated Total Points"
-   - win: "{metric} < XXX"
-     not_win: "{metric} > XXX"
+   # Second betting market is "Over 8.5"
+   - win: "{metric} > 8.5"
+     not_win: "{metric} < 8.5"
      void: "False"
