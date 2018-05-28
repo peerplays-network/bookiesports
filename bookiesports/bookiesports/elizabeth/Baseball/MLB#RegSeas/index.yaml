@@ -1,0 +1,51 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "MLB Regular Season"
+
+name:
+    en: MLB Regular Season
+    sen: MLB
+
+aliases:
+  - Major League Baseball
+  - MajorLeagueBaseball - Regular Season
+  - Major League Baseball - RegularSeason
+  - MajorLeagueBaseball Regular Season
+  - Major League Baseball RegularSeason
+  - Major League Baseball Regular Season
+  - MLB
+  - MLB Regular Season
+  - MLB-REGULAR SEASON
+  - MLB-REGULARSEASON
+  - MLB REGULAR SEASON
+  - MLB REGULARSEASON
+  - MLBREGULAR SEASON
+  - MLBREGULARSEASON
+
+
+# .. and blockchain id
+id:
+
+participants: "MLB_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - MLB_ML_1
+    - MLB_HCP_1
+    - MLB_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 2
+
+# When does the event group/league actually begin and end?
+start_date: 2018-03-28T00:00:00Z
+finish_date: 2018-10-01T23:59:59Z
