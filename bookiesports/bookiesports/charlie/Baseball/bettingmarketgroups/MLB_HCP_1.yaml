@@ -10,7 +10,7 @@ description:
 asset: BTF
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
-dynamic: True
+dynamic: False
 
 # Number of Betting Markets in this BMG
 number_betting_markets: 2
@@ -24,6 +24,6 @@ rules: R_MLB_HCP_1
 bettingmarkets:
 # This needs work!
      - description:
-         en: '{teams.home} +/- {handicap}'
+         en: '{teams.away}' + 1.5 runs'
      - description:
-         en: '{teams.away} +/- {handicap}'
+         en: '{teams.home}' - 1.5 runs'

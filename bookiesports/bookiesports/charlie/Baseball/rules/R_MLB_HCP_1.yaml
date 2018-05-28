@@ -12,14 +12,13 @@ description:
       Commission and Transaction Fees apply to all bets placed in this market.
       For further information please see Bookie Rules.
 grading:
- # Unclear how handicap is going to be defined here.
- metric: "{result.awayteam} XXX - {result.hometeam} XXX"
+ metric: "{result.awayteam} - {result.hometeam}"
  resolutions:
-   # First betting market is the "away team wins with handicap taken into account"
-   - win: "{metric} > 0"
-     not_win: "{metric} < 0"
+   # First betting market is '{teams.away}' + 1.5 runs'
+   - win: "{metric} + 1.5 > 0"
+     not_win: "{metric} + 1.5 < 0"
      void: "False"
-   # Second betting market is "home team wins with handicap taken into account"
-   - win: "{metric} < 0"
-     not_win: "{metric} > 0"
+   # Second betting market is '{teams.home}' - 1.5 runs'
+   - win: "{metric} + 1.5 < 0"
+     not_win: "{metric} + 1.5 > 0"
      void: "False"
