@@ -45,7 +45,7 @@ eventscheme:
 
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 7
+leadtime_Max: 50
 
 # When does the event group/league actually begin and end?
 start_date: 2018-06-29T00:00:00Z

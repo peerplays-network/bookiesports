@@ -1,0 +1,24 @@
+identifier: R_MLB_HCP_1
+id:
+name:
+    en: R_MLB_HCP_1
+description:
+    en:
+      MARKET INFORMATION
+      Which team will win this match with the stated handicap applied? This market will be settled according to the score at the end of the match, including overtime.
+      At the start of play any unmatched bets will be automatically cancelled and the market will turn in-play.
+      Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
+      Please also be aware that transmissions described as “live” may actually involve a certain time delay which can vary from case to case.
+      Commission and Transaction Fees apply to all bets placed in this market.
+      For further information please see Bookie Rules.
+grading:
+ metric: "{result.awayteam} - {result.hometeam}"
+ resolutions:
+   # First betting market is '{teams.away}' + 1.5 runs'
+   - win: "{metric} + 1.5 > 0"
+     not_win: "{metric} + 1.5 < 0"
+     void: "False"
+   # Second betting market is '{teams.home}' - 1.5 runs'
+   - win: "{metric} + 1.5 < 0"
+     not_win: "{metric} + 1.5 > 0"
+     void: "False"
