@@ -1,0 +1,228 @@
+participants:
+- aliases:
+  - Arizona
+  - Diamondbacks
+  identifier: "Arizona Diamondbacks"
+  name:
+    en: Arizona Diamondbacks
+    sen: Diamondbacks
+- aliases:
+  - Atlanta
+  - Braves
+  identifier: "Atlanta Braves"
+  name:
+    en: Atlanta Braves
+    sen: Braves
+- aliases:
+  - Baltimore
+  - Orioles
+  identifier: "Baltimore Orioles"
+  name:
+    en: Baltimore Orioles
+    sen: Orioles
+- aliases:
+  - Boston
+  - Red Sox
+  identifier: "Boston Red Sox"
+  name:
+    en: Boston Red Sox
+    sen: Red Sox
+- aliases:
+  - Cubs
+  identifier: "Chicago Cubs"
+  name:
+    en: Chicago Cubs
+    sen: Cubs
+- aliases:
+  - White Sox
+  identifier: "Chicago White Sox"
+  name:
+    en: Chicago White Sox
+    sen: White Sox
+- aliases:
+  - Cincinnati
+  - Reds
+  identifier: "Cincinnati Reds"
+  name:
+    en: Cincinnati Reds
+    sen: Reds
+- aliases:
+  - Cleveland
+  - Indians
+  identifier: "Cleveland Indians"
+  name:
+    en: Cleveland Indians
+    sen: Indians
+- aliases:
+  - Colorado
+  - Rockies
+  identifier: "Colorado Rockies"
+  name:
+    en: Colorado Rockies
+    sen: Rockies
+- aliases:
+  - Detroit
+  - Tigers
+  identifier: "Detroit Tigers"
+  name:
+    en: Detroit Tigers
+    sen: Tigers
+- aliases:
+  - Houston
+  - Astros
+  identifier: "Houston Astros"
+  name:
+    en: Houston Astros
+    sen: Astros
+- aliases:
+  - KC Royals
+  - Kansas City
+  - Royals
+  identifier: "Kansas City Royals"
+  name:
+    en: Kansas City Royals
+    sen: Royals
+- aliases:
+  - Angels
+  - L.A. Angels
+  - L. A. Angels
+  - LA Angels
+  - LAAngels
+  - Los Angeles Angels of Anaheim
+  - LA Angels of Anaheim
+  identifier: "Los Angeles Angels"
+  name:
+    en: Los Angeles Angels
+    sen: Angels
+- aliases:
+  - Dodgers
+  - L.A. Dodgers
+  - L. A. Dodgers
+  - LA Dodgers
+  - LADodgers
+  identifier: "Los Angeles Dodgers"
+  name:
+    en: Los Angeles Dodgers
+    sen: Dodgers
+- aliases:
+  - Miami
+  - Marlins
+  identifier: "Miami Marlins"
+  name:
+    en: Miami Marlins
+    sen: Marlins
+- aliases:
+  - Milwaukee
+  - Brewers
+  identifier: "Milwaukee Brewers"
+  name:
+    en: Milwaukee Brewers
+    sen: Brewers
+- aliases:
+  - Minnesota
+  - Twins
+  identifier: "Minnesota Twins"
+  name:
+    en: Minnesota Twins
+    sen: Twins
+- aliases:
+  - NY Mets
+  - N.Y. Mets
+  - NYMets
+  - Mets
+  identifier: "New York Mets"
+  name:
+    en: New York Mets
+    sen: Mets
+- aliases:
+  - NY Yankees
+  - N.Y. Yankees
+  - NYYankees
+  - Yankees
+  identifier: "New York Yankees"
+  name:
+    en: New York Yankees
+    sen: Yankees
+- aliases:
+  - Oakland
+  - Athletics
+  identifier: "Oakland Athletics"
+  name:
+    en: Oakland Athletics
+    sen: Athletics
+- aliases:
+  - Philadelphia
+  - Phillies
+  identifier: "Philadelphia Phillies"
+  name:
+    en: Philadelphia Phillies
+    sen: Phillies
+- aliases:
+  - Pittsburgh
+  - Pirates
+  identifier: "Pittsburgh Pirates"
+  name:
+    en: Pittsburgh Pirates
+    sen: Pirates
+- aliases:
+  - San Diego
+  - Padres
+  identifier: "San Diego Padres"
+  name:
+    en: San Diego Padres
+    sen: Padres
+- aliases:
+  - San Francisco
+  - Giants
+  identifier: "San Francisco Giants"
+  name:
+    en: San Francisco Giants
+    sen: Giants
+- aliases:
+  - Seattle
+  - Mariners
+  identifier: "Seattle Mariners"
+  name:
+    en: Seattle Mariners
+    sen: Mariners
+- aliases:
+  - St. Louis
+  - St.Louis
+  - Saint.Louis
+  - Saint Louis
+  - St.Louis Cardinals
+  - Saint.Louis Cardinals
+  - Saint Louis Cardinals
+  - Cardinals
+  identifier: "St. Louis Cardinals"
+  name:
+    en: St. Louis Cardinals
+    sen: Cardinals
+- aliases:
+  - Tampa Bay
+  - Rays
+  identifier: "Tampa Bay Rays"
+  name:
+    en: Tampa Bay Rays
+    sen: Rays
+- aliases:
+  - Texas
+  - Rangers
+  identifier: "Texas Rangers"
+  name:
+    en: Texas Rangers
+    sen: Rangers
+- aliases:
+  - Toronto
+  - Blue Jays
+  identifier: "Toronto Blue Jays"
+  name:
+    en: Toronto Blue Jays
+    sen: Blue Jays
+- aliases:
+  - Washington
+  - Nationals
+  identifier: "Washington Nationals"
+  name:
+    en: Washington Nationals
+    sen: Nationals
