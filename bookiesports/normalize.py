@@ -75,7 +75,7 @@ class IncidentsNormalizer(object):
             return True
         if self._search_in(search_for, search_container["name"].values()):
             return True
-        if search_container.get("identifier", None) == search_for:
+        if search_container.get("identifier", "").strip().lower() == search_for.strip().lower():
             return True
         return False
 
