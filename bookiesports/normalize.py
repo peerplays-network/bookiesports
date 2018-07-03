@@ -1,4 +1,5 @@
 from . import BookieSports, datestring
+import logging
 
 
 class NotNormalizableException(Exception):
@@ -74,7 +75,7 @@ class IncidentsNormalizer(object):
             return True
         if self._search_in(search_for, search_container["name"].values()):
             return True
-        if search_container.get("identifier", None) == search_for:
+        if search_container.get("identifier", "").strip().lower() == search_for.strip().lower():
             return True
         return False
 
@@ -193,6 +194,13 @@ class IncidentsNormalizer(object):
 
     def _search_in(self, search_for, in_list):
         return search_for.strip().lower() in [x.strip().lower() for x in in_list]
+
+    @staticmethod
+    def use_chain(chain, not_found_file=None):
+        IncidentsNormalizer.DEFAULT_CHAIN = chain
+        IncidentsNormalizer.NOT_FOUND_FILE = not_found_file
+
+        logging.getLogger(__name__).debug("Incidents normalizer set for chain " + chain + ", using " + str(not_found_file) + " for missing entries")
 
     @staticmethod
     def not_found(key):
