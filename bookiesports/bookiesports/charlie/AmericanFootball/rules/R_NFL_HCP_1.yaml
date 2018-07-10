@@ -13,7 +13,7 @@ description:
       For further information please see Bookie Rules.
 grading:
  # Unclear how handicap is going to be defined here.
- metric: "{result.awayteam} XXX - {result.hometeam} XXX"
+ metric: "({result.home} - {handicaps.home}) - ({result.away} - {handicaps.away})"
  resolutions:
    # First betting market is the "away team wins with handicap taken into account"
    - win: "{metric} > 0"
