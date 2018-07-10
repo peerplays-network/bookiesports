@@ -70,7 +70,7 @@ All modules are listed in the ``substitutions`` variable in
 The modules themselves (captical first letter) are defined in the same
 file and can be as easy as
 
-... code-block:: python
+.. code-block:: python
 
      class Result:
          """ Defines a few variables to be used in conjuctions with {result.X}
@@ -88,7 +88,7 @@ file and can be as easy as
 
 and as complex as
 
-... code-block:: python
+.. code-block:: python
 
     class Teams:
         """ Defines a few variables to be used in conjuctions with {teams.X}
