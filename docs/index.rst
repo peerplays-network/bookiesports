@@ -33,6 +33,7 @@ Outline
    installation
    bookiesports
    schema
+   namingscheme
 
 API
 ---
