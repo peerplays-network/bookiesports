@@ -1,16 +1,16 @@
 # Internationalized name
 description:
     # Human-readable name of BMG, to be displayed in app
-    display_name: Handicap
+    display_name: "HC ({handicaps.home_score}:{handicaps.away_score})"
     # Localized version of BMG_DisplayName
-    en: Handicap
-    sen: Handicap
+    en: "Handicap ({handicaps.home_score}:{handicaps.away_score})"
+    sen: "Handicap ({handicaps.home_score}:{handicaps.away_score})"
 
 # Asset to play with
 asset: BTF
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
-dynamic: False
+dynamic: hc
 
 # Number of Betting Markets in this BMG
 number_betting_markets: 2
@@ -22,8 +22,9 @@ is_live: True
 rules: R_MLB_HCP_1
 
 bettingmarkets:
-# This needs work!
+     ## Home Team #################
      - description:
-         en: '{teams.away} + 1.5 runs'
+         en: '{teams.home} ({handicaps.home})'
+     ## Away Team #################
      - description:
-         en: '{teams.home} - 1.5 runs'
+         en: '{teams.away} ({handicaps.away})'
