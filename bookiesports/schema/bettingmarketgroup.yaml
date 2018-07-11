@@ -11,8 +11,13 @@ properties:
   $ref: "#/definitions/asset"
 
  dynamic:
-  type: boolean
   description: Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
+  anyOf:
+   - type: string
+     enum:
+      - ou  # Over under
+      - hc  # handicap
+   - type: boolean
 
  number_betting_markets:
   type: number
