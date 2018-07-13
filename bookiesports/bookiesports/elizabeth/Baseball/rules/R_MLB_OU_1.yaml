@@ -12,13 +12,11 @@ description:
       Commission and Transaction Fees apply to all bets placed in this market.
       For further information please see Bookie Rules.
 grading:
- metric: "{result.awayteam} + {result.hometeam}"
+ metric: '{result.total}'
  resolutions:
-   # First betting market is "Under 8.5"
-   - win: "{metric} < 8.5"
-     not_win: "{metric} > 8.5"
-     void: "False"
-   # Second betting market is "Over 8.5"
-   - win: "{metric} > 8.5"
-     not_win: "{metric} < 8.5"
-     void: "False"
+ - void: 'False'
+   not_win: '{metric} > {overunder.value}'
+   win: '{metric} <= {overunder.value}'
+ - void: 'False'
+   not_win: '{metric} <= {overunder.value}'
+   win: '{metric} > {overunder.value}'
