@@ -1,0 +1,190 @@
+participants:
+- aliases:
+  - D. Alaves
+  - Alavés
+  - Deportivo Alaves
+  - DeportivoAlaves
+  - Deportivo Alavés
+  - DeportivoAlavés
+  name:
+    en: Alaves
+    sen: Alaves
+- aliases:
+  - Ath. Bilbao
+  - Ath Bilbao
+  - Athletic
+  - Athletic Club
+  - AthleticClub
+  - AthleticBilbao
+  name:
+    en: Athletic Bilbao
+    sen: Ath Bilbao
+- aliases:
+  - Atlético
+  - Atletico
+  - Atletico Madrid
+  - AtleticoMadrid
+  - Atlético Madrid
+  - Atletico de Madrid
+  - Atlético de Madrid
+  - Club Atlético de Madrid
+  - Club Atletico de Madrid
+  - Atl. Madrid
+  - Atl Madrid
+  name:
+    en: Atletico Madrid
+    sen: Atl Madrid
+- aliases:
+  - Barcelona FC
+  - BarcelonaFC
+  - Barca
+  - FC Barcelona
+  - FCBarcelona
+  - Barça
+  name:
+    en: Barcelona
+    sen: Barcelona
+- aliases:
+  - RC Celta Vigo
+  - RC Celta
+  - RCCelta
+  - Celta
+  - CeltaVigo
+  - Real Club Celta de Vigo
+  - Celta de Vigo
+  name:
+    en: Celta Vigo
+    sen: Celta Vigo
+- aliases:
+  - SD Eibar
+  - SDEibar
+  - Sociedad Deportiva Eibar
+  name:
+    en: Eibar
+    sen: Eibar
+- aliases:
+  - Getafe CF
+  - GetafeCF
+  - Getafe Club de Fútbol
+  - Getafe Club de Futbol
+  name:
+    en: Getafe
+    sen: Getafe
+- aliases:
+  - Girona FC
+  - GironaFC
+  - Girona Futbol Club
+  name:
+    en: Girona
+    sen: Girona
+- aliases:
+  - Huesca SAD
+  - Sociedad Deportiva Huesca
+  - SD Huesca
+  - S D Huesca
+  - Sociedad Deportiva Huesca SAD
+  - SD Huesca SAD
+  - S D Huesca SAD
+  name:
+    en: Huesca
+    sen: Huesca
+- aliases:
+  - Leganes
+  - Leganés
+  - CD Leganes
+  - CDLeganes
+  - CD Leganés
+  - CDLeganés
+  - Club Deportivo Leganés
+  - Club Deportivo Leganes
+  name:
+    en: Leganes
+    sen: Leganes
+- aliases:
+  - Levante UD
+  - LevanteUD
+  - Levante Unión Deportiva
+  - Levante Union Deportiva
+  name:
+    en: Levante
+    sen: Levante
+- aliases:
+  - Sevilla FC
+  - Sevilla CF
+  - SevillaFC
+  - SevillaCF
+  - Sevilla Fútbol Club
+  - Sevilla Futbol Club
+  - FC Sevilla
+  - FCSevilla
+  - CFSevilla
+  - CF Sevilla
+  name:
+    en: Sevilla
+    sen: Sevilla
+- aliases:
+  - Real Betis Balompié
+  - Real Betis Balompie
+  - RealBetis
+  - Real Betis
+  name:
+    en: Betis
+    sen: Betis
+- aliases:
+  - RCD Espanyol
+  - RCDEspanyol
+  - Espanyol Barcelona
+  - Reial Club Deportiu Espanyol de Barcelona
+  name:
+    en: Espanyol
+    sen: Espanyol
+- aliases:
+  - Real Madrid Club de Fútbol
+  - Real Madrid Club de Futbol
+  - Real Madrid CF
+  - RealMadrid
+  name:
+    en: Real Madrid
+    sen: Real Madrid
+- aliases:
+  - Real Sociedad
+  - Real Sociedad de Fútbol
+  - Real Sociedad de Futbol
+  - La Real
+  - RealSociedad
+  name:
+    en: Sociedad
+    sen: Sociedad
+- aliases:
+  - Valencia CF
+  - ValenciaCF
+  - Valencia Club de Fútbol
+  - Valencia Club de Futbol
+  name:
+    en: Valencia
+    sen: Valencia
+- aliases:
+  - RayoVallecano
+  - Rayo Vallecano de Madrid
+  - Rayo Vallecano de Madrid SAD
+  - Rayo
+  - Vallecano
+  name:
+    en: Rayo Vallecano
+    sen: Rayo Vallecano
+- aliases:
+  - Real Valladolid
+  - RealValladolid
+  - Real Valladolid SAD
+  - RealValladolid SAD
+  name:
+    en: Valladolid
+    sen: Valladolid
+- aliases:
+  - Villarreal CF
+  - VillarrealCF
+  - Villarreal Club de Fútbol
+  - Villarreal Club de Futbol
+  name:
+    en: Villarreal
+    sen: Villarreal

@@ -4,23 +4,23 @@
 #        events
 # as children
 
-identifier: "EPL"
+identifier: "SerieA"
 
 name:
-    en: English Premier League
-    sen: EPL
+    en: Serie A
+    sen: Serie A
 
 aliases:
-  - English Premier League
-  - EnglishPremierLeague
-  - Premier League
-  - PremierLeague
-  - EPL
+ - SerieA
+ - SerieA TIM
+ - Serie A TIM
+ - SerieATIM
+ - Serie ATIM
 
 # .. and blockchain id
 id:
 
-participants: "EPL_Teams_2018-19"
+participants: "SER-A_Teams_2018-19"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
@@ -38,10 +38,9 @@ eventscheme:
     name:
      en: "{teams.home} v {teams.away}"
 
-
 # How long before the event do we create these group? (in days)
 leadtime_Max: 6
 
 # When does the event group/league actually begin and end?
-start_date: 2018-08-09T00:00:00Z
+start_date: 2018-08-15T00:00:00Z
 finish_date: 2019-05-31T23:59:59Z
