@@ -12,7 +12,7 @@ description:
       Commission and Transaction Fees apply to all bets placed in this market.
       For further information please see Bookie Rules.
 grading:
- metric: "({result.home} - {handicaps.home}) - ({result.away} - {handicaps.away})"
+ metric: "({result.home} + {handicaps.home_score}) - ({result.away} + {handicaps.away_score})"
  resolutions:
    # First betting market is the "away team wins with handicap taken into account"
    - win: "{metric} > 0"
