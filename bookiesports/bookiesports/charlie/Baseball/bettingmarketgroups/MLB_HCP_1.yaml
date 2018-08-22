@@ -1,10 +1,10 @@
 # Internationalized name
 description:
     # Human-readable name of BMG, to be displayed in app
-    display_name: "HC ({handicaps.home_score}:{handicaps.away_score})"
+    display_name: "{teams.away} {handicaps.away}"
     # Localized version of BMG_DisplayName
-    en: "Handicap ({handicaps.home_score}:{handicaps.away_score})"
-    sen: "Handicap ({handicaps.home_score}:{handicaps.away_score})"
+    en: "{teams.away} {handicaps.away}"
+    sen: "{teams.away} {handicaps.away}"
 
 # Asset to play with
 asset: BTF
@@ -24,7 +24,7 @@ rules: R_MLB_HCP_1
 bettingmarkets:
      ## Home Team #################
      - description:
-         en: '{teams.home} ({handicaps.home})'
+         en: '{teams.home} {handicaps.home}'
      ## Away Team #################
      - description:
-         en: '{teams.away} ({handicaps.away})'
+         en: '{teams.away} {handicaps.away}'
