@@ -46,7 +46,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "EuropeClub_Teams_2017-18"
+participants: "EuropeClub_Teams_2018-19"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
@@ -69,5 +69,5 @@ eventscheme:
 leadtime_Max: 6
 
 # When does the event group/league actually begin and end?
-start_date: 2017-08-11T00:00:00Z
-finish_date: 2018-05-31T23:59:59Z
+start_date: 2018-09-01T00:00:00Z
+finish_date: 2019-06-01T23:59:59Z
