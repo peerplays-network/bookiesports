@@ -35,7 +35,7 @@ class IncidentsNormalizer(object):
         If normalization errors should be written to file, set file here
     """
 
-    DEFAULT_CHAIN = "baxter"
+    DEFAULT_CHAIN = "beatrice"
     """
         default chosen chain for bookiesports
     """
