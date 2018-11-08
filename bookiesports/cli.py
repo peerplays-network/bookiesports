@@ -9,7 +9,7 @@ from .log import log
 @main.command()
 @click.option("--approver")
 @click.option("--proposer")
-@click.option("--network", default="baxter")
+@click.option("--network", default="beatrice")
 @click.pass_context
 @onlineChain
 @unlockWallet
@@ -29,7 +29,7 @@ def sync(ctx, approver, proposer, network):
 
 
 @main.command()
-@click.option("--network", default="baxter")
+@click.option("--network", default="beatrice")
 @click.pass_context
 @onlineChain
 def test(ctx, network):

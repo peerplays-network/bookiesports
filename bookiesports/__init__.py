@@ -33,7 +33,7 @@ class BookieSports(dict):
             x = BookieSports()
 
 
-        :param string chain: One out 'alice', 'baxter', or 'charlie' to
+        :param string chain: One out 'alice', 'beatrice', or 'charlie' to
             identify which network we are working with. Can also be a relative path to
             a locally stored copy of a sports folder
         :param string override_cache: if true, cache is ignored and sports folder is forcibly reloaded and
@@ -57,7 +57,7 @@ class BookieSports(dict):
     #: Schema for validation of the data
     JSON_SCHEMA = None
 
-    DEFAULT_CHAIN = "baxter"
+    DEFAULT_CHAIN = "beatrice"
 
     BASE_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "bookiesports")
     SPORTS_FOLDER = None
