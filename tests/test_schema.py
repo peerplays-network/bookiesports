@@ -13,9 +13,9 @@ class Testcases(unittest.TestCase):
         charlie = BookieSports("alice")
         self.assertEqual(charlie.chain_id, "6b6b5f0ce7a36d323768e534f3edb41c6d6332a541a95725b98e28d140850134")
 
-    def test_baxter(self):
-        charlie = BookieSports("beatrice")
-        self.assertEqual(charlie.chain_id, "be6b79295e728406cbb7494bcb626e62ad278fa4018699cf8f75739f4c1a81fd")
+    def test_beatrice(self):
+        beatrice = BookieSports("beatrice")
+        self.assertEqual(beatrice.chain_id, "b3f7fe1e5ad0d2deca40a626a4404524f78e65c3a48137551c33ea4e7c365672")
 
     def test_charlie(self):
         charlie = BookieSports("charlie")
