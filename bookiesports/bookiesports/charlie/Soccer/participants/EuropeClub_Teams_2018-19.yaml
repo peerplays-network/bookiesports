@@ -199,10 +199,12 @@ participants:
 - aliases:
   - 1899Hoffenheim
   - 1899 Hoffenheim
+  - TSG 1899 Hoffenheim
   name:
     en: Hoffenheim
     sen: Hoffenheim
 - aliases:
+  - FC Schalke 04
   - Schalke 04
   - Schalke04
   name:
@@ -363,6 +365,7 @@ participants:
 - aliases:
   - CSKA
   - CSKAMoscow
+  - CSKA Moskva
   name:
     en: CSKA Moscow
     sen: CSKA Moscow
@@ -373,6 +376,7 @@ participants:
   - Lok. Moscow
   - Lok.Moscow
   - LokomotivMoscow
+  - Lokomotiv Moskva
   name:
     en: Lokomotiv Moscow
     sen: Lok. Moscow
@@ -530,11 +534,14 @@ participants:
     en: Besiktas
     sen: Besiktas
 - aliases:
+  - Galatasary
   - GalatasarySK
   - Galatasary SK
+  - GalatasaraySK
+  - Galatasaray SK
   name:
-    en: Galatasary
-    sen: Galatasary
+    en: Galatasaray
+    sen: Galatasaray
 # Ukrainian teams
 - aliases:
   - Astana Football Club
