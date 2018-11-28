@@ -1,0 +1,53 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "NBA Playoffs"
+
+name:
+    en: NBA Playoffs
+    sen: NBA
+
+aliases:
+  - National Basketball Association
+  - National Basketball Association - Playoffs
+  - NationalBasketballAssociation - Playoffs
+  - National Basketball Association Playoffs
+  - NationalBasketballAssociation Playoffs
+  - NBA - Playoffs
+  - NBA
+  - NBA-PLAYOFFS
+  - NBA-PLAY OFFS
+  - NBA PLAYOFFS
+  - NBA PLAY OFFS
+  - NBAPLAYOFFS
+  - NBAPLAY OFFS
+  - NBA-FIRST ROUND
+  - NBA-CONFERENCE SEMI FINALS
+  - NBA-CONFERENCE FINALS
+
+
+# .. and blockchain id
+id:
+
+participants: "NBA_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NBA_ML_1
+    - NBA_HCP_1
+    - NBA_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 2
+
+# When does the event group/league actually begin and end?
+start_date: 2019-04-13T00:00:00Z
+finish_date: 2019-05-30T23:59:59Z

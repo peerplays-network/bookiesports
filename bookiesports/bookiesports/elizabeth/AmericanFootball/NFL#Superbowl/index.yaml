@@ -45,6 +45,8 @@ participants: "NFL_Teams_2018-19"
 # Define the betting market groups
 bettingmarketgroups:
     - NFL_ML_1
+    - NFL_HCP_1
+    - NFL_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:

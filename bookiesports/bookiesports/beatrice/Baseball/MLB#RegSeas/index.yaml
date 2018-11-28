@@ -35,6 +35,8 @@ participants: "MLB_Teams_2017-18"
 # Define the betting market groups
 bettingmarketgroups:
     - MLB_ML_1
+    - MLB_HCP_1
+    - MLB_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
