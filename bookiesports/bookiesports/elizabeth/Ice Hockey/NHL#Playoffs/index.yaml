@@ -1,0 +1,49 @@
+# This file represents an
+#        Event Group
+# Each sport has
+#        events
+# as children
+
+identifier: "NHL Playoffs"
+
+name:
+    en: NHL Playoffs
+    sen: NHL
+
+aliases:
+  - National Hockey League
+  - National Hockey League - Playoffs
+  - NationalHockeyLeague - Playoffs
+  - National Hockey League Playoffs
+  - NationalHockeyLeague Playoffs
+  - NHL
+  - NHL-PLAYOFFS
+  - NHL-PLAY OFFS
+  - NHL PLAYOFFS
+  - NHL PLAY OFFS
+  - NHLPLAYOFFS
+  - NHLPLAY OFFS
+  - NHL - Playoffs
+
+# .. and blockchain id
+id:
+
+participants: "NHL_Teams_2017-18"
+
+# Define the betting market groups
+bettingmarketgroups:
+    - NHL_ML_1
+    - NHL_HCP_1
+    - NHL_OU_1
+
+# How are individual Events named (naming scheme)
+eventscheme:
+    name:
+     en: "{teams.away} @ {teams.home}"
+
+# How long before the event do we create these group? (in days)
+leadtime_Max: 2
+
+# When does the event group/league actually begin and end?
+start_date: 2019-04-09T00:00:00Z
+finish_date: 2019-06-30T23:59:59Z
