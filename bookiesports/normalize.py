@@ -206,6 +206,6 @@ class IncidentsNormalizer(object):
     def not_found(key):
         if IncidentsNormalizer.NOT_FOUND_FILE is not None and IncidentsNormalizer.NOT_FOUND.get(key, None) is None:
             with open(IncidentsNormalizer.NOT_FOUND_FILE, "a") as file:
-                file.write(key + "\n")
+                file.write((key + "\n").encode('utf8'))
 
         IncidentsNormalizer.NOT_FOUND[key] = ""
