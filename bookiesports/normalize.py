@@ -205,7 +205,7 @@ class IncidentsNormalizer(object):
     @staticmethod
     def not_found(key):
         if IncidentsNormalizer.NOT_FOUND_FILE is not None and IncidentsNormalizer.NOT_FOUND.get(key, None) is None:
-            with open(IncidentsNormalizer.NOT_FOUND_FILE, "a") as file:
-                file.write((key + "\n").encode('utf8'))
+            with open(IncidentsNormalizer.NOT_FOUND_FILE, "a", encoding="utf-8") as file:
+                file.write(key + "\n")
 
         IncidentsNormalizer.NOT_FOUND[key] = ""
