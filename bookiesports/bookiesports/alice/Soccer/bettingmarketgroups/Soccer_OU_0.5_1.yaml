@@ -7,7 +7,7 @@ description:
     sen: O/U 0.5
 
 # Asset to play with
-asset: BTF
+asset: BTFUN
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: False
