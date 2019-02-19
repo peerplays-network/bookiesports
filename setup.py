@@ -15,10 +15,8 @@ setup(
     ),
     long_description=open('README.md').read(),
     download_url='https://github.com/pbsa/bookiesports/tarball/' + __VERSION__,
-    author='Blockchain BV',
-    author_email='info@blockchainbv.com',
-    maintainer='Fabian Schuh',
-    maintainer_email='Fabian.Schuh@BlockchainProjectsBV.com',
+    author='Peerplays Community',
+    maintainer='Peerplays Community',
     url='http://pbsa.info',
     keywords=['peerplays', 'bos'],
     packages=[
