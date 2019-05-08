@@ -2,6 +2,7 @@ participants:
 - aliases:
   - Arizona
   - Diamondbacks
+  - ARI Diamondbacks
   identifier: "Arizona Diamondbacks"
   name:
     en: Arizona Diamondbacks
@@ -9,6 +10,7 @@ participants:
 - aliases:
   - Atlanta
   - Braves
+  - ATL Braves
   identifier: "Atlanta Braves"
   name:
     en: Atlanta Braves
@@ -16,6 +18,7 @@ participants:
 - aliases:
   - Baltimore
   - Orioles
+  - BAL Orioles
   identifier: "Baltimore Orioles"
   name:
     en: Baltimore Orioles
@@ -23,18 +26,21 @@ participants:
 - aliases:
   - Boston
   - Red Sox
+  - BOS Red Sox
   identifier: "Boston Red Sox"
   name:
     en: Boston Red Sox
     sen: Red Sox
 - aliases:
   - Cubs
+  - CHI Cubs
   identifier: "Chicago Cubs"
   name:
     en: Chicago Cubs
     sen: Cubs
 - aliases:
   - White Sox
+  - CHI White Sox
   identifier: "Chicago White Sox"
   name:
     en: Chicago White Sox
@@ -42,6 +48,7 @@ participants:
 - aliases:
   - Cincinnati
   - Reds
+  - CIN Reds
   identifier: "Cincinnati Reds"
   name:
     en: Cincinnati Reds
@@ -49,6 +56,7 @@ participants:
 - aliases:
   - Cleveland
   - Indians
+  - CLE Indians
   identifier: "Cleveland Indians"
   name:
     en: Cleveland Indians
@@ -56,6 +64,7 @@ participants:
 - aliases:
   - Colorado
   - Rockies
+  - COL Rockies
   identifier: "Colorado Rockies"
   name:
     en: Colorado Rockies
@@ -63,6 +72,7 @@ participants:
 - aliases:
   - Detroit
   - Tigers
+  - DET Tigers
   identifier: "Detroit Tigers"
   name:
     en: Detroit Tigers
@@ -70,6 +80,7 @@ participants:
 - aliases:
   - Houston
   - Astros
+  - HOU Astros
   identifier: "Houston Astros"
   name:
     en: Houston Astros
@@ -107,6 +118,7 @@ participants:
 - aliases:
   - Miami
   - Marlins
+  - MIA Marlins
   identifier: "Miami Marlins"
   name:
     en: Miami Marlins
@@ -114,6 +126,7 @@ participants:
 - aliases:
   - Milwaukee
   - Brewers
+  - MIL Brewers
   identifier: "Milwaukee Brewers"
   name:
     en: Milwaukee Brewers
@@ -121,6 +134,7 @@ participants:
 - aliases:
   - Minnesota
   - Twins
+  - MIN Twins
   identifier: "Minnesota Twins"
   name:
     en: Minnesota Twins
@@ -146,6 +160,7 @@ participants:
 - aliases:
   - Oakland
   - Athletics
+  - OAK Athletics
   identifier: "Oakland Athletics"
   name:
     en: Oakland Athletics
@@ -154,6 +169,7 @@ participants:
   - Philadelphia
   - Phillies
   - Philadelphia Phil.
+  - PHI Phillies
   identifier: "Philadelphia Phillies"
   name:
     en: Philadelphia Phillies
@@ -161,6 +177,7 @@ participants:
 - aliases:
   - Pittsburgh
   - Pirates
+  - PIT Pirates
   identifier: "Pittsburgh Pirates"
   name:
     en: Pittsburgh Pirates
@@ -168,6 +185,7 @@ participants:
 - aliases:
   - San Diego
   - Padres
+  - SD Padres
   identifier: "San Diego Padres"
   name:
     en: San Diego Padres
@@ -175,6 +193,7 @@ participants:
 - aliases:
   - San Francisco
   - Giants
+  - SF Giants
   identifier: "San Francisco Giants"
   name:
     en: San Francisco Giants
@@ -182,6 +201,7 @@ participants:
 - aliases:
   - Seattle
   - Mariners
+  - SEA Mariners
   identifier: "Seattle Mariners"
   name:
     en: Seattle Mariners
@@ -195,6 +215,7 @@ participants:
   - Saint.Louis Cardinals
   - Saint Louis Cardinals
   - Cardinals
+  - STL Cardinals
   identifier: "St. Louis Cardinals"
   name:
     en: St. Louis Cardinals
@@ -202,6 +223,7 @@ participants:
 - aliases:
   - Tampa Bay
   - Rays
+  - TB Rays
   identifier: "Tampa Bay Rays"
   name:
     en: Tampa Bay Rays
@@ -209,6 +231,7 @@ participants:
 - aliases:
   - Texas
   - Rangers
+  - TEX Rangers
   identifier: "Texas Rangers"
   name:
     en: Texas Rangers
@@ -216,6 +239,7 @@ participants:
 - aliases:
   - Toronto
   - Blue Jays
+  - TOR Blue Jays
   identifier: "Toronto Blue Jays"
   name:
     en: Toronto Blue Jays
@@ -223,6 +247,7 @@ participants:
 - aliases:
   - Washington
   - Nationals
+  - WAS Nationals
   identifier: "Washington Nationals"
   name:
     en: Washington Nationals
