@@ -4,10 +4,10 @@
 #        events
 # as children
 
-identifier: "NHL Playoffs"
+identifier: "NHL AllStar"
 
 name:
-    en: NHL Playoffs
+    en: NHL AllStar
     sen: NHL
 
 aliases:
