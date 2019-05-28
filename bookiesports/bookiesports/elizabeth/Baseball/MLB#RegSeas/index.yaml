@@ -30,7 +30,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "MLB_Teams_2017-18"
+participants: "MLB_Teams_2018-19"
 
 # Define the betting market groups
 bettingmarketgroups:
@@ -47,5 +47,5 @@ eventscheme:
 leadtime_Max: 2
 
 # When does the event group/league actually begin and end?
-start_date: 2018-03-28T00:00:00Z
-finish_date: 2018-10-01T23:59:59Z
+start_date: 2019-03-28T00:00:00Z
+finish_date: 2019-10-01T23:59:59Z

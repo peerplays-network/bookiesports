@@ -25,7 +25,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "NBA_Teams_2017-18"
+participants: "NBA_Teams_2018-19"
 
 # Define the betting market groups
 bettingmarketgroups:
