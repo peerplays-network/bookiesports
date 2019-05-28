@@ -4,10 +4,10 @@
 #        events
 # as children
 
-identifier: "NHL Playoffs"
+identifier: "NHL AllStar"
 
 name:
-    en: NHL Playoffs
+    en: NHL AllStar
     sen: NHL
 
 aliases:
@@ -37,7 +37,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "NHL_Teams_2017-18"
+participants: "NHL_Teams_2018-19"
 
 # Define the betting market groups
 bettingmarketgroups:
