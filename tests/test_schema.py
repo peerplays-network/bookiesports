@@ -20,12 +20,17 @@ class Testcases(unittest.TestCase):
     def test_charlie(self):
         charlie = BookieSports("charlie")
         self.assertEqual(charlie.chain_id, "*")
+    
+    def test_fred(self):
+        fred = BookieSports("fred")
+        self.assertEqual(fred.chain_id, "fb6ff714f8dfcf97eef01591fc938aa97755bf641aef711b3609a94578df9e5e")
 
     def test_list_chains(self):
         networks = BookieSports.list_chains()
         self.assertIn("alice", networks)
         self.assertIn("beatrice", networks)
         self.assertIn("charlie", networks)
+        self.assertIn("fred", networks)
 
     def test_version(self):
         print()
