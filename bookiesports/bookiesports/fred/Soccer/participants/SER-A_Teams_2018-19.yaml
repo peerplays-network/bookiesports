@@ -1,0 +1,181 @@
+participants:
+- aliases:
+  - Atalanta Bergamasca Calcio S.p.A.
+  - Atalanta Bergamasca Calcio SpA
+  - Atalanta Bergamasca Calcio
+  - Atalanta Bergamo
+  - Atalanta BC
+  - Atalanta B.C.
+  name:
+    en: Atalanta
+    sen: Atalanta
+- aliases:
+  - Bologna Football Club 1909
+  - Bologna Football Club 1909 S.p.A.
+  - Bologna Football Club 1909 SpA
+  - Bologna FC
+  - Bologna F.C.
+  - Bologna FC 1909
+  - Bologna F.C. 1909
+  - FC Bologna
+  name:
+    en: Bologna
+    sen: Bologna
+- aliases:
+  - Cagliari Calcio S.p.A.
+  - Cagliari Calcio SpA
+  - Cagliari Calcio
+  - CagliariCalcio
+  name:
+    en: Cagliari
+    sen: Cagliari
+- aliases:
+  - ChievoVerona
+  - Chievo Verona
+  - Associazione Calcio ChievoVerona
+  - Associazione Calcio ChievoVerona S.r.l.
+  - Associazione Calcio ChievoVerona Srl
+  - A.C. ChievoVerona
+  name:
+    en: Chievo
+    sen: Chievo
+- aliases:
+  - Empoli FC
+  - Empoli F.C.
+  - Empoli Football Club
+  - Empoli Football Club SpA
+  - Empoli Football Club S.p.A.
+  name:
+    en: Empoli
+    sen: Empoli
+- aliases:
+  - ACF Fiorentina
+  - ACF Fiorentina S.p.A.
+  - ACF Fiorentina SpA
+  - Fiorentina S.p.A.
+  - Fiorentina SpA
+  name:
+    en: Fiorentina
+    sen: Fiorentina
+- aliases:
+  - Frosinone Calcio SRL
+  - Frosinone Calcio
+  name:
+    en: Frosinone
+    sen: Frosinone
+- aliases:
+  - Genoa Cricket and Football Club S.p.A.
+  - Genoa Cricket and Football Club SpA
+  - Genoa CFC
+  - GenoaCFC
+  - Genoa C.F.C.
+  name:
+    en: Genoa
+    sen: Genoa
+- aliases:
+  - FC Internazionale
+  - Football Club Internazionale
+  - Internazionale
+  - Inter Milan
+  - Internazionale Milan
+  - Internazionale Milano
+  - InterMilan
+  name:
+    en: Inter
+    sen: Inter
+- aliases:
+  - Juventus Football Club
+  - Juventus FC
+  - Juventus F.C.
+  - Juve
+  name:
+    en: Juventus
+    sen: Juventus
+- aliases:
+  - Società Sportiva Lazio
+  - Societa Sportiva Lazio
+  - SS Lazio
+  - S.S. Lazio
+  - Società Sportiva Lazio S.p.A.
+  - Societa Sportiva Lazio S.p.A.
+  - Società Sportiva Lazio SpA
+  - Societa Sportiva Lazio SpA
+  name:
+    en: Lazio
+    sen: Lazio
+- aliases:
+  - Milan
+  - AC Milan
+  - A.C. Milan
+  - Associazione Calcio Milan S.p.A.
+  - Associazione Calcio Milan SpA
+  - Associazione Calcio Milan
+  name:
+    en: AC Milan
+    sen: AC Milan
+- aliases:
+  - Società Sportiva Calcio Napoli
+  - Societa Sportiva Calcio Napoli
+  - SSC Napoli
+  - SSCNapoli
+  - S.S.C. Napoli
+  name:
+    en: Napoli
+    sen: Napoli
+- aliases:
+  - Parma Calcio
+  - Parma Calcio 1913
+  - Parma Calcio 1913 Srl
+  name:
+    en: Parma
+    sen: Parma
+- aliases:
+  - A.S. Roma
+  - AS Roma
+  - ASRoma
+  - Associazione Sportiva Roma
+  - Associazione Sportiva Roma S.p.A.
+  - Associazione Sportiva Roma SpA
+  name:
+    en: Roma
+    sen: Roma
+- aliases:
+  - Unione Calcio Sampdoria
+  - Unione Calcio Sampdoria S.p.A
+  - Unione Calcio Sampdoria SpA
+  - UC Sampdoria
+  - U.C. Sampdoria
+  name:
+    en: Sampdoria
+    sen: Sampdoria
+- aliases:
+  - Unione Sportiva Sassuolo Calcio S.r.l.
+  - Unione Sportiva Sassuolo Calcio Srl
+  - Unione Sportiva Sassuolo Calcio
+  - US Sassuolo
+  name:
+    en: Sassuolo
+    sen: Sassuolo
+- aliases:
+  - Società Polisportiva Ars et Labor
+  - Societa Polisportiva Ars et Labor
+  - S.P.A.L.
+  - SPAL 2013
+  name:
+    en: SPAL
+    sen: SPAL
+- aliases:
+  - Torino Football Club SpA
+  - Torino Football Club
+  - Torino FC
+  - TorinoFC
+  name:
+    en: Torino
+    sen: Torino
+- aliases:
+  - Udinese Calcio SpA
+  - Udinese Calcio
+  - UdineseCalcio
+  name:
+    en: Udinese
+    sen: Udinese
