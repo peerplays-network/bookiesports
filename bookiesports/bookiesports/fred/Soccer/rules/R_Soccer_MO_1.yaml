@@ -1,0 +1,30 @@
+identifier: R_Soccer_MO_1
+id:
+name:
+    # Unclear what this name field should contain.
+    # Is it the name of the BMG? But that is already in the matching BMG yaml file...
+    en: R_Soccer_MO_1
+description:
+    en:
+      MARKET INFORMATION
+      Predict the result of this match. All bets apply to Full Time result according to the match officials, plus any stoppage time. Extra-time/penalty shoot-outs are not included.
+      At the start of play any unmatched bets will be automatically cancelled and the market will turn in-play.
+      Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
+      Please also be aware that transmissions described as “live” may actually involve a certain time delay which can vary from case to case.
+      Commission and Transaction Fees apply to all bets placed in this market.
+      For further information please see Bookie Rules.
+grading:
+ metric: "{result.hometeam} - {result.awayteam}"
+ resolutions:
+   # First betting market is "home team wins"
+   - win: "{metric} > 0"
+     not_win: "{metric} <= 0"
+     void: "False"
+   # Second betting market is "away team wins"
+   - win: "{metric} < 0"
+     not_win: "{metric} >= 0"
+     void: "False"
+   # third betting market is 'draw'
+   - win: "{metric} == 0"
+     not_win: "{metric} != 0"
+     void: "False"

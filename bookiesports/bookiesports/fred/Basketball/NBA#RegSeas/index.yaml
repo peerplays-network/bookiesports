@@ -4,29 +4,25 @@
 #        events
 # as children
 
-identifier: "NBA Playoffs"
+identifier: "NBA Regular Season"
 
 name:
-    en: NBA Playoffs
+    en: NBA Regular Season
     sen: NBA
 
 aliases:
   - National Basketball Association
-  - National Basketball Association - Playoffs
-  - NationalBasketballAssociation - Playoffs
-  - National Basketball Association Playoffs
-  - NationalBasketballAssociation Playoffs
-  - NBA - Playoffs
+  - NationalBasketballAssociation - Regular Season
+  - National Basketball Association - RegularSeason
+  - NationalBasketball AssociationRegular Season
+  - National Basketball Association RegularSeason
   - NBA
-  - NBA-PLAYOFFS
-  - NBA-PLAY OFFS
-  - NBA PLAYOFFS
-  - NBA PLAY OFFS
-  - NBAPLAYOFFS
-  - NBAPLAY OFFS
-  - NBA-FIRST ROUND
-  - NBA-CONFERENCE SEMI FINALS
-  - NBA-CONFERENCE FINALS
+  - NBA-REGULAR SEASON
+  - NBA-REGULARSEASON
+  - NBA REGULAR SEASON
+  - NBA REGULARSEASON
+  - NBAREGULAR SEASON
+  - NBAREGULARSEASON
 
 
 # .. and blockchain id
@@ -37,6 +33,8 @@ participants: "NBA_Teams_2018-19"
 # Define the betting market groups
 bettingmarketgroups:
     - NBA_ML_1
+    - NBA_HCP_1
+    - NBA_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
@@ -47,5 +45,5 @@ eventscheme:
 leadtime_Max: 2
 
 # When does the event group/league actually begin and end?
-start_date: 2019-04-13T00:00:00Z
-finish_date: 2019-05-31T00:00:00Z
+start_date: 2018-10-16T00:00:00Z
+finish_date: 2019-04-11T23:59:59Z
