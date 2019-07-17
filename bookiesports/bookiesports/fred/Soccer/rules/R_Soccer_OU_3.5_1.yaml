@@ -1,0 +1,26 @@
+identifier: R_Soccer_OU_3.5_1
+id:
+name:
+    # Unclear what this name field should contain.
+    # Is it the name of the BMG? But that is already in the matching BMG yaml file...
+    en: R_Soccer_OU_3.5_1
+description:
+    en:
+      MARKET INFORMATION
+      How many goals in total will be scored in this match - more or less than the stated number? All bets apply to Full Time result according to the match officials, plus any stoppage time. Extra-time/penalty shoot-outs are not included.
+      At the start of play any unmatched bets will be automatically cancelled and the market will turn in-play.
+      Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
+      Please also be aware that transmissions described as “live” may actually involve a certain time delay which can vary from case to case.
+      Commission and Transaction Fees apply to all bets placed in this market.
+      For further information please see Bookie Rules.
+grading:
+ metric: "{result.hometeam} + {result.awayteam}"
+ resolutions:
+   # First betting market is "Under 3.5 goals"
+   - win: "{metric} < 3.5"
+     not_win: "{metric} > 3.5"
+     void: "False"
+   # Second betting market is "Over 3.5 goals"
+   - win: "{metric} > 3.5"
+     not_win: "{metric} < 3.5"
+     void: "False"
