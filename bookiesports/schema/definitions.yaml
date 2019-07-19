@@ -30,12 +30,16 @@ definitions:
       type: string
 
  asset:
-  type: string
+  type: array
   description: Asset symbol
-  enum:
-   - PPY
-   - BTC
-   - BTCTEST
-   - BTF
-   - BTFUN
+  uniqueItems: true
+  items:
+   - type: string
+   - enum:
+      - PPY
+      - BTC
+      - BTCTEST
+      - BTF
+      - BTFUN
+      - TEST
 
