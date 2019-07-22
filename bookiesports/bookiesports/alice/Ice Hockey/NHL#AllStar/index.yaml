@@ -37,7 +37,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "NHL_Teams_2018-19"
+participants: "NHL_Teams_2019-20"
 
 # Define the betting market groups
 bettingmarketgroups:
@@ -52,5 +52,5 @@ eventscheme:
 leadtime_Max: 5
 
 # When does the event group/league actually begin and end?
-start_date: 2019-01-24T00:00:00Z
-finish_date: 2019-01-28T23:59:59Z
+start_date: 2020-01-01T00:00:00Z
+finish_date: 2020-01-30T23:59:59Z

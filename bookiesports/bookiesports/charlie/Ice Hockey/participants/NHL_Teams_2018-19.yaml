@@ -1,0 +1,258 @@
+participants:
+- aliases:
+  - Anaheim
+  - Ducks
+  identifier: "Anaheim Ducks"
+  name:
+    en: Anaheim Ducks
+    sen: Ducks
+- aliases:
+  - Arizona
+  - Coyotes
+  identifier: "Arizona Coyotes"
+  name:
+    en: Arizona Coyotes
+    sen: Coyotes
+- aliases:
+  - Boston
+  - Bruins
+  identifier: "Boston Bruins"
+  name:
+    en: Boston Bruins
+    sen: Bruins
+- aliases:
+  - Buffalo
+  - Sabres
+  identifier: "Buffalo Sabres"
+  name:
+    en: Buffalo Sabres
+    sen: Sabres
+- aliases:
+  - Calgary
+  - Flames
+  identifier: "Calgary Flames"
+  name:
+    en: Calgary Flames
+    sen: Flames
+- aliases:
+  - Carolina
+  - Hurricanes
+  identifier: "Carolina Hurricanes"
+  name:
+    en: Carolina Hurricanes
+    sen: Hurricanes
+- aliases:
+  - Chicago
+  - Blackhawks
+  identifier: "Chicago Blackhawks"
+  name:
+    en: Chicago Blackhawks
+    sen: Blackhawks
+- aliases:
+  - Colorado
+  - Avalanche
+  identifier: "Colorado Avalanche"
+  name:
+    en: Colorado Avalanche
+    sen: Avalanche
+- aliases:
+  - Columbus
+  - Blue Jackets
+  - Blue Jacket
+  - Columbus Blue Jacket
+  - Colombus Blue Jacket
+  - Colombus Blue Jackets
+  - Colombus
+  identifier: "Columbus Blue Jackets"
+  name:
+    en: Columbus Blue Jackets
+    sen: Blue Jackets
+- aliases:
+  - Dallas
+  - Stars
+  identifier: "Dallas Stars"
+  name:
+    en: Dallas Stars
+    sen: Stars
+- aliases:
+  - Detroit
+  - Red Wings
+  identifier: "Detroit Red Wings"
+  name:
+    en: Detroit Red Wings
+    sen: Red Wings
+- aliases:
+  - Edmonton
+  - Oilers
+  identifier: "Edmonton Oilers"
+  name:
+    en: Edmonton Oilers
+    sen: Oilers
+- aliases:
+  - Florida
+  - Panthers
+  identifier: "Florida Panthers"
+  name:
+    en: Florida Panthers
+    sen: Panthers
+- aliases:
+  - Kings
+  - L.A. Kings
+  - LA Kings
+  - LAKings
+  identifier: "Los Angeles Kings"
+  name:
+    en: Los Angeles Kings
+    sen: Kings
+- aliases:
+  - Minnesota
+  - Wild
+  identifier: "Minnesota Wild"
+  name:
+    en: Minnesota Wild
+    sen: Wild
+- aliases:
+  - Montreal
+  - Canadiens
+  identifier: "Montreal Canadiens"
+  name:
+    en: Montreal Canadiens
+    sen: Canadiens
+- aliases:
+  - Nashville
+  - Predators
+  identifier: "Nashville Predators"
+  name:
+    en: Nashville Predators
+    sen: Predators
+- aliases:
+  - New Jersey
+  - Devils
+  - NJ Devils
+  - N.J. Devils
+  - NJDevils
+  identifier: "New Jersey Devils"
+  name:
+    en: New Jersey Devils
+    sen: Devils
+- aliases:
+  - NY Islanders
+  - N.Y. Islanders
+  - NYIslanders
+  - Islanders
+  identifier: "New York Islanders"
+  name:
+    en: New York Islanders
+    sen: Islanders
+- aliases:
+  - NY Rangers
+  - N.Y. Rangers
+  - NYRangers
+  - Rangers
+  identifier: "New York Rangers"
+  name:
+    en: New York Rangers
+    sen: Rangers
+- aliases:
+  - Ottawa
+  - Senators
+  identifier: "Ottawa Senators"
+  name:
+    en: Ottawa Senators
+    sen: Senators
+- aliases:
+  - Philadelphia
+  - Flyers
+  identifier: "Philadelphia Flyers"
+  name:
+    en: Philadelphia Flyers
+    sen: Flyers
+- aliases:
+  - Pittsburgh
+  - Penguins
+  identifier: "Pittsburgh Penguins"
+  name:
+    en: Pittsburgh Penguins
+    sen: Penguins
+- aliases:
+  - San Jose
+  - Sharks
+  identifier: "San Jose Sharks"
+  name:
+    en: San Jose Sharks
+    sen: Sharks
+- aliases:
+  - St Louis
+  - St. Louis
+  - Blues
+  identifier: "St. Louis Blues"
+  name:
+    en: St. Louis Blues
+    sen: Blues
+- aliases:
+  - Tampa Bay
+  - Lightning
+  identifier: "Tampa Bay Lightning"
+  name:
+    en: Tampa Bay Lightning
+    sen: Lightning
+- aliases:
+  - Toronto
+  - Maple Leafs
+  identifier: "Toronto Maple Leafs"
+  name:
+    en: Toronto Maple Leafs
+    sen: Maple Leafs
+- aliases:
+  - Vancouver
+  - Canucks
+  identifier: "Vancouver Canucks"
+  name:
+    en: Vancouver Canucks
+    sen: Canucks
+- aliases:
+  - Vegas Golden Knights
+  - Golden Knights
+  identifier: "Vegas Golden Knights"
+  name:
+    en: Vegas Golden Knights
+    sen: Golden Knights
+- aliases:
+  - Washington
+  - Capitals
+  identifier: "Washington Capitals"
+  name:
+    en: Washington Capitals
+    sen: Capitals
+- aliases:
+  - Winnipeg
+  - Jets
+  identifier: "Winnipeg Jets"
+  name:
+    en: Winnipeg Jets
+    sen: Jets
+# These four teams are for the three AllStar games
+- aliases:
+  - Atlantic
+  identifier: "Atlantic"
+  name:
+    en: Atlantic
+    sen: Atlantic
+- aliases:
+  - Pacific
+  identifier: "Pacific"
+  name:
+    en: Pacific
+    sen: Pacific
+- aliases:
+  - Central
+  identifier: "Central"
+  name:
+    en: Central
+    sen: Central
+- aliases:
+  - Metropolitan
+  identifier: "Metropolitan"
+  name:
+    en: Metropolitan
+    sen: Metropolitan
