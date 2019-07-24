@@ -8,7 +8,6 @@ description:
 
 # Asset to play with
 asset:
-  - PPY
   - BTFUN
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
