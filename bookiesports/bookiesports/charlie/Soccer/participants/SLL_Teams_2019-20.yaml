@@ -78,6 +78,24 @@ participants:
     en: Girona
     sen: Girona
 - aliases:
+  - Granada CF
+  - GranadaCF
+  name:
+    en: Granada
+    sen: Granada
+- aliases:
+  - OSASUNA
+  name:
+    en: Osasuna
+    sen: Osasuna
+- aliases:
+  - RCD Mallorca
+  - Mallorca RCD
+  - RCDMallorca
+  name:
+    en: Mallorca
+    sen: Mallorca    
+- aliases:
   - Huesca SAD
   - Sociedad Deportiva Huesca
   - SD Huesca

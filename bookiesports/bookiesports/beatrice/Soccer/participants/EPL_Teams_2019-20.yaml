@@ -9,6 +9,11 @@ participants:
     en: Arsenal
     sen: Arsenal
 - aliases:
+  - AstonVilla
+  name:
+    en: Aston Villa
+    sen: Aston Villa   
+- aliases:
   - Bournemouth
   - AFC Bournemouth
   name:
@@ -143,6 +148,19 @@ participants:
   name:
     en: Newcastle
     sen: Newcastle
+- aliases:
+  - Norwich City
+  - NorwichCity
+  name:
+    en: Norwich
+    sen: Norwich
+- aliases:
+  - SheffieldUtd
+  - Sheff Utd
+  - SheffUtd
+  name:
+    en: Sheffield Utd
+    sen: Sheffield Utd        
 - aliases:
   - Southampton
   - SouthamptonFC
