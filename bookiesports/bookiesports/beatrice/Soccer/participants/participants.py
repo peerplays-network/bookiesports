@@ -1,8 +1,8 @@
 import yaml
 
 for f in [
-    "EPL_Teams_2017-18.yaml",
-    "SLL_Teams_2017-18.yaml"
+    "EPL_Teams_2019-20.yaml",
+    "SLL_Teams_2019-20.yaml"
 ]:
     with open(f, "r") as fid:
         d = yaml.load(fid)
