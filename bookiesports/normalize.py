@@ -1,7 +1,7 @@
 from . import BookieSports, datestring
 import logging
-import pytz
-
+from pytz import timezone
+from . import log
 
 class NotNormalizableException(Exception):
     pass
@@ -104,15 +104,15 @@ class IncidentsNormalizer(object):
 
         try:
             toReturn = start_date <= self._string_to_date(eventgroup["finish_date"], "to") and start_date >= self._string_to_date(eventgroup["start_date"], "from")
-        except: #Make it decent soon
-            print('-----dateTime offset naive failed')
+        except TypeError:
+            log.warning("datetime offset naive, failed")
 
         try:
             _timezone = timezone('UTC')
             start_date = _timezone.localize(start_date)
             toReturn = start_date <= self._string_to_date(eventgroup["finish_date"], "to") and start_date >= self._string_to_date(eventgroup["start_date"], "from")
-        except: #Make it decent soon
-            print('-------dateTime offset aware failed')
+        except TypeError: 
+            log.warning("datetime offset aware, failed")
         return toReturn
 
     def _get_eventgroup_identifier(self,
