@@ -54,7 +54,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "EuropeClub_Teams_2019-20"
+participants: "EuropeClub_Teams_2020-21"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:

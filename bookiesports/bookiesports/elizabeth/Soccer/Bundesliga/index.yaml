@@ -4,27 +4,19 @@
 #        events
 # as children
 
-identifier: "FA Cup"
+identifier: "Bundesliga"
 
 name:
-    en: FA Cup
-    sen: FA Cup
+    en: Bundesliga
+    sen: Bundesliga
 
 aliases:
-  - FACup
-  - The Football Association Challenge Cup
-  - Football Association Challenge Cup
-  - The FA Cup
-  - The FACup
-  - The Emirates FA Cup
-  - Emirates FA Cup
-  - English FA Cup
-  - The English FA Cup
+  - Bundesliga
 
 # .. and blockchain id
 id:
 
-participants: "FACup_Teams_2020-21"
+participants: "Bundesliga_Teams_2020-21"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
@@ -44,8 +36,8 @@ eventscheme:
 
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 10
+leadtime_Max: 6
 
 # When does the event group/league actually begin and end?
 start_date: 2020-01-01T00:00:00Z
-finish_date: 2021-01-01T00:00:00Z
+finish_date: 2021-01-01T23:59:59Z
