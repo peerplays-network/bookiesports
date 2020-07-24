@@ -11,6 +11,11 @@ participants:
   name:
     en: Red Bull Salzburg
     sen: RB Salzburg
+- aliases:
+  - RapidVienna
+  name:
+    en: Rapid Vienna
+    sen: Rapid Vienna
 # Belgian teams
 - aliases:
   - ClubBrugge
@@ -21,6 +26,14 @@ participants:
   name:
     en: Club Brugge
     sen: Club Brugge
+- aliases:
+  - KRC Genk
+  - K.R.C. Genk
+  - KRCGenk
+  - K.R.C.Genk
+  name:
+    en: Genk
+    sen: Genk
 # Bulgarian teams
 - aliases:
   - PFC Ludogorets Razgrad
@@ -32,7 +45,26 @@ participants:
   name:
     en: Ludogorets
     sen: Ludogorets
+# Croatian teams
+- aliases:
+  - DinamoZagreb
+  - GNK Dinamo Zagreb
+  name:
+    en: Dinamo Zagreb
+    sen: Dinamo Zagreb
 # Czech teams
+- aliases:
+  - Slavia Praha
+  - Slavia Prague
+  - SK Slavia Praha
+  - SK Slavia Prague
+  - SK Slavia Prag
+  - S.K. Slavia Praha
+  - S.K. Slavia Prague
+  - S.K. Slavia Prag
+  name:
+    en: Slavia Prag
+    sen: Slavia Prag
 - aliases:
   - Plzen
   - Football Club Viktoria Plzeň
@@ -62,6 +94,15 @@ participants:
     en: FC Copenhagen
     sen: Copenhagen
 # English teams
+- aliases:
+  - Arsenal
+  - Arsenal FC
+  - ArsenalFC
+  - ARS
+  - ARSNL
+  name:
+    en: Arsenal
+    sen: Arsenal
 - aliases:
   - ChelseaFC
   - Chelsea FC
@@ -148,7 +189,7 @@ participants:
     en: Nice
     sen: Nice
 - aliases:
-  - PSG
+  - Paris St-G
   - ParisStGermain
   - Paris St Germain
   - Paris Saint Germain
@@ -164,15 +205,35 @@ participants:
   - Paris SG
   - ParisSG
   name:
-    en: Paris St-G
-    sen: Paris St-G
+    en: PSG
+    sen: PSG
+- aliases:
+  - Stade Rennais FC
+  - StadeRennaisFC
+  - SRFC
+  name:
+    en: Rennes
+    sen: Rennes
 # German teams
+- aliases:
+  - Bayer Leverkusen
+  - Bayer 04 Leverkusen
+  name:
+    en: Leverkusen
+    sen: Leverkusen
 - aliases:
   - Borussia Dortmund
   - BorussiaDortmund
   name:
     en: Dortmund
     sen: Dortmund
+- aliases:
+  - EintrachtFrankfurt
+  - Eintracht
+  - Frankfurt
+  name:
+    en: Eintracht Frankfurt
+    sen: Eintracht Frankfurt
 - aliases:
   - Fussball-Club Bayern Munchen
   - Fussball-ClubBayernMunchen
@@ -222,6 +283,19 @@ participants:
   name:
     en: AEK Athens
     sen: AEK Athens
+- aliases:
+  - Olympiacos
+  - Olympiacos CFP
+  - Olympiakos CFP
+  - Olympiacos C.F.P.
+  - Olympiakos C.F.P.
+  - OlympiacosCFP
+  - OlympiakosCFP
+  - OlympiacosC.F.P.
+  - OlympiakosC.F.P.
+  name:
+    en: Olympiakos
+    sen: Olympiakos
 # Italian teams
 - aliases:
   - AssociazioneCalcio Milan
@@ -278,7 +352,7 @@ participants:
     sen: Inter
 - aliases:
   - Società Sportiva Calcio Napoli
-  - SocietaSportiva Calcio Napoli
+  - Societa Sportiva Calcio Napoli
   - SSC Napoli
   - S.S.C. Napoli
   - S.S.C.Napoli
@@ -363,12 +437,24 @@ participants:
     sen: Steaua Buchar.
 # Russian teams
 - aliases:
+  - FC BATE Borisov
+  - FCBATEBorisov
+  - BATEBorisov
+  name:
+    en: BATE Borisov
+    sen: BATE Borisov
+- aliases:
   - CSKA
   - CSKAMoscow
   - CSKA Moskva
   name:
     en: CSKA Moscow
     sen: CSKA Moscow
+- aliases:
+  - FCKrasnodar
+  name:
+    en: FC Krasnodar
+    sen: FC Krasnodar
 - aliases:
   - FC Lokomotov Moscow
   - FC LokomotovMoscow
@@ -458,6 +544,11 @@ participants:
     en: Barcelona
     sen: Barcelona
 - aliases:
+  - RealBetis
+  name:
+    en: Real Betis
+    sen: Real Betis
+- aliases:
   - Real Madrid Club de Fútbol
   - Real Madrid Club de Futbol
   - Real Madrid CF
@@ -487,6 +578,12 @@ participants:
   name:
     en: Valencia
     sen: Valencia
+- aliases:
+  - Villareal CF
+  - VillarealCF
+  name:
+    en: Villareal
+    sen: Villareal
 # Swedish teams
 - aliases:
   - Oestersund
@@ -499,6 +596,13 @@ participants:
   name:
     en: Ostersunds FK
     sen: Ostersund
+- aliases:
+  - Malmö FF
+  - MalmoFF
+  - MalmöFF
+  name:
+    en: Malmo FF
+    sen: Malmo FF
 # Swiss teams
 - aliases:
   - FC Basel 1893
@@ -524,6 +628,12 @@ participants:
   name:
     en: Young Boys
     sen: Young Boys
+- aliases:
+  - FC Zurich
+  - FCZ
+  name:
+    en: FC Zurich
+    sen: FC Zurich
 # Turkish teams
 - aliases:
   - Besiktas J.K.
@@ -542,6 +652,15 @@ participants:
   name:
     en: Galatasaray
     sen: Galatasaray
+- aliases:
+  - Fenerbache
+  - Fenerbahce SK
+  - Fenerbahce S.K.
+  - FenerbahceSK
+  - FenerbahceS.K.
+  name:
+    en: Fenerbahce
+    sen: Fenerbahce
 # Ukrainian teams
 - aliases:
   - Astana Football Club
