@@ -42,7 +42,7 @@ eventscheme:
      en: "{teams.away} @ {teams.home}"
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 2
+leadtime_Max: 7
 
 # When does the event group/league actually begin and end?
 start_date: 2019-10-01T00:00:00Z
