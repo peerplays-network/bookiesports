@@ -86,10 +86,10 @@ participants:
     sen: Pacers
 - aliases:
   - Clippers
-  - Los Angels
-  identifier: "Los Angeles Clippers"
+  - LA
+  identifier: "LA Clippers"
   name:
-    en: Los Angeles Clippers
+    en: LA Clippers
     sen: Clippers
 - aliases:
   - Lakers
