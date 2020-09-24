@@ -85,11 +85,15 @@ participants:
     en: Indiana Pacers
     sen: Pacers
 - aliases:
+  - Clippers
+  - Los Angels
+  identifier: "Los Angeles Clippers"
+  name:
+    en: Los Angeles Clippers
+    sen: Clippers
+- aliases:
   - Lakers
-  - L.A. Lakers
-  - L. A. Lakers
   - LA Lakers
-  - LALakers
   identifier: "Los Angeles Lakers"
   name:
     en: Los Angeles Lakers
@@ -209,10 +213,3 @@ participants:
   name:
     en: Washington Wizards
     sen: Wizards
-- aliases:
-  - Clippers
-  - Los Angels
-  identifier: "Los Angeles Clippers"
-  name:
-    en: Los Angeles Clippers
-    sen: Clippers
