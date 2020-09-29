@@ -46,4 +46,4 @@ leadtime_Max: 7
 
 # When does the event group/league actually begin and end?
 start_date: 2019-09-03T00:00:00Z
-finish_date: 2019-12-31T23:59:59Z
+finish_date: 2020-12-31T23:59:59Z
