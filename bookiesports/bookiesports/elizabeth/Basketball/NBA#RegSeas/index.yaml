@@ -28,13 +28,13 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "NBA_Teams_2019-20"
+participants: "NBA_Teams_2021"
 
 # Define the betting market groups
 bettingmarketgroups:
     - NBA_ML_1
-    - NBA_HCP_1
-    - NBA_OU_1
+      # - NBA_HCP_1
+      # - NBA_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
