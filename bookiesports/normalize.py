@@ -105,14 +105,16 @@ class IncidentsNormalizer(object):
         try:
             toReturn = start_date <= self._string_to_date(eventgroup["finish_date"], "to") and start_date >= self._string_to_date(eventgroup["start_date"], "from")
         except TypeError:
-            log.info("datetime offset naive, failed")
+            pass
+            # log.info("datetime offset naive, failed")
 
         try:
             _timezone = timezone('UTC')
             start_date = _timezone.localize(start_date)
             toReturn = start_date <= self._string_to_date(eventgroup["finish_date"], "to") and start_date >= self._string_to_date(eventgroup["start_date"], "from")
         except TypeError: 
-            log.info("datetime offset aware, failed")
+            pass
+            # log.info("datetime offset aware, failed")
         return toReturn
 
     def _get_eventgroup_identifier(self,
