@@ -1,0 +1,26 @@
+# This file represents a
+#        Sport
+# Each sport has
+#        event groups
+# as children
+
+# Internal Identifier for Database
+identifier: Baseball
+
+# This sport needs to be registered on the blockchain, there it
+# is registered with internationalized names:
+name:
+    en: Baseball
+    sen: Baseball
+
+aliases:
+ - Baseball
+
+# After creation, of the sports object, we will end up with an id
+id:
+
+# List Event Groups (each of them has a subfolder)
+eventgroups:
+  - MLB#RegSeas
+  - MLB#Playoffs
+  - MLB#WorldSeries

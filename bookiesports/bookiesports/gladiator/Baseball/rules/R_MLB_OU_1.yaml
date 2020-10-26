@@ -1,0 +1,22 @@
+identifier: R_MLB_OU_1
+id:
+name:
+    en: R_MLB_OU_1
+description:
+    en:
+      MARKET INFORMATION
+      How many runs in total will be scored in this match - Over or Under 8.5 runs? This market will be settled according to the score at the end of the match, including overtime.
+      At the start of play all unmatched bets will be cancelled and the market turned in-play.
+      Please note that this market will not be actively managed therefore it is the responsibility of all users to manage their in-play positions.
+      Please also be aware that transmissions described as “live” by some broadcasters may actually be delayed and that not all in-play matches are necessarily televised.
+      Commission and Transaction Fees apply to all bets placed in this market.
+      For further information please see Bookie Rules.
+grading:
+ metric: '{result.total}'
+ resolutions:
+ - void: 'False'
+   not_win: '{metric} > {overunder.value}'
+   win: '{metric} <= {overunder.value}'
+ - void: 'False'
+   not_win: '{metric} <= {overunder.value}'
+   win: '{metric} > {overunder.value}'
