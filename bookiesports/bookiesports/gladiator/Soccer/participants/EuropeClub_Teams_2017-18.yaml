@@ -1,0 +1,467 @@
+participants:
+# Austrian teams
+- aliases:
+  - Salzburg
+  - RB Salzburg
+  - RBSalzburg
+  - FC Red Bull Salzburg
+  - RedBullSalzburg
+  - FCRedBullSalzburg
+  - FC RedBullSalzburg
+  name:
+    en: Red Bull Salzburg
+    sen: RB Salzburg
+# Bulgarian teams
+- aliases:
+  - PFC Ludogorets Razgrad
+  - PFC LudogoretsRazgrad
+  - FC Ludogorets Razgrad
+  - FC LudogoretsRazgrad
+  - LudogoretsRazgrad
+  - Ludogorets Razgrad
+  name:
+    en: Ludogorets
+    sen: Ludogorets
+# Czech teams
+- aliases:
+  - Plzen
+  - Football Club Viktoria Plzeň
+  - Football Club Viktoria Plzen
+  - FC Viktoria Plzen
+  - F.C. Viktoria Plzen
+  - F. C. Viktoria Plzen
+  - ViktoriaPlzen
+  - Vikt. Plzen
+  - Vikt.Plzen
+  name:
+    en: Viktoria Plzen
+    sen: Vikt. Plzen
+# Danish teams
+- aliases:
+  - FCKoebenhavn
+  - FC Koebenhavn
+  - F.C.Koebenhavn
+  - F.C. Koebenhavn
+  - F. C. Koebenhavn
+  - FCCopenhagen
+  - F.C. Copenhagen
+  - F. C. Copenhagen
+  - F.C.Copenhagen
+  name:
+    en: FC Copenhagen
+    sen: Copenhagen
+# English teams
+- aliases:
+  - Chelsea
+  - ChelseaFC
+  - Chelsea FC
+  name:
+    en: Chelsea
+    sen: Chelsea
+- aliases:
+  - Liverpool
+  - Liverpool FC
+  - LiverpoolFC
+  name:
+    en: Liverpool
+    sen: Liverpool
+- aliases:
+  - Manchester City
+  - Man City
+  - ManCity
+  - Man C
+  - Man. City
+  - Manchester City FC
+  - Man City FC
+  - ManCity FC
+  - Man. City FC
+  name:
+    en: Manchester City
+    sen: Man City
+- aliases:
+  - ManU
+  - Man U
+  - Manchester Utd
+  - Manchester Utd FC
+  - Manchester United FC
+  - Man Utd
+  - ManUtd
+  - ManUtd FC
+  - Man Utd FC
+  - Man United
+  - Man United FC
+  name:
+    en: Manchester United
+    sen: Man Utd
+- aliases:
+  - Tottenham
+  - Tottenham FC
+  - TottenhamFC
+  - Spurs
+  - Hotspur
+  - Tottenham Hotspur FC
+  - Tottenham Hotspur
+  - TottenhamHotspur FC
+  - TottenhamHotspurFC
+  - TottenhamHotspur
+  name:
+    en: Tottenham
+    sen: Tottenham
+# French teams
+- aliases:
+  - Olympique Lyonnais
+  - OlympiqueLyonnais
+  name:
+    en: Lyon
+    sen: Lyon
+- aliases:
+  - Olympique Marseille
+  - OlympiquedeMarseille
+  - Olympique de Marseille
+  name:
+    en: Marseille
+    sen: Marseille
+- aliases:
+  - Olympique Gymnaste Club Nice Côte d'Azur
+  - Olympique Gymnaste Club Nice Cote d'Azur
+  - OGC Nice
+  name:
+    en: Nice
+    sen: Nice
+- aliases:
+  - PSG
+  - ParisStGermain
+  - Paris St Germain
+  - Paris Saint Germain
+  - Paris Saint-Germain
+  - Paris Saint-Germain Football Club
+  - ParisStGermain FC
+  - ParisStGermainFC
+  - Paris St Germain FC
+  - Paris Saint Germain FC
+  - Paris Saint-Germain FC
+  - ParisSaint-Germain FC
+  - ParisSaint-GermainFC
+  - Paris SG
+  - ParisSG
+  name:
+    en: Paris St-G
+    sen: Paris St-G
+# German teams
+- aliases:
+  - Borussia Dortmund
+  - BorussiaDortmund
+  name:
+    en: Dortmund
+    sen: Dortmund
+- aliases:
+  - Fussball-Club Bayern Munchen
+  - Fussball-ClubBayernMunchen
+  - BayernMunchen
+  - Bayern Munchen
+  - FC Bayen Munchen
+  - FCBayenMunchen
+  - FC Bayern Munich
+  - FCBayernMunich
+  - FC Bayern
+  - FC Bayern München
+  - Bayern München
+  - BayernMünchen
+  name:
+    en: Bayern Munich
+    sen: Bayern Munich
+- aliases:
+  - RasenBallsport Leipzig
+  - RasenBallsportLeipzig
+  - RBLeipzig
+  name:
+    en: RB Leipzig
+    sen: RB Leipzig
+# Greek teams
+- aliases:
+  - AEKAthens
+  - AEKAthens FC
+  - AEK Athens Football Club
+  - AEK Football Club
+  - AEK Athens FC
+  - AEK Athens F.C.
+  - AEK Athens F. C.
+  name:
+    en: AEK Athens
+    sen: AEK Athens
+# Italian teams
+- aliases:
+  - AssociazioneCalcio Milan
+  - AssociazioneCalcioMilan
+  - Associazione Calcio Milan
+  - ACMilan
+  name:
+    en: AC Milan
+    sen: AC Milan
+- aliases:
+  - Atalanta Bergamasca Calcio
+  - AtalantaBC
+  - Atalanta BC
+  - Atalanta Bergamo
+  - AtalantaBergamo
+  name:
+    en: Atalanta
+    sen: Atalanta
+- aliases:
+  - Juventus FC
+  - JuventusFC
+  - Juventus FC SPA
+  - JuventusFC SPA
+  - Juventus FCSPA
+  - JuventusFCSPA
+  - Juventus Football Club
+  - JuventusFootballClub
+  - Juventus FC
+  - Juventus Torino
+  - JuventusTorino
+  - Juve
+  name:
+    en: Juventus
+    sen: Juventus
+- aliases:
+  - Società Sportiva Lazio
+  - Societa Sportiva Lazio
+  - SocietaSportivaLazio
+  - SS Lazio
+  - SSLazio
+  name:
+    en: Lazio
+    sen: Lazio
+- aliases:
+  - Società Sportiva Calcio Napoli
+  - SocietaSportiva Calcio Napoli
+  - SSC Napoli
+  - S.S.C. Napoli
+  - S.S.C.Napoli
+  - SSCNapoli
+  name:
+    en: Napoli
+    sen: Napoli
+- aliases:
+  - Associazione Sportiva Roma
+  - AssociazioneSportivaRoma
+  - AS Roma
+  - ASRoma
+  name:
+    en: Roma
+    sen: Roma
+# Portuguese teams
+- aliases:
+  - Sporting de Braga
+  - Sporting Clube de Braga
+  - SC Braga
+  - S.C. Braga
+  - S. C. Braga
+  - SportingdeBraga
+  - SportingClubedeBraga
+  - SCBraga
+  - S.C.Braga
+  - S. C.Braga
+  name:
+    en: Braga
+    sen: Braga
+- aliases:
+  - Futebol Clube do Porto
+  - Futebol Clube Porto
+  - FutebolClubedoPorto
+  - FutebolClubePorto
+  - FC Porto
+  - FCPorto
+  - Porto FC
+  - PortoFC
+  name:
+    en: Porto
+    sen: Porto
+- aliases:
+  - Sporting Clube de Portugal
+  - SportingClubedePortugal
+  - Sporting CP
+  - SportingCP
+  name:
+    en: Sporting Lisbon
+    sen: Sporting Lisbon
+# Romanian teams
+- aliases:
+  - FCSB
+  - FC FCSB
+  - Fotbal Club Steaua Bucuresti
+  - FC Steaua Bucharest
+  name:
+    en: Steaua Bucharest
+    sen: Steaua Buchar.
+# Russian teams
+- aliases:
+  - CSKA
+  - CSKAMoscow
+  name:
+    en: CSKA Moscow
+    sen: CSKA Moscow
+- aliases:
+  - FC Lokomotov Moscow
+  - FC LokomotovMoscow
+  - FCLokomotovMoscow
+  - Lok. Moscow
+  - Lok.Moscow
+  - LokomotivMoscow
+  name:
+    en: Lokomotiv Moscow
+    sen: Lok. Moscow
+- aliases:
+  - FC SpartakMoscow
+  - FCSpartakMoscow
+  - FC Spartak Moscow
+  - SpartakMoscow
+  name:
+    en: Spartak Moscow
+    sen: Spartak Moscow
+- aliases:
+  - Football Club Zenit
+  - FC Zenit
+  - F.C. Zenit
+  - F. C. Zenit
+  - Zenit St. Petersburg
+  - FC Zenit St. Petersburg
+  - Zenit Saint Petersburg
+  - FC Zenit Saint Petersburg
+  - Zenit
+  name:
+    en: Zenit St Petersburg
+    sen: Zenit St P.
+# Scottish teams
+- aliases:
+  - Celtic FC
+  - CelticFC
+  - Celtic Football Club
+  - Celtic F.C.
+  - Celtic F. C.
+  name:
+    en: Celtic
+    sen: Celtic
+# Serbian teams
+- aliases:
+  - FK Crvena Zvezda
+  - Crvena Zvezda
+  - RedStarBelgrade
+  - RS Belgrade
+  name:
+    en: Red Star Belgrade
+    sen: RS Belgrade
+- aliases:
+  - FK Partizan
+  - FKPartiZan
+  - FC Partizan
+  - FCPartizan
+  - Partizan Beograd
+  - PartizanBelgrade
+  name:
+    en: Partizan Belgrade
+    sen: Partizan
+# Spanish teams
+- aliases:
+  - Barcelona FC
+  - BarcelonaFC
+  - Barca
+  - FC Barcelona
+  - FCBarcelona
+  - Barça
+  name:
+    en: Barcelona
+    sen: Barcelona
+- aliases:
+  - Real Madrid Club de Fútbol
+  - Real Madrid Club de Futbol
+  - Real Madrid CF
+  - RealMadrid
+  name:
+    en: Real Madrid
+    sen: Real Madrid
+- aliases:
+  - Sevilla FC
+  - Sevilla CF
+  - SevillaFC
+  - SevillaCF
+  - Sevilla Fútbol Club
+  - Sevilla Futbol Club
+  - FC Sevilla
+  - FCSevilla
+  - CFSevilla
+  - CF Sevilla
+  name:
+    en: Sevilla
+    sen: Sevilla
+# Swedish teams
+- aliases:
+  - Oestersund
+  - Oestersunds FK
+  - Ostersunds Fotbollsklubb
+  - Östersunds Fotbollsklubb
+  - Östersund
+  - Östersunds FK
+  - ÖstersundsFK
+  name:
+    en: Ostersunds FK
+    sen: Ostersund
+# Swiss teams
+- aliases:
+  - FC Basel 1893
+  - Fussball Club Basel 1893
+  - FC Basel1893
+  - Fussball Club Basel1893
+  - FCBasel1893
+  - FussballClubBasel1893
+  - FCBasel 1893
+  - FussballClubBasel 1893
+  - Basel1893
+  - Basel 1893
+  - Basel
+  name:
+    en: FC Basel
+    sen: FC Basel
+# Turkish teams
+- aliases:
+  - Besiktas J.K.
+  - Besiktas JK
+  - BesiktasJ.K.
+  - BesiktasJK
+  name:
+    en: Besiktas
+    sen: Besiktas
+# Ukrainian teams
+- aliases:
+  - Astana Football Club
+  - Astana
+  - FCAstana
+  name:
+    en: FC Astana
+    sen: FC Astana
+- aliases:
+  - Dynamo Kiev
+  - Football Club Dynamo Kiev
+  - FC Dynamo Kiev
+  - F.C. Dynamo Kiev
+  - F. C. Dynamo Kiev
+  - DynamoKiev
+  - Football Club Dynamo Kyiv
+  - FC Dynamo Kyiv
+  - F.C. Dynamo Kyiv
+  - F. C. Dynamo Kyiv
+  - DynamoKyiv
+  name:
+    en: Dynamo Kyiv
+    sen: Dynamo Kyiv
+- aliases:
+  - Shakhtar
+  - Football Club Shakhtar Donetsk
+  - FC Shakhtar Donetsk
+  - Shakhtar Donetsk
+  - ShakhtarDonetsk
+  - FCShakhtarDonetsk
+  - FC ShakhtarDonetsk
+  name:
+    en: Shakhtar
+    sen: Shakhtar

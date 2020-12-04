@@ -1,0 +1,206 @@
+participants:
+- aliases:
+  - Arsenal
+  - Arsenal FC
+  - ArsenalFC
+  - ARS
+  - ARSNL
+  name:
+    en: Arsenal
+    sen: Arsenal
+- aliases:
+  - Bournemouth
+  - AFC Bournemouth
+  name:
+    en: Bournemouth
+    sen: Bournemouth
+- aliases:
+  - Brighton
+  - Brighton & Hove Albion
+  - Brighton and Hove Albion
+  - Brighton & Hove Albion FC
+  - Brighton and Hove Albion FC
+  - Brighton & Hove
+  - Brighton and Hove
+  name:
+    en: Brighton
+    sen: Brighton
+- aliases:
+  - Burnley
+  - Burnley FC
+  - BurnleyFC
+  name:
+    en: Burnley
+    sen: Burnley
+- aliases:
+  - Chelsea
+  - ChelseaFC
+  - Chelsea FC
+  name:
+    en: Chelsea
+    sen: Chelsea
+- aliases:
+  - CrystalPalace
+  - CrystalPalace FC
+  - CrystalPalaceFC
+  - Crystal Palace
+  - Crystal Palace FC
+  - Crystal PalaceFC
+  - C Palace
+  - C Palace FC
+  - C PalaceFC
+  name:
+    en: Crystal Palace
+    sen: C Palace
+- aliases:
+  - Everton
+  - Everton FC
+  - EvertonFC
+  name:
+    en: Everton
+    sen: Everton
+- aliases:
+  - Huddersfield
+  - Huddersfield Town
+  - Huddersfield Town AFC
+  - Huddersfield TownAFC
+  - HuddersfieldTownAFC
+  - Huddersfield AFC
+  name:
+    en: Huddersfield
+    sen: Huddersfield
+- aliases:
+  - Leicester
+  - Leicester City
+  - LeicesterCity
+  - LeicesterCityFC
+  - LeicesterCity FC
+  - Leicester City FC
+  - Leicester FC
+  name:
+    en: Leicester City
+    sen: Leicester
+- aliases:
+  - Liverpool
+  - Liverpool FC
+  - LiverpoolFC
+  name:
+    en: Liverpool
+    sen: Liverpool
+- aliases:
+  - Manchester City
+  - Man City
+  - ManCity
+  - Man C
+  - Man. City
+  - Manchester City FC
+  - Man City FC
+  - ManCity FC
+  - Man. City FC
+  name:
+    en: Manchester City
+    sen: Man City
+- aliases:
+  - ManU
+  - Man U
+  - Manchester Utd
+  - Manchester Utd FC
+  - Manchester United FC
+  - Man Utd
+  - ManUtd
+  - ManUtd FC
+  - Man Utd FC
+  - Man United
+  - Man United FC
+  - FC United of Manchester
+  name:
+    en: Manchester United
+    sen: Man Utd
+- aliases:
+  - Newcastle
+  - Newcastle United
+  - Newcastle FC
+  - Newcastle United FC
+  name:
+    en: Newcastle
+    sen: Newcastle
+- aliases:
+  - Southampton
+  - SouthamptonFC
+  - Southampton FC
+  name:
+    en: Southampton
+    sen: Southampton
+- aliases:
+  - Stoke City
+  - Stoke
+  - Stoke City FC
+  - Stoke FC
+  - Stoke CityFC
+  - StokeFC
+  - StokeCity
+  - StokeCityFC
+  - StokeCity FC
+  name:
+    en: Stoke
+    sen: Stoke
+- aliases:
+  - Swansea
+  - Swansea City
+  - Swansea AFC
+  - Swansea City AFC
+  - SwanseaAFC
+  - SwanseaCity AFC
+  - SwanseaCityAFC
+  - Swansea CityAFC
+  name:
+    en: Swansea
+    sen: Swansea
+- aliases:
+  - Tottenham
+  - Tottenham FC
+  - TottenhamFC
+  - Spurs
+  - Hotspur
+  - Tottenham Hotspur FC
+  - Tottenham Hotspur
+  - TottenhamHotspur FC
+  - TottenhamHotspurFC
+  - TottenhamHotspur
+  name:
+    en: Tottenham
+    sen: Tottenham
+- aliases:
+  - Watford
+  - Watford FC
+  - WatfordFC
+  name:
+    en: Watford
+    sen: Watford
+- aliases:
+  - West Brom
+  - West Bromwich Albion
+  - West Bromwich Albion FC
+  - West Bromwich
+  - WestBrom
+  - WestBromwichAlbion
+  - WestBromwichAlbion FC
+  - WestBromwichAlbionFC
+  - WestBromwich
+  - WBA
+  name:
+    en: West Brom
+    sen: West Brom
+- aliases:
+  - West Ham
+  - WestHam
+  - West Ham United
+  - WestHamUnited
+  - West Ham United FC
+  - WestHamUnitedFC
+  - WHU
+  - WHU FC
+  - WHUFC
+  name:
+    en: West Ham
+    sen: West Ham

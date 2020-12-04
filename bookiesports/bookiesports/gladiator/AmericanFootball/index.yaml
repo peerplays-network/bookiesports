@@ -1,0 +1,31 @@
+# This file represents a
+#        Sport
+# Each sport has
+#        event groups
+# as children
+
+# Internal Identifier for Database
+identifier: AmericanFootball
+
+# This sport needs to be registered on the blockchain, there it
+# is registered with internationalized names:
+name:
+    en: American Football
+    sen: Am. Football
+
+aliases:
+ - AMERICAN FOOTBALL
+ - AMERICANFOOTBALL
+ - Am. Football
+ - Am.Football
+
+# After creation, of the sports object, we will end up with an id
+id:
+
+# List Event Groups (each of them has a subfolder)
+eventgroups:
+  - NFL#PreSeas
+  - NFL#RegSeas
+  - NFL#Playoffs
+  - NFL#Superbowl
+  - NFL#Probowl

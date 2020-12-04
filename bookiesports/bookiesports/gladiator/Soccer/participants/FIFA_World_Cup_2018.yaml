@@ -1,0 +1,170 @@
+participants:
+# AFC (Asia)
+- aliases:
+  - Australai
+  name:
+    en: Australia
+    sen: Australia
+- aliases:
+  - Irann
+  name:
+    en: Iran
+    sen: Iran
+- aliases:
+  - Jappan
+  name:
+    en: Japan
+    sen: Japan
+- aliases:
+  - S Korea
+  - S. Korea
+  - S.Korea
+  - SouthKorea
+  name:
+    en: South Korea
+    sen: South Korea
+- aliases:
+  - SaudiArabia
+  name:
+    en: Saudi Arabia
+    sen: Saudi Arabia
+# CAF (Africa)
+- aliases:
+  - Egyptien
+  name:
+    en: Egypt
+    sen: Egypt
+- aliases:
+  - Moroco
+  - Morroco
+  name:
+    en: Morocco
+    sen: Morocco
+- aliases:
+  - Nigerien
+  name:
+    en: Nigeria
+    sen: Nigeria
+- aliases:
+  - Senegaal
+  name:
+    en: Senegal
+    sen: Senegal
+- aliases:
+  - Tunisien
+  name:
+    en: Tunisia
+    sen: Tunisia
+# CONCACAF (North & Central America, Caribbean)
+- aliases:
+  - CostaRica
+  name:
+    en: Costa Rica
+    sen: Costa Rica
+- aliases:
+  - Mexicoo
+  name:
+    en: Mexico
+    sen: Mexico
+- aliases:
+  - Panamma
+  name:
+    en: Panama
+    sen: Panama
+# CONMEBOL (South America)
+- aliases:
+  - Argentinna
+  name:
+    en: Argentina
+    sen: Argentina
+- aliases:
+  - Brasil
+  name:
+    en: Brazil
+    sen: Brazil
+- aliases:
+  - Columbia
+  name:
+    en: Colombia
+    sen: Colombia
+- aliases:
+  - Perru
+  name:
+    en: Peru
+    sen: Peru
+- aliases:
+  - Urugauy
+  name:
+    en: Uruguay
+    sen: Uruguay
+# UEFA (Europe)
+- aliases:
+  - Belgum
+  name:
+    en: Belgium
+    sen: Belgium
+- aliases:
+  - Kroatia
+  name:
+    en: Croatia
+    sen: Croatia
+- aliases:
+  - Danmark
+  name:
+    en: Denmark
+    sen: Denmark
+- aliases:
+  - Ingland
+  name:
+    en: England
+    sen: England
+- aliases:
+  - Fraance
+  name:
+    en: France
+    sen: France
+- aliases:
+  - Germanny
+  name:
+    en: Germany
+    sen: Germany
+- aliases:
+  - Iseland
+  name:
+    en: Iceland
+    sen: Iceland
+- aliases:
+  - Polska
+  name:
+    en: Poland
+    sen: Poland
+- aliases:
+  - Portugaal
+  name:
+    en: Portugal
+    sen: Portugal
+- aliases:
+  - Russian
+  name:
+    en: Russia
+    sen: Russia
+- aliases:
+  - Serbien
+  name:
+    en: Serbia
+    sen: Serbia
+- aliases:
+  - Espana
+  name:
+    en: Spain
+    sen: Spain
+- aliases:
+  - Sverige
+  name:
+    en: Sweden
+    sen: Sweden
+- aliases:
+  - Switzerlan
+  name:
+    en: Switzerland
+    sen: Switzerland

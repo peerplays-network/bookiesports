@@ -1,0 +1,118 @@
+participants:
+- aliases:
+  - FC Bayern Munchen
+  - FCB
+  - Bayern Munich
+  - FC Bayren
+  name:
+    en: Bayern
+    sen: Bayern
+- aliases:
+  - Bayer 04 Leverkusen
+  - Leverkusen
+  - Bayer Leverkusen
+  name:
+    en: Leverkusen
+    sen: Leverkusen   
+- aliases:
+  - Eintracht Frankfurt
+  - Frankfurt
+  name:
+    en: Frankfurt
+    sen: Frankfurt
+- aliases:
+  - Fortuna Dusseldorf
+  - Dusseldorf
+  name:
+    en: Dusseldorf
+    sen: Dusseldorf
+- aliases:
+  - Sport-Club Freiburg
+  - Freiburg
+  - SC Freiburg
+  name:
+    en: Freiburg
+    sen: Freiburg
+- aliases:
+  - 1. FC Koln
+  - FC Koln
+  - Koln
+  name:
+    en: Koln
+    sen: Koln
+- aliases:
+  - Borussia Dortmund
+  - Dortmund
+  name:
+    en: Dortmund
+    sen: Dortmund
+- aliases:
+  - Borussia Monchengladbach
+  - Monchengladbach
+  name:
+    en: Monchengladbach
+    sen: Monchengladbach
+- aliases:
+  - SV Werder Bremen
+  - Werder Bremen
+  - Bremen
+  name:
+    en: Bremen
+    sen: Bremen
+- aliases:
+  - Hertha Berlin
+  name:
+    en: Hertha Berlin
+    sen: Hertha Berlin
+- aliases:
+  - FC Schalke 04
+  - FC Schalke
+  - Schalke
+  name:
+    en: Schalke
+    sen: Schalke
+- aliases:
+  - SC Paderborn 07
+  - SC Paderborn
+  - Paderborn
+  name:
+    en: Paderborn
+    sen: Paderborn
+- aliases:
+  - RB Leipzig
+  - Leipzig
+  name:
+    en: Leipzig
+    sen: Leipzig
+- aliases:
+  - VfL Wolfsburg
+  - Wolfsburg
+  name:
+    en: Wolfsburg
+    sen: Wolfsburg
+- aliases:
+  - TSG 1899 Hoffenheim
+  - Hoffenheim
+  name:
+    en: Hoffenheim
+    sen: Hoffenheim
+- aliases:
+  - 1. FSV Mainz 05
+  - FSV Mainz
+  - Mainz
+  name:
+    en: Mainz
+    sen: Mainz
+- aliases:
+  - FC Augsburg
+  - Augsburg
+  name:
+    en: Augsburg
+    sen: Augsburg
+- aliases:
+  - 1. FC Union Berlin
+  - FC Union Berlin
+  - Union Berlin
+  name:
+    en: Union Berlin
+    sen: Union Berlin       
