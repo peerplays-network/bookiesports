@@ -167,7 +167,7 @@ class BookieSports(dict):
         """
         try:
             with open(f, encoding="utf-8") as fid:
-                t = yaml.load(fid)
+                t = yaml.safe_load(fid)
             return t
         except yaml.YAMLError as exc:
             log.error("Error in configuration file {}: {}".format(f, exc))

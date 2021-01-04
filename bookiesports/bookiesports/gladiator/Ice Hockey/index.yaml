@@ -1,0 +1,26 @@
+# This file represents a
+#        Sport
+# Each sport has
+#        event groups
+# as children
+
+# Internal Identifier for Database
+identifier: Ice Hockey
+
+# This sport needs to be registered on the blockchain, there it
+# is registered with internationalized names:
+name:
+    en: Ice Hockey
+    sen: Ice Hockey
+
+aliases:
+ - Hockey
+ - IceHockey
+
+# After creation, of the sports object, we will end up with an id
+id:
+
+# List Event Groups (each of them has a subfolder)
+eventgroups:
+  - NHL#RegSeas
+  - NHL#Playoffs
