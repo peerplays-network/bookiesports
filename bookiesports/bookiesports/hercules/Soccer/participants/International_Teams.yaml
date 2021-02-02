@@ -1,0 +1,1117 @@
+participants:
+# AFC (Asia)
+- aliases:
+  - Afghanisstan
+  name:
+    en: Afghanistan
+    sen: Afghanistan
+- aliases:
+  - Australai
+  name:
+    en: Australia
+    sen: Australia
+- aliases:
+  - Bahrian
+  name:
+    en: Bahrain
+    sen: Bahrain
+- aliases:
+  - Bangladesh
+  name:
+    en: Bangladesh
+    sen: Bangladesh
+- aliases:
+  - Buhtan
+  name:
+    en: Bhutan
+    sen: Bhutan
+- aliases:
+  - Brunei Darussalam
+  name:
+    en: Brunei Darussalam
+    sen: Brunei
+- aliases:
+  - Cambodai
+  name:
+    en: Cambodia
+    sen: Cambodia
+- aliases:
+  - China PR
+  name:
+    en: China
+    sen: China
+- aliases:
+  - ChineseTaipei
+  name:
+    en: Chinese Taipei
+    sen: Taipei
+- aliases:
+  - Gaum
+  name:
+    en: Guam
+    sen: Guam
+- aliases:
+  - HongKong
+  name:
+    en: Hong Kong
+    sen: Hong Kong
+- aliases:
+  - Indien
+  name:
+    en: India
+    sen: India
+- aliases:
+  - Indonesien
+  name:
+    en: Indonesia
+    sen: Indonesia
+- aliases:
+  - Irann
+  name:
+    en: Iran
+    sen: Iran
+- aliases:
+  - Iraqq
+  name:
+    en: Iraq
+    sen: Iraq
+- aliases:
+  - Jappan
+  name:
+    en: Japan
+    sen: Japan
+- aliases:
+  - Jordann
+  name:
+    en: Jordan
+    sen: Jordan
+- aliases:
+  - N Korea
+  - N. Korea
+  - N.Korea
+  - NorthKorea
+  name:
+    en: North Korea
+    sen: North Korea
+- aliases:
+  - S Korea
+  - S. Korea
+  - S.Korea
+  - SouthKorea
+  name:
+    en: South Korea
+    sen: South Korea
+- aliases:
+  - Quwait
+  name:
+    en: Kuwait
+    sen: Kuwait
+- aliases:
+  - Kyrgysztan
+  name:
+    en: Kyrgyzstan
+    sen: Kyrgyzstan
+- aliases:
+  - Laoss
+  name:
+    en: Laos
+    sen: Laos
+- aliases:
+  - Lebanone
+  name:
+    en: Lebanon
+    sen: Lebanon
+- aliases:
+  - Lebanone
+  name:
+    en: Lebanon
+    sen: Lebanon
+- aliases:
+  - Macao
+  name:
+    en: Macau
+    sen: Macau
+- aliases:
+  - Malayasia
+  name:
+    en: Malaysia
+    sen: Malaysia
+- aliases:
+  - Malvides
+  name:
+    en: Maldives
+    sen: Maldives
+- aliases:
+  - Mongoolia
+  name:
+    en: Mongolia
+    sen: Mongolia
+- aliases:
+  - Burma
+  name:
+    en: Myanmar
+    sen: Myanmar
+- aliases:
+  - Nepall
+  name:
+    en: Nepal
+    sen: Nepal
+- aliases:
+  - Omann
+  name:
+    en: Oman
+    sen: Oman
+- aliases:
+  - Pakisstan
+  name:
+    en: Pakistan
+    sen: Pakistan
+- aliases:
+  - Palestinne
+  name:
+    en: Palestine
+    sen: Palestine
+- aliases:
+  - Phillippines
+  - Phillipines
+  - Philipines
+  name:
+    en: Philippines
+    sen: Philippines
+- aliases:
+  - Qaatar
+  name:
+    en: Qatar
+    sen: Qatar
+- aliases:
+  - SaudiArabia
+  name:
+    en: Saudi Arabia
+    sen: Saudi Arabia
+- aliases:
+  - Singaporre
+  name:
+    en: Singapore
+    sen: Singapore
+- aliases:
+  - SriLanka
+  name:
+    en: Sri Lanka
+    sen: Sri Lanka
+- aliases:
+  - Syrien
+  name:
+    en: Syria
+    sen: Syria
+- aliases:
+  - Tajikstan
+  name:
+    en: Tajikistan
+    sen: Tajikistan
+- aliases:
+  - Thaliand
+  name:
+    en: Thailand
+    sen: Thaliand
+- aliases:
+  - Timor Leste
+  name:
+    en: Timor-Leste
+    sen: Timor-Leste
+- aliases:
+  - Turkmenstan
+  name:
+    en: Turkmenistan
+    sen: Turkmenistan
+- aliases:
+  - UnitedArabEmirates
+  - United Arab Emirates
+  - U.A.E.
+  name:
+    en: UAE
+    sen: UAE
+- aliases:
+  - Uzbekstan
+  name:
+    en: Uzbekistan
+    sen: Uzbekistan
+- aliases:
+  - Veitnam
+  name:
+    en: Vietnam
+    sen: Vietnam
+- aliases:
+  - Yeman
+  name:
+    en: Yemen
+    sen: Yemen
+# CAF (Africa)
+- aliases:
+  - Algerien
+  name:
+    en: Algeria
+    sen: Algeria
+- aliases:
+  - Angolla
+  name:
+    en: Angola
+    sen: Angola
+- aliases:
+  - Benine
+  name:
+    en: Benin
+    sen: Benin
+- aliases:
+  - Botwsana
+  name:
+    en: Botswana
+    sen: Botswana
+- aliases:
+  - BurkinaFaso
+  name:
+    en: Burkina Faso
+    sen: Burkina Faso
+- aliases:
+  - Burunndi
+  name:
+    en: Burundi
+    sen: Burundi
+- aliases:
+  - Camerooon
+  name:
+    en: Cameroon
+    sen: Cameroon
+- aliases:
+  - CapeVerde
+  name:
+    en: Cape Verde
+    sen: Cape Verde
+- aliases:
+  - Central African Republic
+  - CentralAfricanRepublic
+  - C.A.R.
+  name:
+    en: CAR
+    sen: CAR
+- aliases:
+  - Chadd
+  name:
+    en: Chad
+    sen: Chad
+- aliases:
+  - Comorros
+  name:
+    en: Comoros
+    sen: Comoros
+- aliases:
+  - Kongo
+  - DR Congo
+  name:
+    en: Congo
+    sen: Congo
+- aliases:
+  - KongoDR
+  - CongoDR
+  name:
+    en: Congo DR
+    sen: Congo DR
+- aliases:
+  - Djbouti
+  name:
+    en: Djibouti
+    sen: Djibouti
+- aliases:
+  - Egyptien
+  name:
+    en: Egypt
+    sen: Egypt
+- aliases:
+  - EquatorialGuinea
+  name:
+    en: Equatorial Guinea
+    sen: Eq. Guinea
+- aliases:
+  - Eritrrea
+  name:
+    en: Eritrea
+    sen: Eritrea
+- aliases:
+  - Ethiopien
+  name:
+    en: Ethiopia
+    sen: Ethiopia
+- aliases:
+  - Gabbon
+  name:
+    en: Gabon
+    sen: Gabon
+- aliases:
+  - Gabmia
+  name:
+    en: Gambia
+    sen: Gambia
+- aliases:
+  - Ghana
+  name:
+    en: Ghana
+    sen: Ghana
+- aliases:
+  - Guinae
+  name:
+    en: Guinea
+    sen: Guinea
+- aliases:
+  - Guinea Bissau
+  name:
+    en: Guinea-Bissau
+    sen: Guinea-Bissau
+- aliases:
+  - IvoryCoast
+  - Cote D Ivoire
+  name:
+    en: Ivory Coast
+    sen: Ivory Coast
+- aliases:
+  - Keyna
+  name:
+    en: Kenya
+    sen: Kenya
+- aliases:
+  - Lesohto
+  name:
+    en: Lesotho
+    sen: Lesotho
+- aliases:
+  - Liberien
+  name:
+    en: Liberia
+    sen: Liberia
+- aliases:
+  - Liyba
+  name:
+    en: Libya
+    sen: Libya
+- aliases:
+  - Madagacar
+  name:
+    en: Madagascar
+    sen: Madagascar
+- aliases:
+  - Malawai
+  name:
+    en: Malawi
+    sen: Malawi
+- aliases:
+  - Malii
+  name:
+    en: Mali
+    sen: Mali
+- aliases:
+  - Maritania
+  name:
+    en: Mauritania
+    sen: Mauritania
+- aliases:
+  - Mauritis
+  name:
+    en: Mauritius
+    sen: Mauritius
+- aliases:
+  - Moroco
+  - Morroco
+  name:
+    en: Morocco
+    sen: Morocco
+- aliases:
+  - Mozambic
+  name:
+    en: Mozambique
+    sen: Mozambique
+- aliases:
+  - Nammibia
+  name:
+    en: Namibia
+    sen: Namibia
+- aliases:
+  - Nigerr
+  name:
+    en: Niger
+    sen: Niger
+- aliases:
+  - Nigerien
+  - NIGERIA (W)
+  name:
+    en: Nigeria
+    sen: Nigeria
+- aliases:
+  - Rwandda
+  name:
+    en: Rwanda
+    sen: Rwanda
+- aliases:
+  - Sao Tome and Principe
+  name:
+    en: Sao Tome and Principe
+    sen: SaoTomePrincipe
+- aliases:
+  - Senegaal
+  name:
+    en: Senegal
+    sen: Senegal
+- aliases:
+  - Seychells
+  name:
+    en: Seychelles
+    sen: Seychelles
+- aliases:
+  - SierraLeone
+  name:
+    en: Sierra Leone
+    sen: Sierra Leone
+- aliases:
+  - Sommalia
+  name:
+    en: Somalia
+    sen: Somalia
+- aliases:
+  - SouthAfrica
+  - S.Africa
+  - S. Africa
+  - S Africa
+  name:
+    en: South Africa
+    sen: South Africa
+- aliases:
+  - SouthSudan
+  - S Sudan
+  - S.Sudan
+  - S. Sudan
+  name:
+    en: South Sudan
+    sen: South Sudan
+- aliases:
+  - Sudann
+  name:
+    en: Sudan
+    sen: Sudan
+- aliases:
+  - Swasiland
+  name:
+    en: Swaziland
+    sen: Swaziland
+- aliases:
+  - Tanzannia
+  name:
+    en: Tanzania
+    sen: Tanzania
+- aliases:
+  - Togoo
+  name:
+    en: Togo
+    sen: Togo
+- aliases:
+  - Tunisien
+  name:
+    en: Tunisia
+    sen: Tunisia
+- aliases:
+  - Ugnda
+  name:
+    en: Uganda
+    sen: Uganda
+- aliases:
+  - Zammbia
+  name:
+    en: Zambia
+    sen: Zambia
+- aliases:
+  - Zansibar
+  name:
+    en: Zanzibar
+    sen: Zanzibar
+- aliases:
+  - Zimbawe
+  name:
+    en: Zimbabwe
+    sen: Zimbabwe
+# CONCACAF (North & Central America, Caribbean)
+- aliases:
+  - Anguila
+  name:
+    en: Anguilla
+    sen: Anguilla
+- aliases:
+  - AntiguaandBarbuda
+  name:
+    en: Antigua and Barbuda
+    sen: Antigua
+- aliases:
+  - Arubba
+  name:
+    en: Aruba
+    sen: Aruba
+- aliases:
+  - Bahammas
+  name:
+    en: Bahamas
+    sen: Bahamas
+- aliases:
+  - Barbadas
+  name:
+    en: Barbados
+    sen: Barbados
+- aliases:
+  - Belise
+  name:
+    en: Belize
+    sen: Belize
+- aliases:
+  - Bermmuda
+  name:
+    en: Bermuda
+    sen: Bermuda
+- aliases:
+  - BritishVirginIslands
+  name:
+    en: British Virgin Islands
+    sen: Br. Virgin I
+- aliases:
+  - Kanada
+  - CANADA (W)
+  name:
+    en: Canada
+    sen: Canada
+- aliases:
+  - Cayman Islands
+  name:
+    en: Cayman Islands
+    sen: Cayman Islands
+- aliases:
+  - CostaRica
+  name:
+    en: Costa Rica
+    sen: Costa Rica
+- aliases:
+  - Cuuba
+  name:
+    en: Cuba
+    sen: Cuba
+- aliases:
+  - Curacoa
+  name:
+    en: Curacao
+    sen: Curacao
+- aliases:
+  - Donimica
+  name:
+    en: Dominica
+    sen: Dominica
+- aliases:
+  - DominicanRepublic
+  name:
+    en: Dominican Republic
+    sen: Dominica Rep
+- aliases:
+  - ElSalvador
+  name:
+    en: El Salvador
+    sen: El Salvador
+- aliases:
+  - Grennada
+  name:
+    en: Grenada
+    sen: Grenada
+- aliases:
+  - Guatemalla
+  name:
+    en: Guatemala
+    sen: Guatemala
+- aliases:
+  - Guyanna
+  name:
+    en: Guyana
+    sen: Guyana
+- aliases:
+  - Hiati
+  name:
+    en: Haiti
+    sen: Haiti
+- aliases:
+  - Hondduras
+  name:
+    en: Honduras
+    sen: Honduras
+- aliases:
+  - Jamiaca
+  name:
+    en: Jamaica
+    sen: Jamaica
+- aliases:
+  - Mexicoo
+  - MEXICO (W)
+  name:
+    en: Mexico
+    sen: Mexico
+- aliases:
+  - Montserat
+  name:
+    en: Montserrat
+    sen: Montserrat
+- aliases:
+  - Nicaragau
+  name:
+    en: Nicaragua
+    sen: Nicaragua
+- aliases:
+  - Panamma
+  name:
+    en: Panama
+    sen: Panama
+- aliases:
+  - PuertoRico
+  name:
+    en: Puerto Rico
+    sen: Puerto Rico
+- aliases:
+  - St Kitts Nevis
+  - St. Kitts and Nevis
+  - Saint Kitts and Nevis
+  name:
+    en: St Kitts and Nevis
+    sen: St Kitts Nevis
+- aliases:
+  - St Lucia
+  - SaintLucia
+  name:
+    en: Saint Lucia
+    sen: Saint Lucia
+- aliases:
+  - St Vincent and the Grenadines
+  - Saint Vincent and the Grenadines
+  name:
+    en: Saint Vincent
+    sen: St Vincent
+- aliases:
+  - Surinam
+  name:
+    en: Suriname
+    sen: Suriname
+- aliases:
+  - TrinidadandTobago
+  name:
+    en: Trinidad and Tobago
+    sen: Trinidad
+- aliases:
+  - Turks and Caicos Islands
+  name:
+    en: Turks and Caicos
+    sen: Turks and Caicos
+- aliases:
+  - United States
+  - United States of America
+  - U.S.A.
+  - U. S. A.
+  - USA (W)
+  name:
+    en: USA
+    sen: USA
+- aliases:
+  - US VirginIslands
+  name:
+    en: US Virgin Islands
+    sen: US Virgin Isl
+# CONMEBOL (South America)
+- aliases:
+  - Argentinna
+  name:
+    en: Argentina
+    sen: Argentina
+- aliases:
+  - Bolivien
+  name:
+    en: Bolivia
+    sen: Bolivia
+- aliases:
+  - Brasil
+  name:
+    en: Brazil
+    sen: Brazil
+- aliases:
+  - Chille
+  name:
+    en: Chile
+    sen: Chile
+- aliases:
+  - Columbia
+  name:
+    en: Colombia
+    sen: Colombia
+- aliases:
+  - Ecuadore
+  name:
+    en: Ecuador
+    sen: Ecuador
+- aliases:
+  - Paragauy
+  name:
+    en: Paraguay
+    sen: Paraguay
+- aliases:
+  - Perru
+  name:
+    en: Peru
+    sen: Peru
+- aliases:
+  - Urugauy
+  name:
+    en: Uruguay
+    sen: Uruguay
+- aliases:
+  - Venezeula
+  name:
+    en: Venezuela
+    sen: Venezuela
+# OFC (Oceania)
+- aliases:
+  - AmericanSamoa
+  name:
+    en: American Samoa
+    sen: American Samoa
+- aliases:
+  - CookIslands
+  name:
+    en: Cook Islands
+    sen: Cook Islands
+- aliases:
+  - Fijji
+  name:
+    en: Fiji
+    sen: Fiji
+- aliases:
+  - NewCaledonia
+  name:
+    en: New Caledonia
+    sen: New Caledonia
+- aliases:
+  - NewZealand
+  name:
+    en: New Zealand
+    sen: New Zealand
+- aliases:
+  - PapuaNewGuinea
+  - Papua NG
+  name:
+    en: Papua New Guinea
+    sen: Papua NG
+- aliases:
+  - Samoa
+  name:
+    en: Samoa
+    sen: Samoa
+- aliases:
+  - SolomonIslands
+  name:
+    en: Solomon Islands
+    sen: Solomon Islands
+- aliases:
+  - Tahitti
+  name:
+    en: Tahiti
+    sen: Tahiti
+- aliases:
+  - Tongga
+  name:
+    en: Tonga
+    sen: Tonga
+- aliases:
+  - Vannuatu
+  name:
+    en: Vanuatu
+    sen: Vanuatu
+# UEFA (Europe)
+- aliases:
+  - Albenia
+  name:
+    en: Albania
+    sen: Albania
+- aliases:
+  - Andora
+  name:
+    en: Andorra
+    sen: Andorra
+- aliases:
+  - Armeenia
+  name:
+    en: Armenia
+    sen: Armenia
+- aliases:
+  - Astria
+  name:
+    en: Austria
+    sen: Austria
+- aliases:
+  - Azerbaizhan
+  name:
+    en: Azerbaijan
+    sen: Azerbaijan
+- aliases:
+  - Belarussia
+  name:
+    en: Belarus
+    sen: Belarus
+- aliases:
+  - Belgum
+  name:
+    en: Belgium
+    sen: Belgium
+- aliases:
+  - Bosnia and Herzegovina
+  - Bosnia & Herzegovina
+  name:
+    en: Bosnia
+    sen: Bosnia
+- aliases:
+  - Bulgeria
+  name:
+    en: Bulgaria
+    sen: Bulgaria
+- aliases:
+  - Kroatia
+  name:
+    en: Croatia
+    sen: Croatia
+- aliases:
+  - Cypruss
+  name:
+    en: Cyprus
+    sen: Cyprus
+- aliases:
+  - Czech Rep.
+  - CzechRepublic
+  name:
+    en: Czech Republic
+    sen: Czech Rep.
+- aliases:
+  - Danmark
+  name:
+    en: Denmark
+    sen: Denmark
+- aliases:
+  - Ingland
+  name:
+    en: England
+    sen: England
+- aliases:
+  - Estland
+  name:
+    en: Estonia
+    sen: Estonia
+- aliases:
+  - Faroes
+  - FaroeIslands
+  name:
+    en: Faroe Islands
+    sen: Faroes
+- aliases:
+  - Finnland
+  name:
+    en: Finland
+    sen: Finland
+- aliases:
+  - Fraance
+  - FRANCE (W)
+  name:
+    en: France
+    sen: France
+- aliases:
+  - Macedonia
+  - FYRMacedonia
+  name:
+    en: FYR Macedonia
+    sen: Macedonia
+- aliases:
+  - Giorgia
+  name:
+    en: Georgia
+    sen: Georgia
+- aliases:
+  - Germanny
+  name:
+    en: Germany
+    sen: Germany
+- aliases:
+  - Gibrraltar
+  name:
+    en: Gibraltar
+    sen: Gibraltar
+- aliases:
+  - Greecce
+  name:
+    en: Greece
+    sen: Greece
+- aliases:
+  - Hungry
+  name:
+    en: Hungary
+    sen: Hungary
+- aliases:
+  - Iseland
+  name:
+    en: Iceland
+    sen: Iceland
+- aliases:
+  - Issrael
+  name:
+    en: Israel
+    sen: Israel
+- aliases:
+  - Italia
+  name:
+    en: Italy
+    sen: Italy
+- aliases:
+  - Kazahkstan
+  name:
+    en: Kazakhstan
+    sen: Kazakhstan
+- aliases:
+  - Kosovvo
+  name:
+    en: Kosovo
+    sen: Kosovo
+- aliases:
+  - Latavia
+  name:
+    en: Latvia
+    sen: Latvia
+- aliases:
+  - Lichtenstein
+  name:
+    en: Liechtenstein
+    sen: Liechtenstein
+- aliases:
+  - Lituania
+  name:
+    en: Lithuania
+    sen: Lithuania
+- aliases:
+  - Luxemburg
+  name:
+    en: Luxembourg
+    sen: Luxembourg
+- aliases:
+  - Mallta
+  name:
+    en: Malta
+    sen: Malta
+- aliases:
+  - Moldava
+  name:
+    en: Moldova
+    sen: Moldova
+- aliases:
+  - Montennegro
+  name:
+    en: Montenegro
+    sen: Montenegro
+- aliases:
+  - Holland
+  - The Netherlands
+  name:
+    en: Netherlands
+    sen: Netherlands
+- aliases:
+  - N.Ireland
+  - NorthernIreland
+  name:
+    en: Northern Ireland
+    sen: N. Ireland
+- aliases:
+  - Norge
+  name:
+    en: Norway
+    sen: Norway
+- aliases:
+  - Polska
+  name:
+    en: Poland
+    sen: Poland
+- aliases:
+  - Portugaal
+  name:
+    en: Portugal
+    sen: Portugal
+- aliases:
+  - RepublicofIreland
+  - Rep.Ireland
+  - Rep. of Ireland
+  - Ireland
+  name:
+    en: Republic of Ireland
+    sen: Rep. Ireland
+- aliases:
+  - Romanian
+  - Rumania
+  name:
+    en: Romania
+    sen: Romania
+- aliases:
+  - Russian
+  name:
+    en: Russia
+    sen: Russia
+- aliases:
+  - SanMarino
+  name:
+    en: San Marino
+    sen: San Marino
+- aliases:
+  - Scoteland
+  name:
+    en: Scotland
+    sen: Scotland
+- aliases:
+  - Serbien
+  name:
+    en: Serbia
+    sen: Serbia
+- aliases:
+  - Slovakien
+  name:
+    en: Slovakia
+    sen: Slovakia
+- aliases:
+  - Slovenien
+  name:
+    en: Slovenia
+    sen: Slovenia
+- aliases:
+  - Espana
+  name:
+    en: Spain
+    sen: Spain
+- aliases:
+  - Sverige
+  name:
+    en: Sweden
+    sen: Sweden
+- aliases:
+  - Switzerlan
+  name:
+    en: Switzerland
+    sen: Switzerland
+- aliases:
+  - Turkiet
+  name:
+    en: Turkey
+    sen: Turkey
+- aliases:
+  - Ukrane
+  name:
+    en: Ukraine
+    sen: Ukraine
+- aliases:
+  - Cymru
+  name:
+    en: Wales
+    sen: Wales
