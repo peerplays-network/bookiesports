@@ -255,6 +255,7 @@ participants:
   name:
     en: Washington
     sen: WAS
+
 # These two teams are for a single game every season - the Probowl "Allstars" game
 - aliases:
   - NFC
@@ -268,4 +269,3 @@ participants:
   name:
     en: AFC
     sen: AFC
-
