@@ -4,34 +4,33 @@
 #        events
 # as children
 
-identifier: "MLB World Series"
+identifier: "MLB Regular Season"
 
 name:
-    en: MLB World Series
+    en: MLB Regular Season
     sen: MLB
 
 aliases:
   - Major League Baseball
-  - Major League Baseball - Finals
-  - MajorLeagueBaseball - Finals
-  - Major League Baseball Finals
-  - MajorLeagueBaseball Finals
-  - Major League Baseball - World Series
-  - MajorLeagueBaseball - World Series
-  - Major League Baseball World Series
-  - MajorLeagueBaseball World Series
+  - MajorLeagueBaseball - Regular Season
+  - Major League Baseball - RegularSeason
+  - MajorLeagueBaseball Regular Season
+  - Major League Baseball RegularSeason
+  - Major League Baseball Regular Season
   - MLB
-  - MLB-FINALS
-  - MLB FINALS
-  - MLBFINALS
-  - MLB-WORLD SERIES
-  - MLB WORLD SERIES
-  - MLBWORLDSERIES
+  - MLB Regular Season
+  - MLB-REGULAR SEASON
+  - MLB-REGULARSEASON
+  - MLB REGULAR SEASON
+  - MLB REGULARSEASON
+  - MLBREGULAR SEASON
+  - MLBREGULARSEASON
+
 
 # .. and blockchain id
 id:
 
-participants: "MLB_Teams_2019-20"
+participants: "MLB_Teams_2020-21"
 
 # Define the betting market groups
 bettingmarketgroups:
@@ -45,7 +44,7 @@ eventscheme:
      en: "{teams.away} @ {teams.home}"
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 2
+leadtime_Max: 14
 
 # When does the event group/league actually begin and end?
 start_date: 2020-01-01T00:00:00Z

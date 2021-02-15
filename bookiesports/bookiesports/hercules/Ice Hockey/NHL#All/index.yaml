@@ -4,37 +4,37 @@
 #        events
 # as children
 
-identifier: "NFL Preseason"
+identifier: "NHL Regular Season"
 
 name:
-    en: NFL Preseason
-    sen: NFL
+    en: NHL Regular Season
+    sen: NHL
 
 aliases:
-  - National Football League
-  - NationalFootballLeague
-  - NationalFootballLeague - Preseason
-  - National Football League - Preseason
-  - NationalFootballLeague Preseason
-  - National Football League Preseason
-  - NFL
-  - NFL-PRE SEASON
-  - NFL-PRESEASON
-  - NFL PRE SEASON
-  - NFL PRESEASON
-  - NFLPRE SEASON
-  - NFLPRESEASON
+  - National Hockey League
+  - NationalHockeyLeague - Regular Season
+  - National Hockey League - RegularSeason
+  - NationalHockeyLeagueRegular Season
+  - National Hockey League RegularSeason
+  - NHL
+  - NHL-REGULAR SEASON
+  - NHL-REGULARSEASON
+  - NHL REGULAR SEASON
+  - NHL REGULARSEASON
+  - NHLREGULAR SEASON
+  - NHLREGULARSEASON
+
 
 # .. and blockchain id
 id:
 
-participants: "NFL_Teams_2021-22"
+participants: "NHL_Teams_2021-22"
 
 # Define the betting market groups
 bettingmarketgroups:
-    - NFL_ML_1
-    - NFL_HCP_1
-    - NFL_OU_1
+    - NHL_ML_1
+    - NHL_HCP_1
+    - NHL_OU_1
 
 # How are individual Events named (naming scheme)
 eventscheme:
