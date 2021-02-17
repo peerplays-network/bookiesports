@@ -4,10 +4,10 @@
 #        events
 # as children
 
-identifier: "Italian Serie A"
+identifier: "SerieA"
 
 name:
-    en: Italian Serie A
+    en: Serie A
     sen: Serie A
 
 aliases:
