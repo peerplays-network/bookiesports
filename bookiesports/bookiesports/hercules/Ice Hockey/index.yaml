@@ -22,6 +22,5 @@ id:
 
 # List Event Groups (each of them has a subfolder)
 eventgroups:
-  - NHL#All
-    #  - NHL#RegSeas
+ - NHL#RegSeas
     #  - NHL#Playoffs

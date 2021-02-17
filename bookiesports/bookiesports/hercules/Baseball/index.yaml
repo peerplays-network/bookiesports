@@ -21,7 +21,6 @@ id:
 
 # List Event Groups (each of them has a subfolder)
 eventgroups:
-  - MLB#All
-    #  - MLB#RegSeas
-    #  - MLB#Playoffs
-    #  - MLB#WorldSeries
+ - MLB#RegSeas
+   # - MLB#Playoffs
+   # - MLB#WorldSeries
