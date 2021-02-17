@@ -4,10 +4,10 @@
 #        events
 # as children
 
-identifier: "SerieA"
+identifier: "Italian Serie A"
 
 name:
-    en: Serie A
+    en: Italian Serie A
     sen: Serie A
 
 aliases:
@@ -16,6 +16,8 @@ aliases:
  - Serie A TIM
  - SerieATIM
  - Serie ATIM
+ - Italian Serie A
+  
 
 # .. and blockchain id
 id:
