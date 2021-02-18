@@ -1,7 +1,7 @@
 participants:
 - aliases:
   - Arizona Cardinals
-  - ''
+  - Arizona Cardinals
   - ARI
   identifier: Arizona Cardinals
   name:
@@ -9,7 +9,7 @@ participants:
     sen: ARI
 - aliases:
   - Atlanta Falcons
-  - ''
+  - Atlanta Falcons
   - ATL
   identifier: Atlanta Falcons
   name:
@@ -17,7 +17,7 @@ participants:
     sen: ATL
 - aliases:
   - Baltimore Ravens
-  - ''
+  - Baltimore Ravens
   - BAL
   identifier: Baltimore Ravens
   name:
@@ -25,7 +25,7 @@ participants:
     sen: BAL
 - aliases:
   - Buffalo Bills
-  - ''
+  - Buffalo Bills
   - BUF
   identifier: Buffalo Bills
   name:
@@ -33,7 +33,7 @@ participants:
     sen: BUF
 - aliases:
   - Carolina Panthers
-  - ''
+  - Carolina Panthers
   - CAR
   identifier: Carolina Panthers
   name:
@@ -41,7 +41,7 @@ participants:
     sen: CAR
 - aliases:
   - Chicago Bears
-  - ''
+  - Chicago Bears
   - CHI
   identifier: Chicago Bears
   name:
@@ -49,7 +49,7 @@ participants:
     sen: CHI
 - aliases:
   - Cincinnati Bengals
-  - ''
+  - Cincinnati Bengals
   - CIN
   identifier: Cincinnati Bengals
   name:
@@ -57,7 +57,7 @@ participants:
     sen: CIN
 - aliases:
   - Cleveland Browns
-  - ''
+  - Cleveland Browns
   - CLE
   identifier: Cleveland Browns
   name:
@@ -65,7 +65,7 @@ participants:
     sen: CLE
 - aliases:
   - Dallas Cowboys
-  - ''
+  - Dallas Cowboys
   - DAL
   identifier: Dallas Cowboys
   name:
@@ -73,7 +73,7 @@ participants:
     sen: DAL
 - aliases:
   - Denver Broncos
-  - ''
+  - Denver Broncos
   - DEN
   identifier: Denver Broncos
   name:
@@ -81,7 +81,7 @@ participants:
     sen: DEN
 - aliases:
   - Detroit Lions
-  - ''
+  - Detroit Lions
   - DET
   identifier: Detroit Lions
   name:
@@ -89,7 +89,7 @@ participants:
     sen: DET
 - aliases:
   - Green Bay Packers
-  - ''
+  - Green Bay Packers
   - GB
   identifier: Green Bay Packers
   name:
@@ -97,7 +97,7 @@ participants:
     sen: GB
 - aliases:
   - Houston Texans
-  - ''
+  - Houston Texans
   - HOU
   identifier: Houston Texans
   name:
@@ -105,7 +105,7 @@ participants:
     sen: HOU
 - aliases:
   - Indianapolis Colts
-  - ''
+  - Indianapolis Colts
   - IND
   identifier: Indianapolis Colts
   name:
@@ -121,7 +121,7 @@ participants:
     sen: JAX
 - aliases:
   - Kansas City Chiefs
-  - ''
+  - Kansas City Chiefs
   - KC
   identifier: Kansas City Chiefs
   name:
@@ -177,7 +177,7 @@ participants:
     sen: NE
 - aliases:
   - New Orleans Saints
-  - ''
+  - New Orleans Saints
   - 'NO'
   identifier: New Orleans Saints
   name:
@@ -185,7 +185,7 @@ participants:
     sen: 'NO'
 - aliases:
   - New York Giants
-  - ''
+  - New York Giants
   - NYG
   identifier: New York Giants
   name:
@@ -209,7 +209,7 @@ participants:
     sen: PHI
 - aliases:
   - Pittsburgh Steelers
-  - ''
+  - Pittsburgh Steelers
   - PIT
   identifier: Pittsburgh Steelers
   name:
@@ -217,7 +217,7 @@ participants:
     sen: PIT
 - aliases:
   - San Francisco 49ers
-  - ''
+  - San Francisco 49ers
   - SF
   identifier: San Francisco 49ers
   name:
@@ -225,7 +225,7 @@ participants:
     sen: SF
 - aliases:
   - Seattle Seahawks
-  - ''
+  - Seattle Seahawks
   - SEA
   identifier: Seattle Seahawks
   name:
@@ -233,7 +233,7 @@ participants:
     sen: SEA
 - aliases:
   - Tampa Bay Buccaneers
-  - ''
+  - Tampa Bay Buccaneers
   - TB
   identifier: Tampa Bay Buccaneers
   name:
@@ -241,7 +241,7 @@ participants:
     sen: TB
 - aliases:
   - Tennessee Titans
-  - ''
+  - Tennessee Titans
   - TEN
   identifier: Tennessee Titans
   name:
@@ -255,17 +255,3 @@ participants:
   name:
     en: Washington
     sen: WAS
-
-# These two teams are for a single game every season - the Probowl "Allstars" game
-- aliases:
-  - NFC
-  identifier: "NFC"
-  name:
-    en: NFC
-    sen: NFC
-- aliases:
-  - AFC
-  identifier: "AFC"
-  name:
-    en: AFC
-    sen: AFC

@@ -9,7 +9,8 @@ participants:
     sen: Alaves
 - aliases:
   - Ath Bilbao
-  - Athletic Bilbao, Athletic Club
+  - Athletic Bilbao
+  - Athletic Club
   - Ath Bilbao
   identifier: Ath Bilbao
   name:
@@ -17,7 +18,8 @@ participants:
     sen: Ath Bilbao
 - aliases:
   - Ath Madrid
-  - "Atl\xE9tico de Madrid, Atletico Madrid"
+  - "Atl\xE9tico de Madrid"
+  - Atletico Madrid
   - Ath Madrid
   identifier: Ath Madrid
   name:
@@ -33,7 +35,8 @@ participants:
     sen: Barcelona
 - aliases:
   - Betis
-  - "Real Betis Balompi\xE9, Real Betis"
+  - "Real Betis Balompi\xE9"
+  - Real Betis
   - Betis
   identifier: Betis
   name:
@@ -41,7 +44,8 @@ participants:
     sen: Betis
 - aliases:
   - Cadiz
-  - "C\xE1diz Club de F\xFAtbol, C\xE1diz CF"
+  - "C\xE1diz Club de F\xFAtbol"
+  - "C\xE1diz CF"
   - Cadiz
   identifier: Cadiz
   name:
@@ -57,7 +61,8 @@ participants:
     sen: Celta Vigo
 - aliases:
   - Eibar
-  - Sociedad Deportiva Eibar, SD Eibar
+  - Sociedad Deportiva Eibar
+  - SD Eibar
   - Eibar
   identifier: Eibar
   name:
@@ -89,7 +94,8 @@ participants:
     sen: Granada
 - aliases:
   - Huesca
-  - SD Huesca, Sociedad Deportiva Huesca
+  - SD Huesca
+  - Sociedad Deportiva Huesca
   - Huesca
   identifier: Huesca
   name:
@@ -105,7 +111,9 @@ participants:
     sen: Levante
 - aliases:
   - Osasuna
-  - "Osasuna, Club Atl\xE9tico Osasuna, CA Osasuna"
+  - Osasuna
+  - "Club Atl\xE9tico Osasuna"
+  - CA Osasuna
   - Osasuna
   identifier: Osasuna
   name:
@@ -121,7 +129,8 @@ participants:
     sen: Real Madrid
 - aliases:
   - Sevilla
-  - "Sevilla F\xFAtbol Club, SFC"
+  - "Sevilla F\xFAtbol Club"
+  - SFC
   - Sevilla
   identifier: Sevilla
   name:
@@ -153,7 +162,11 @@ participants:
     sen: Valladolid
 - aliases:
   - Villarreal
-  - "Villareal, Villarreal Club de F\xFAtbol, Villarreal CF, Vila-real, VCF"
+  - Villareal
+  - "Villarreal Club de F\xFAtbol"
+  - Villarreal CF
+  - Vila-real
+  - VCF
   - Villarreal
   identifier: Villarreal
   name:

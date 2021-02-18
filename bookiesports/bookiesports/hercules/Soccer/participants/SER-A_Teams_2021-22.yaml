@@ -1,7 +1,7 @@
 participants:
 - aliases:
   - Atalanta
-  - ''
+  - Atalanta
   - Atalanta
   identifier: Atalanta
   name:
@@ -17,7 +17,7 @@ participants:
     sen: Benevento
 - aliases:
   - Bologna
-  - ''
+  - Bologna
   - Bologna
   identifier: Bologna
   name:
@@ -25,7 +25,11 @@ participants:
     sen: Bologna
 - aliases:
   - Cagliari
-  - Cagliari Calcio, Cagliari FC, Casteddu, Il Sardi, Sardi
+  - Cagliari Calcio
+  - Cagliari FC
+  - Casteddu
+  - Il Sardi
+  - Sardi
   - Cagliari
   identifier: Cagliari
   name:
@@ -33,7 +37,8 @@ participants:
     sen: Cagliari
 - aliases:
   - Crotone
-  - Football Club Crotone, FC Crotone
+  - Football Club Crotone
+  - FC Crotone
   - Crotone
   identifier: Crotone
   name:
@@ -41,7 +46,7 @@ participants:
     sen: Crotone
 - aliases:
   - Fiorentina
-  - ''
+  - Fiorentina
   - Fiorentina
   identifier: Fiorentina
   name:
@@ -49,7 +54,7 @@ participants:
     sen: Fiorentina
 - aliases:
   - Genoa
-  - ''
+  - Genoa
   - Genoa
   identifier: Genoa
   name:
@@ -65,7 +70,11 @@ participants:
     sen: Inter
 - aliases:
   - Juventus
-  - Juve, Juventus FC, La Vecchia Signora, The Old Lady, Bianconeri
+  - Juve
+  - Juventus FC
+  - La Vecchia Signora
+  - The Old Lady
+  - Bianconeri
   - Juventus
   identifier: Juventus
   name:
@@ -73,7 +82,9 @@ participants:
     sen: Juventus
 - aliases:
   - Lazio
-  - "SS Lazio, Societ\xE0 Sportiva Lazio, Biancocelesti"
+  - SS Lazio
+  - "Societ\xE0 Sportiva Lazio"
+  - Biancocelesti
   - Lazio
   identifier: Lazio
   name:
@@ -89,7 +100,10 @@ participants:
     sen: Milan
 - aliases:
   - Napoli
-  - S.S.C. Napoli, SSC Napoli, Naples, Gli Azzurri
+  - S.S.C. Napoli
+  - SSC Napoli
+  - Naples
+  - Gli Azzurri
   - Napoli
   identifier: Napoli
   name:
@@ -97,7 +111,9 @@ participants:
     sen: Napoli
 - aliases:
   - Parma Calcio 1913
-  - Parma Calcio, AC Parma, Parma FC. Gialloblu
+  - Parma Calcio
+  - AC Parma
+  - Parma FC. Gialloblu
   - Parma Calcio 1913
   identifier: Parma Calcio 1913
   name:
@@ -105,7 +121,10 @@ participants:
     sen: Parma Calcio 1913
 - aliases:
   - Roma
-  - AS Roma, FC Roma, Rome FC, Giallorossi
+  - AS Roma
+  - FC Roma
+  - Rome FC
+  - Giallorossi
   - Roma
   identifier: Roma
   name:
@@ -113,7 +132,9 @@ participants:
     sen: Roma
 - aliases:
   - Sampdoria
-  - UC Sampdoria, Unione Calcio Sampdoria, Blucerchiati
+  - UC Sampdoria
+  - Unione Calcio Sampdoria
+  - Blucerchiati
   - Sampdoria
   identifier: Sampdoria
   name:
@@ -121,7 +142,8 @@ participants:
     sen: Sampdoria
 - aliases:
   - Sassuolo
-  - U.S. Sassuolo Calcio, USSC
+  - U.S. Sassuolo Calcio
+  - USSC
   - Sassuolo
   identifier: Sassuolo
   name:
@@ -129,7 +151,8 @@ participants:
     sen: Sassuolo
 - aliases:
   - Spezia
-  - La Spezia, Spezia Calcio
+  - La Spezia
+  - Spezia Calcio
   - Spezia
   identifier: Spezia
   name:
@@ -137,7 +160,8 @@ participants:
     sen: Spezia
 - aliases:
   - Torino
-  - Torino Football Club, Torino FC
+  - Torino Football Club
+  - Torino FC
   - Torino
   identifier: Torino
   name:
@@ -145,7 +169,8 @@ participants:
     sen: Torino
 - aliases:
   - Udinese
-  - Udinese Calcio, Bianconeri
+  - Udinese Calcio
+  - Bianconeri
   - Udinese
   identifier: Udinese
   name:

@@ -121,7 +121,8 @@ participants:
     sen: MIN
 - aliases:
   - Montreal Canadiens
-  - "Les Habitants, Canadiens de Montr\xE9al"
+  - Les Habitants
+  - "Canadiens de Montr\xE9al"
   - MTL
   identifier: Montreal Canadiens
   name:

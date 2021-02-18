@@ -17,7 +17,8 @@ participants:
     sen: Bayern Munich
 - aliases:
   - Bielefeld
-  - Arminia Bielefeld, Deutscher Sport-Club Arminia Bielefeld
+  - Arminia Bielefeld
+  - Deutscher Sport-Club Arminia Bielefeld
   - Bielefeld
   identifier: Bielefeld
   name:
@@ -57,7 +58,8 @@ participants:
     sen: Freiburg
 - aliases:
   - Hertha
-  - Hertha BSC, Hertha Berlin
+  - Hertha BSC
+  - Hertha Berlin
   - Hertha
   identifier: Hertha
   name:
@@ -73,7 +75,8 @@ participants:
     sen: Hoffenheim
 - aliases:
   - Leverkusen
-  - Bayer 04 Leverkusen, Bayer Leverkusen
+  - Bayer 04 Leverkusen
+  - Bayer Leverkusen
   - Leverkusen
   identifier: Leverkusen
   name:
@@ -113,7 +116,8 @@ participants:
     sen: Schalke 04
 - aliases:
   - Stuttgart
-  - "VfB Stuttgart, Verein f\xFCr Bewegungsspiele Stuttgart 1893 e.V."
+  - VfB Stuttgart
+  - "Verein f\xFCr Bewegungsspiele Stuttgart 1893 e.V."
   - Stuttgart
   identifier: Stuttgart
   name:

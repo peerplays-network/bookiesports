@@ -1,7 +1,9 @@
 participants:
 - aliases:
   - Arsenal
-  - Gunners, Arsenal Football Club, AFC
+  - Gunners
+  - Arsenal Football Club
+  - AFC
   - Ars
   identifier: Arsenal
   name:
@@ -25,7 +27,7 @@ participants:
     sen: Brighton
 - aliases:
   - Burnley
-  - ''
+  - Burnley
   - Burnley
   identifier: Burnley
   name:
@@ -33,7 +35,7 @@ participants:
     sen: Burnley
 - aliases:
   - Chelsea
-  - ''
+  - Chelsea
   - Chelsea
   identifier: Chelsea
   name:
@@ -57,7 +59,8 @@ participants:
     sen: Everton
 - aliases:
   - Fulham
-  - Fulham Football Club, FFC
+  - Fulham Football Club
+  - FFC
   - Fulham
   identifier: Fulham
   name:
@@ -65,7 +68,8 @@ participants:
     sen: Fulham
 - aliases:
   - Leeds
-  - Leeds United Football Club, LUFC
+  - Leeds United Football Club
+  - LUFC
   - Leeds
   identifier: Leeds
   name:
@@ -73,7 +77,8 @@ participants:
     sen: Leeds
 - aliases:
   - Leicester
-  - Leicester City, The Foxes
+  - Leicester City
+  - The Foxes
   - Leicester
   identifier: Leicester
   name:
@@ -98,6 +103,7 @@ participants:
 - aliases:
   - Man United
   - Manchester United
+  - Man Utd
   - Man United
   identifier: Man United
   name:
@@ -121,7 +127,7 @@ participants:
     sen: Sheffield United
 - aliases:
   - Southampton
-  - ''
+  - Southampton
   - Southampton
   identifier: Southampton
   name:
@@ -137,7 +143,8 @@ participants:
     sen: Tottenham
 - aliases:
   - West Brom
-  - West Bromwich Albion Football Club, WBA FC
+  - West Bromwich Albion Football Club
+  - WBA FC
   - West Brom
   identifier: West Brom
   name:

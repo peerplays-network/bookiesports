@@ -30,7 +30,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "MLB_Teams_2020-21"
+participants: "MLB_Teams_2021-22"
 
 # Define the betting market groups
 bettingmarketgroups:
