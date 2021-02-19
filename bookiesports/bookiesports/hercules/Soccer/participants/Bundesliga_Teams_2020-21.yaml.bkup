@@ -36,9 +36,9 @@ participants:
 - aliases:
   - 1. FC Koln
   - FC Koln
-  - iKoln
+  - Koln
   name:
-    en: iKoln
+    en: Koln
     sen: Koln
 - aliases:
   - Borussia Dortmund
@@ -55,9 +55,9 @@ participants:
 - aliases:
   - SV Werder Bremen
   - Werder Bremen
-  - iBremen
+  - Bremen
   name:
-    en: iBremen
+    en: Bremen
     sen: Bremen
 - aliases:
   - Hertha Berlin
