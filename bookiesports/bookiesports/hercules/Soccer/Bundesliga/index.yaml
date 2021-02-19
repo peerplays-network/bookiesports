@@ -17,7 +17,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "Bundesliga_Teams_2021-22"
+participants: "Bundesliga_Teams_2021-22.yaml"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
