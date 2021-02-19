@@ -100,7 +100,7 @@ participants:
     sen: "M\xF6nchengladbach"
 - aliases:
   - RasenBallsport Leipzig
-  - RB Leipzig
+    #  - RB Leipzig
   - RasenBallsport Leipzig
   identifier: RasenBallsport Leipzig
   name:
