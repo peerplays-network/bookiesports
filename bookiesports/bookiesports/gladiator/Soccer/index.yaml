@@ -24,9 +24,9 @@ id:
 eventgroups:
   - EPL
   - SLL
-  - CL
-  - EuropaLeague
-  - FACup
-  - InternationalFriendlies
+    #  - CL
+    #  - EuropaLeague
+    #  - FACup
+    #  - InternationalFriendlies
   - SER-A
   - Bundesliga

@@ -1,0 +1,186 @@
+participants:
+- aliases:
+  - Atalanta
+  - Atalanta
+  - Atalanta
+  identifier: Atalanta
+  name:
+    en: Atalanta
+    sen: Atalanta
+- aliases:
+  - Benevento
+  - Benevento Calcio
+  - Benevento
+  identifier: Benevento
+  name:
+    en: Benevento
+    sen: Benevento
+- aliases:
+  - Bologna
+  - Bologna
+  - Bologna
+  identifier: Bologna
+  name:
+    en: Bologna
+    sen: Bologna
+- aliases:
+  - Cagliari
+  - Cagliari Calcio
+  - Cagliari FC
+  - Casteddu
+  - Il Sardi
+  - Sardi
+  - Cagliari
+  identifier: Cagliari
+  name:
+    en: Cagliari
+    sen: Cagliari
+- aliases:
+  - Crotone
+  - Football Club Crotone
+  - FC Crotone
+  - Crotone
+  identifier: Crotone
+  name:
+    en: Crotone
+    sen: Crotone
+- aliases:
+  - Fiorentina
+  - Fiorentina
+  - Fiorentina
+  identifier: Fiorentina
+  name:
+    en: Fiorentina
+    sen: Fiorentina
+- aliases:
+  - Genoa
+  - Genoa
+  - Genoa
+  identifier: Genoa
+  name:
+    en: Genoa
+    sen: Genoa
+- aliases:
+  - Inter
+  - F.C. Internazionale Milano
+  - Inter
+  identifier: Inter
+  name:
+    en: Inter
+    sen: Inter
+- aliases:
+  - Juventus
+  - Juve
+  - Juventus FC
+  - La Vecchia Signora
+  - The Old Lady
+  - Bianconeri
+  - Juventus
+  identifier: Juventus
+  name:
+    en: Juventus
+    sen: Juventus
+- aliases:
+  - Lazio
+  - SS Lazio
+  - "Societ\xE0 Sportiva Lazio"
+  - Biancocelesti
+  - Lazio
+  identifier: Lazio
+  name:
+    en: Lazio
+    sen: Lazio
+- aliases:
+  - Milan
+  - AC Milan
+  - Milan
+  identifier: Milan
+  name:
+    en: Milan
+    sen: Milan
+- aliases:
+  - Napoli
+  - S.S.C. Napoli
+  - SSC Napoli
+  - Naples
+  - Gli Azzurri
+  - Napoli
+  identifier: Napoli
+  name:
+    en: Napoli
+    sen: Napoli
+- aliases:
+  - Parma Calcio 1913
+  - Parma Calcio
+  - AC Parma
+  - Parma FC. Gialloblu
+  - Parma Calcio 1913
+  identifier: Parma Calcio 1913
+  name:
+    en: Parma Calcio 1913
+    sen: Parma Calcio 1913
+- aliases:
+  - Roma
+  - AS Roma
+  - FC Roma
+  - Rome FC
+  - Giallorossi
+  - Roma
+  identifier: Roma
+  name:
+    en: Roma
+    sen: Roma
+- aliases:
+  - Sampdoria
+  - UC Sampdoria
+  - Unione Calcio Sampdoria
+  - Blucerchiati
+  - Sampdoria
+  identifier: Sampdoria
+  name:
+    en: Sampdoria
+    sen: Sampdoria
+- aliases:
+  - Sassuolo
+  - U.S. Sassuolo Calcio
+  - USSC
+  - Sassuolo
+  identifier: Sassuolo
+  name:
+    en: Sassuolo
+    sen: Sassuolo
+- aliases:
+  - Spezia
+  - La Spezia
+  - Spezia Calcio
+  - Spezia
+  identifier: Spezia
+  name:
+    en: Spezia
+    sen: Spezia
+- aliases:
+  - Torino
+  - Torino Football Club
+  - Torino FC
+  - Torino
+  identifier: Torino
+  name:
+    en: Torino
+    sen: Torino
+- aliases:
+  - Udinese
+  - Udinese Calcio
+  - Bianconeri
+  - Udinese
+  identifier: Udinese
+  name:
+    en: Udinese
+    sen: Udinese
+- aliases:
+  - Verona
+  - Hellas Verona Football Club
+  - Verona
+  identifier: Verona
+  name:
+    en: Verona
+    sen: Verona

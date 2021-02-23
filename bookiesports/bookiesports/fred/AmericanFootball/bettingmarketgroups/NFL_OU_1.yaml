@@ -12,7 +12,7 @@ name_parameters:
 # Asset to play with
 asset:
   - TEST
-  - BTFUN
+  - BTF
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: ou

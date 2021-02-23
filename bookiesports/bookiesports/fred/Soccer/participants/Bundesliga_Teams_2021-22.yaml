@@ -1,0 +1,149 @@
+participants:
+- aliases:
+  - Augsburg
+  - FC Augsburg
+  - Augsburg
+  identifier: Augsburg
+  name:
+    en: Augsburg
+    sen: Augsburg
+- aliases:
+  - Bayern Munich
+  - "FC Bayern M\xFCnchen"
+  - Bayern Munich
+  identifier: Bayern Munich
+  name:
+    en: Bayern Munich
+    sen: Bayern Munich
+- aliases:
+  - Bielefeld
+  - Arminia Bielefeld
+  - Deutscher Sport-Club Arminia Bielefeld
+  - Bielefeld
+  identifier: Bielefeld
+  name:
+    en: Bielefeld
+    sen: Bielefeld
+- aliases:
+  - Dortmund
+  - Borussia Dortmund
+  - Dortmund
+  identifier: Dortmund
+  name:
+    en: Dortmund
+    sen: Dortmund
+- aliases:
+  - Ein Frankfurt
+  - Eintracht Frankfurt
+  - Ein Frankfurt
+  identifier: Ein Frankfurt
+  name:
+    en: Ein Frankfurt
+    sen: Ein Frankfurt
+- aliases:
+  - FC Koln
+  - "1. FC K\xF6ln"
+  - FC Koln
+  identifier: FC Koln
+  name:
+    en: FC Koln
+    sen: FC Koln
+- aliases:
+  - Freiburg
+  - Sport-Club Freiburg
+  - Freiburg
+  identifier: Freiburg
+  name:
+    en: Freiburg
+    sen: Freiburg
+- aliases:
+  - Hertha
+  - Hertha BSC
+  - Hertha Berlin
+  - Hertha
+  identifier: Hertha
+  name:
+    en: Hertha
+    sen: Hertha
+- aliases:
+  - Hoffenheim
+  - TSG 1899 Hoffenheim
+  - Hoffenheim
+  identifier: Hoffenheim
+  name:
+    en: Hoffenheim
+    sen: Hoffenheim
+- aliases:
+  - Leverkusen
+  - Bayer 04 Leverkusen
+  - Bayer Leverkusen
+  - Leverkusen
+  identifier: Leverkusen
+  name:
+    en: Leverkusen
+    sen: Leverkusen
+- aliases:
+  - Mainz
+  - FSV Mainz 05
+  - Mainz
+  identifier: Mainz
+  name:
+    en: Mainz
+    sen: Mainz
+- aliases:
+  - "M\xF6nchengladbach"
+  - "Borussia M\xF6nchengladbach"
+  - "M\xF6nchengladbach"
+  identifier: "M\xF6nchengladbach"
+  name:
+    en: "M\xF6nchengladbach"
+    sen: "M\xF6nchengladbach"
+- aliases:
+  - RasenBallsport Leipzig
+    #  - RB Leipzig
+  - RasenBallsport Leipzig
+  identifier: RasenBallsport Leipzig
+  name:
+    en: RasenBallsport Leipzig
+    sen: RasenBallsport Leipzig
+- aliases:
+  - Schalke 04
+  - FC Schalke 04
+  - Schalke 04
+  identifier: Schalke 04
+  name:
+    en: Schalke 04
+    sen: Schalke 04
+- aliases:
+  - Stuttgart
+  - VfB Stuttgart
+  - "Verein f\xFCr Bewegungsspiele Stuttgart 1893 e.V."
+  - Stuttgart
+  identifier: Stuttgart
+  name:
+    en: Stuttgart
+    sen: Stuttgart
+- aliases:
+  - Union Berlin
+  - 1. FC Union Berlin
+  - Union Berlin
+  identifier: Union Berlin
+  name:
+    en: Union Berlin
+    sen: Union Berlin
+- aliases:
+  - Werder Bremen
+  - SV Werder Bremen
+  - Werder Bremen
+  identifier: Werder Bremen
+  name:
+    en: Werder Bremen
+    sen: Werder Bremen
+- aliases:
+  - Wolfsburg
+  - VfL Wolfsburg
+  - Wolfsburg
+  identifier: Wolfsburg
+  name:
+    en: Wolfsburg
+    sen: Wolfsburg
