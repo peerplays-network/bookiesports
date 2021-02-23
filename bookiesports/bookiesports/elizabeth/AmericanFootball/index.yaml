@@ -24,8 +24,8 @@ id:
 
 # List Event Groups (each of them has a subfolder)
 eventgroups:
-  - NFL#PreSeas
+  #  - NFL#PreSeas
   - NFL#RegSeas
-  - NFL#Playoffs
-  - NFL#Superbowl
-  - NFL#Probowl
+    #  - NFL#Playoffs
+    #  - NFL#Superbowl
+    #  - NFL#Probowl
