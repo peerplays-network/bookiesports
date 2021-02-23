@@ -1,0 +1,168 @@
+participants:
+- aliases:
+  - Arsenal
+  - Gunners
+  - Arsenal Football Club
+  - AFC
+  - Ars
+  identifier: Arsenal
+  name:
+    en: Arsenal
+    sen: Ars
+- aliases:
+  - Aston Villa
+  - Aston Villa FC
+  - Aston Villa
+  identifier: Aston Villa
+  name:
+    en: Aston Villa
+    sen: Aston Villa
+- aliases:
+  - Brighton
+  - Brighton & Hove Albion
+  - Brighton
+  identifier: Brighton
+  name:
+    en: Brighton
+    sen: Brighton
+- aliases:
+  - Burnley
+  - Burnley
+  - Burnley
+  identifier: Burnley
+  name:
+    en: Burnley
+    sen: Burnley
+- aliases:
+  - Chelsea
+  - Chelsea
+  - Chelsea
+  identifier: Chelsea
+  name:
+    en: Chelsea
+    sen: Chelsea
+- aliases:
+  - Crystal Palace
+  - Palace
+  - Crystal Palace
+  identifier: Crystal Palace
+  name:
+    en: Crystal Palace
+    sen: Crystal Palace
+- aliases:
+  - Everton
+  - The Toffees
+  - Everton
+  identifier: Everton
+  name:
+    en: Everton
+    sen: Everton
+- aliases:
+  - Fulham
+  - Fulham Football Club
+  - FFC
+  - Fulham
+  identifier: Fulham
+  name:
+    en: Fulham
+    sen: Fulham
+- aliases:
+  - Leeds
+  - Leeds United Football Club
+  - LUFC
+  - Leeds
+  identifier: Leeds
+  name:
+    en: Leeds
+    sen: Leeds
+- aliases:
+  - Leicester
+  - Leicester City
+  - The Foxes
+  - Leicester
+  identifier: Leicester
+  name:
+    en: Leicester
+    sen: Leicester
+- aliases:
+  - Liverpool
+  - Liverpool FC
+  - Liverpool
+  identifier: Liverpool
+  name:
+    en: Liverpool
+    sen: Liverpool
+- aliases:
+  - Man City
+  - Manchester City
+  - Man City
+  identifier: Man City
+  name:
+    en: Man City
+    sen: Man City
+- aliases:
+  - Man United
+  - Manchester United
+  - Man Utd
+  - Man United
+  identifier: Man United
+  name:
+    en: Man United
+    sen: Man United
+- aliases:
+  - Newcastle
+  - Newcastle United
+  - Newcastle
+  identifier: Newcastle
+  name:
+    en: Newcastle
+    sen: Newcastle
+- aliases:
+  - Sheffield United
+  - Sheffield Utd
+  - Sheffield United
+  identifier: Sheffield United
+  name:
+    en: Sheffield United
+    sen: Sheffield United
+- aliases:
+  - Southampton
+  - Southampton
+  - Southampton
+  identifier: Southampton
+  name:
+    en: Southampton
+    sen: Southampton
+- aliases:
+  - Tottenham
+  - Tottenham Hotspur
+  - Tottenham
+  identifier: Tottenham
+  name:
+    en: Tottenham
+    sen: Tottenham
+- aliases:
+  - West Brom
+  - West Bromwich Albion Football Club
+  - WBA FC
+  - West Brom
+  identifier: West Brom
+  name:
+    en: West Brom
+    sen: West Brom
+- aliases:
+  - West Ham
+  - West Ham United
+  - West Ham
+  identifier: West Ham
+  name:
+    en: West Ham
+    sen: West Ham
+- aliases:
+  - Wolves
+  - Wolverhampton Wanderers
+  - Wolves
+  identifier: Wolves
+  name:
+    en: Wolves
+    sen: Wolves

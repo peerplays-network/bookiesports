@@ -1,9 +1,9 @@
 # Internationalized name
 description:
     # Human-readable name of BMG, to be displayed in app
-    display_name: Over/Under {OU} pts
+    display_name: Over/Under {overunder.value} pts
     # Localized version of BMG_DisplayName
-    en: Over/Under {OU} pts
+    en: Over/Under {overunder.value} pts
     sen: Total Points
 
 name_parameters:
@@ -11,7 +11,8 @@ name_parameters:
 
 # Asset to play with
 asset:
-  - BTFUN
+  - TEST
+  - BTF
 
 # Is this a dynamic BMG (like a NFL handicap or NBA Over-under BMG)?
 dynamic: True
@@ -27,6 +28,6 @@ rules: R_NHL_OU_1
 
 bettingmarkets:
      - description:
-         en: "Under {OU}"
+         en: "Under {overunder.value}"
      - description:
-         en: "Over {OU}"
+         en: "Over {overunder.value}"

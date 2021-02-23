@@ -1,0 +1,241 @@
+participants:
+- aliases:
+  - Atlanta Hawks
+  - Atlanta Hawks
+  - ATL
+  identifier: Atlanta Hawks
+  name:
+    en: Atlanta Hawks
+    sen: ATL
+- aliases:
+  - Boston Celtics
+  - Boston Celtics
+  - BOS
+  identifier: Boston Celtics
+  name:
+    en: Boston Celtics
+    sen: BOS
+- aliases:
+  - Brooklyn Nets
+  - Brooklyn Nets
+  - BKN
+  identifier: Brooklyn Nets
+  name:
+    en: Brooklyn Nets
+    sen: BKN
+- aliases:
+  - Charlotte Hornets
+  - Charlotte Hornets
+  - CHA
+  identifier: Charlotte Hornets
+  name:
+    en: Charlotte Hornets
+    sen: CHA
+- aliases:
+  - Chicago Bulls
+  - Chicago Bulls
+  - CHI
+  identifier: Chicago Bulls
+  name:
+    en: Chicago Bulls
+    sen: CHI
+- aliases:
+  - Cleveland Cavaliers
+  - Cavs
+  - CLE
+  identifier: Cleveland Cavaliers
+  name:
+    en: Cleveland Cavaliers
+    sen: CLE
+- aliases:
+  - Dallas Mavericks
+  - Dallas Mavericks
+  - DAL
+  identifier: Dallas Mavericks
+  name:
+    en: Dallas Mavericks
+    sen: DAL
+- aliases:
+  - Denver Nuggets
+  - Denver Nuggets
+  - DEN
+  identifier: Denver Nuggets
+  name:
+    en: Denver Nuggets
+    sen: DEN
+- aliases:
+  - Detroit Pistons
+  - Detroit Pistons
+  - DET
+  identifier: Detroit Pistons
+  name:
+    en: Detroit Pistons
+    sen: DET
+- aliases:
+  - Golden State Warriors
+  - Golden State Warriors
+  - GSW
+  identifier: Golden State Warriors
+  name:
+    en: Golden State Warriors
+    sen: GSW
+- aliases:
+  - Houston Rockets
+  - Houston Rockets
+  - HOU
+  identifier: Houston Rockets
+  name:
+    en: Houston Rockets
+    sen: HOU
+- aliases:
+  - Indiana Pacers
+  - Indiana Pacers
+  - IND
+  identifier: Indiana Pacers
+  name:
+    en: Indiana Pacers
+    sen: IND
+- aliases:
+  - Los Angeles Clippers
+  - Los Angeles Clippers
+  - LAC
+  identifier: Los Angeles Clippers
+  name:
+    en: Los Angeles Clippers
+    sen: LAC
+- aliases:
+  - Los Angeles Lakers
+  - Los Angeles Lakers
+  - LAL
+  identifier: Los Angeles Lakers
+  name:
+    en: Los Angeles Lakers
+    sen: LAL
+- aliases:
+  - Memphis Grizzlies
+  - Memphis Grizzlies
+  - MEM
+  identifier: Memphis Grizzlies
+  name:
+    en: Memphis Grizzlies
+    sen: MEM
+- aliases:
+  - Miami Heat
+  - Miami Heat
+  - MIA
+  identifier: Miami Heat
+  name:
+    en: Miami Heat
+    sen: MIA
+- aliases:
+  - Milwaukee Bucks
+  - Milwaukee Bucks
+  - MIL
+  identifier: Milwaukee Bucks
+  name:
+    en: Milwaukee Bucks
+    sen: MIL
+- aliases:
+  - Minnesota Timberwolves
+  - Minnesota Timberwolves
+  - MIN
+  identifier: Minnesota Timberwolves
+  name:
+    en: Minnesota Timberwolves
+    sen: MIN
+- aliases:
+  - New Orleans Pelicans
+  - New Orleans Pelicans
+  - NOP
+  identifier: New Orleans Pelicans
+  name:
+    en: New Orleans Pelicans
+    sen: NOP
+- aliases:
+  - New York Knicks
+  - New York Knicks
+  - NYK
+  identifier: New York Knicks
+  name:
+    en: New York Knicks
+    sen: NYK
+- aliases:
+  - Oklahoma City Thunder
+  - Oklahoma City Thunder
+  - OKC
+  identifier: Oklahoma City Thunder
+  name:
+    en: Oklahoma City Thunder
+    sen: OKC
+- aliases:
+  - Orlando Magic
+  - Orlando Magic
+  - ORL
+  identifier: Orlando Magic
+  name:
+    en: Orlando Magic
+    sen: ORL
+- aliases:
+  - Philadelphia 76ers
+  - Philadelphia 76ers
+  - PHI
+  identifier: Philadelphia 76ers
+  name:
+    en: Philadelphia 76ers
+    sen: PHI
+- aliases:
+  - Phoenix Suns
+  - Phoenix Suns
+  - PHX
+  identifier: Phoenix Suns
+  name:
+    en: Phoenix Suns
+    sen: PHX
+- aliases:
+  - Portland Trail Blazers
+  - Portland Trail Blazers
+  - POR
+  identifier: Portland Trail Blazers
+  name:
+    en: Portland Trail Blazers
+    sen: POR
+- aliases:
+  - Sacramento Kings
+  - Sacramento Kings
+  - SAC
+  identifier: Sacramento Kings
+  name:
+    en: Sacramento Kings
+    sen: SAC
+- aliases:
+  - San Antonio Spurs
+  - San Antonio Spurs
+  - SAS
+  identifier: San Antonio Spurs
+  name:
+    en: San Antonio Spurs
+    sen: SAS
+- aliases:
+  - Toronto Raptors
+  - Toronto Raptors
+  - TOR
+  identifier: Toronto Raptors
+  name:
+    en: Toronto Raptors
+    sen: TOR
+- aliases:
+  - Utah Jazz
+  - Utah Jazz
+  - UTA
+  identifier: Utah Jazz
+  name:
+    en: Utah Jazz
+    sen: UTA
+- aliases:
+  - Washington Wizards
+  - Washington Wizards
+  - WAS
+  identifier: Washington Wizards
+  name:
+    en: Washington Wizards
+    sen: WAS
