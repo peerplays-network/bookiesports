@@ -1,0 +1,257 @@
+participants:
+- aliases:
+  - Arizona Cardinals
+  - Arizona Cardinals
+  - ARI
+  identifier: Arizona Cardinals
+  name:
+    en: Arizona Cardinals
+    sen: ARI
+- aliases:
+  - Atlanta Falcons
+  - Atlanta Falcons
+  - ATL
+  identifier: Atlanta Falcons
+  name:
+    en: Atlanta Falcons
+    sen: ATL
+- aliases:
+  - Baltimore Ravens
+  - Baltimore Ravens
+  - BAL
+  identifier: Baltimore Ravens
+  name:
+    en: Baltimore Ravens
+    sen: BAL
+- aliases:
+  - Buffalo Bills
+  - Buffalo Bills
+  - BUF
+  identifier: Buffalo Bills
+  name:
+    en: Buffalo Bills
+    sen: BUF
+- aliases:
+  - Carolina Panthers
+  - Carolina Panthers
+  - CAR
+  identifier: Carolina Panthers
+  name:
+    en: Carolina Panthers
+    sen: CAR
+- aliases:
+  - Chicago Bears
+  - Chicago Bears
+  - CHI
+  identifier: Chicago Bears
+  name:
+    en: Chicago Bears
+    sen: CHI
+- aliases:
+  - Cincinnati Bengals
+  - Cincinnati Bengals
+  - CIN
+  identifier: Cincinnati Bengals
+  name:
+    en: Cincinnati Bengals
+    sen: CIN
+- aliases:
+  - Cleveland Browns
+  - Cleveland Browns
+  - CLE
+  identifier: Cleveland Browns
+  name:
+    en: Cleveland Browns
+    sen: CLE
+- aliases:
+  - Dallas Cowboys
+  - Dallas Cowboys
+  - DAL
+  identifier: Dallas Cowboys
+  name:
+    en: Dallas Cowboys
+    sen: DAL
+- aliases:
+  - Denver Broncos
+  - Denver Broncos
+  - DEN
+  identifier: Denver Broncos
+  name:
+    en: Denver Broncos
+    sen: DEN
+- aliases:
+  - Detroit Lions
+  - Detroit Lions
+  - DET
+  identifier: Detroit Lions
+  name:
+    en: Detroit Lions
+    sen: DET
+- aliases:
+  - Green Bay Packers
+  - Green Bay Packers
+  - GB
+  identifier: Green Bay Packers
+  name:
+    en: Green Bay Packers
+    sen: GB
+- aliases:
+  - Houston Texans
+  - Houston Texans
+  - HOU
+  identifier: Houston Texans
+  name:
+    en: Houston Texans
+    sen: HOU
+- aliases:
+  - Indianapolis Colts
+  - Indianapolis Colts
+  - IND
+  identifier: Indianapolis Colts
+  name:
+    en: Indianapolis Colts
+    sen: IND
+- aliases:
+  - Jacksonville Jaguars
+  - The Jags
+  - JAX
+  identifier: Jacksonville Jaguars
+  name:
+    en: Jacksonville Jaguars
+    sen: JAX
+- aliases:
+  - Kansas City Chiefs
+  - Kansas City Chiefs
+  - KC
+  identifier: Kansas City Chiefs
+  name:
+    en: Kansas City Chiefs
+    sen: KC
+- aliases:
+  - Las Vegas Raiders
+  - Oakland Raiders
+  - OAK
+  identifier: Las Vegas Raiders
+  name:
+    en: Las Vegas Raiders
+    sen: OAK
+- aliases:
+  - Los Angeles Chargers
+  - The Bolts
+  - LAC
+  identifier: Los Angeles Chargers
+  name:
+    en: Los Angeles Chargers
+    sen: LAC
+- aliases:
+  - Los Angeles Rams
+  - LA Rams
+  - LA
+  identifier: Los Angeles Rams
+  name:
+    en: Los Angeles Rams
+    sen: LA
+- aliases:
+  - Miami Dolphins
+  - The Fins
+  - MIA
+  identifier: Miami Dolphins
+  name:
+    en: Miami Dolphins
+    sen: MIA
+- aliases:
+  - Minnesota Vikings
+  - Vikings
+  - MIN
+  identifier: Minnesota Vikings
+  name:
+    en: Minnesota Vikings
+    sen: MIN
+- aliases:
+  - New England Patriots
+  - The Pats
+  - NE
+  identifier: New England Patriots
+  name:
+    en: New England Patriots
+    sen: NE
+- aliases:
+  - New Orleans Saints
+  - New Orleans Saints
+  - 'NO'
+  identifier: New Orleans Saints
+  name:
+    en: New Orleans Saints
+    sen: 'NO'
+- aliases:
+  - New York Giants
+  - New York Giants
+  - NYG
+  identifier: New York Giants
+  name:
+    en: New York Giants
+    sen: NYG
+- aliases:
+  - New York Jets
+  - Gang Green
+  - NYJ
+  identifier: New York Jets
+  name:
+    en: New York Jets
+    sen: NYJ
+- aliases:
+  - Philadelphia Eagles
+  - Eagles
+  - PHI
+  identifier: Philadelphia Eagles
+  name:
+    en: Philadelphia Eagles
+    sen: PHI
+- aliases:
+  - Pittsburgh Steelers
+  - Pittsburgh Steelers
+  - PIT
+  identifier: Pittsburgh Steelers
+  name:
+    en: Pittsburgh Steelers
+    sen: PIT
+- aliases:
+  - San Francisco 49ers
+  - San Francisco 49ers
+  - SF
+  identifier: San Francisco 49ers
+  name:
+    en: San Francisco 49ers
+    sen: SF
+- aliases:
+  - Seattle Seahawks
+  - Seattle Seahawks
+  - SEA
+  identifier: Seattle Seahawks
+  name:
+    en: Seattle Seahawks
+    sen: SEA
+- aliases:
+  - Tampa Bay Buccaneers
+  - Tampa Bay Buccaneers
+  - TB
+  identifier: Tampa Bay Buccaneers
+  name:
+    en: Tampa Bay Buccaneers
+    sen: TB
+- aliases:
+  - Tennessee Titans
+  - Tennessee Titans
+  - TEN
+  identifier: Tennessee Titans
+  name:
+    en: Tennessee Titans
+    sen: TEN
+- aliases:
+  - Washington
+  - Washington Football Team
+  - WAS
+  identifier: Washington
+  name:
+    en: Washington
+    sen: WAS

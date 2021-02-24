@@ -1,0 +1,242 @@
+participants:
+- aliases:
+  - Arizona Diamondbacks
+  - D-Backs
+  - ARI
+  - ARI
+  identifier: Arizona Diamondbacks
+  name:
+    en: Arizona Diamondbacks
+    sen: ARI
+- aliases:
+  - Atlanta Braves
+  - ATL
+  - ATL
+  identifier: Atlanta Braves
+  name:
+    en: Atlanta Braves
+    sen: ATL
+- aliases:
+  - Baltimore Orioles
+  - BAL
+  - BAL
+  identifier: Baltimore Orioles
+  name:
+    en: Baltimore Orioles
+    sen: BAL
+- aliases:
+  - Boston Red Sox
+  - BOS
+  - BOS
+  identifier: Boston Red Sox
+  name:
+    en: Boston Red Sox
+    sen: BOS
+- aliases:
+  - Chicago Cubs
+  - CHC
+  - CHC
+  identifier: Chicago Cubs
+  name:
+    en: Chicago Cubs
+    sen: CHC
+- aliases:
+  - Chicago White Sox
+  - CWS
+  - CWS
+  identifier: Chicago White Sox
+  name:
+    en: Chicago White Sox
+    sen: CWS
+- aliases:
+  - Cincinnati Reds
+  - CIN
+  - CIN
+  identifier: Cincinnati Reds
+  name:
+    en: Cincinnati Reds
+    sen: CIN
+- aliases:
+  - Cleveland Indians
+  - CLE
+  - CLE
+  identifier: Cleveland Indians
+  name:
+    en: Cleveland Indians
+    sen: CLE
+- aliases:
+  - Colorado Rockies
+  - COL
+  - COL
+  identifier: Colorado Rockies
+  name:
+    en: Colorado Rockies
+    sen: COL
+- aliases:
+  - Detroit Tigers
+  - DET
+  - DET
+  identifier: Detroit Tigers
+  name:
+    en: Detroit Tigers
+    sen: DET
+- aliases:
+  - Houston Astros
+  - HOU
+  - HOU
+  identifier: Houston Astros
+  name:
+    en: Houston Astros
+    sen: HOU
+- aliases:
+  - Kansas City Royals
+  - KC
+  - KC
+  identifier: Kansas City Royals
+  name:
+    en: Kansas City Royals
+    sen: KC
+- aliases:
+  - Los Angeles Angels
+  - LAA
+  - LAA
+  identifier: Los Angeles Angels
+  name:
+    en: Los Angeles Angels
+    sen: LAA
+- aliases:
+  - Los Angeles Dodgers
+  - LAD
+  - LAD
+  identifier: Los Angeles Dodgers
+  name:
+    en: Los Angeles Dodgers
+    sen: LAD
+- aliases:
+  - Miami Marlins
+  - MIA
+  - MIA
+  identifier: Miami Marlins
+  name:
+    en: Miami Marlins
+    sen: MIA
+- aliases:
+  - Milwaukee Brewers
+  - MIL
+  - MIL
+  identifier: Milwaukee Brewers
+  name:
+    en: Milwaukee Brewers
+    sen: MIL
+- aliases:
+  - Minnesota Twins
+  - MIN
+  - MIN
+  identifier: Minnesota Twins
+  name:
+    en: Minnesota Twins
+    sen: MIN
+- aliases:
+  - New York Mets
+  - NYM
+  - NYM
+  identifier: New York Mets
+  name:
+    en: New York Mets
+    sen: NYM
+- aliases:
+  - New York Yankees
+  - NYY
+  - NYY
+  identifier: New York Yankees
+  name:
+    en: New York Yankees
+    sen: NYY
+- aliases:
+  - Oakland Athletics
+  - OAK
+  - OAK
+  identifier: Oakland Athletics
+  name:
+    en: Oakland Athletics
+    sen: OAK
+- aliases:
+  - Philadelphia Phillies
+  - PHI
+  - PHI
+  identifier: Philadelphia Phillies
+  name:
+    en: Philadelphia Phillies
+    sen: PHI
+- aliases:
+  - Pittsburgh Pirates
+  - PIT
+  - PIT
+  identifier: Pittsburgh Pirates
+  name:
+    en: Pittsburgh Pirates
+    sen: PIT
+- aliases:
+  - San Diego Padres
+  - SD
+  - SD
+  identifier: San Diego Padres
+  name:
+    en: San Diego Padres
+    sen: SD
+- aliases:
+  - San Francisco Giants
+  - SF
+  - SF
+  identifier: San Francisco Giants
+  name:
+    en: San Francisco Giants
+    sen: SF
+- aliases:
+  - Seattle Mariners
+  - SEA
+  - SEA
+  identifier: Seattle Mariners
+  name:
+    en: Seattle Mariners
+    sen: SEA
+- aliases:
+  - St. Louis Cardinals
+  - St.Louis Cardinals
+  - STL
+  identifier: St. Louis Cardinals
+  name:
+    en: St. Louis Cardinals
+    sen: STL
+- aliases:
+  - Tampa Bay Rays
+  - TB
+  - TB
+  identifier: Tampa Bay Rays
+  name:
+    en: Tampa Bay Rays
+    sen: TB
+- aliases:
+  - Texas Rangers
+  - TEX
+  - TEX
+  identifier: Texas Rangers
+  name:
+    en: Texas Rangers
+    sen: TEX
+- aliases:
+  - Toronto Blue Jays
+  - TOR
+  - TOR
+  identifier: Toronto Blue Jays
+  name:
+    en: Toronto Blue Jays
+    sen: TOR
+- aliases:
+  - Washington Nationals
+  - WSH
+  - WAS
+  identifier: Washington Nationals
+  name:
+    en: Washington Nationals
+    sen: WAS

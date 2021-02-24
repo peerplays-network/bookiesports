@@ -1,0 +1,174 @@
+participants:
+- aliases:
+  - Alaves
+  - "Deportivo Alav\xE9s"
+  - Alaves
+  identifier: Alaves
+  name:
+    en: Alaves
+    sen: Alaves
+- aliases:
+  - Ath Bilbao
+  - Athletic Bilbao
+  - Athletic Club
+  - Ath Bilbao
+  identifier: Ath Bilbao
+  name:
+    en: Ath Bilbao
+    sen: Ath Bilbao
+- aliases:
+  - Ath Madrid
+  - "Atl\xE9tico de Madrid"
+  - Atletico Madrid
+  - Ath Madrid
+  identifier: Ath Madrid
+  name:
+    en: Ath Madrid
+    sen: Ath Madrid
+- aliases:
+  - Barcelona
+  - FC Barcelona
+  - Barcelona
+  identifier: Barcelona
+  name:
+    en: Barcelona
+    sen: Barcelona
+- aliases:
+  - Betis
+  - "Real Betis Balompi\xE9"
+  - Real Betis
+  - Betis
+  identifier: Betis
+  name:
+    en: Betis
+    sen: Betis
+- aliases:
+  - Cadiz
+  - "C\xE1diz Club de F\xFAtbol"
+  - "C\xE1diz CF"
+  - Cadiz
+  identifier: Cadiz
+  name:
+    en: Cadiz
+    sen: Cadiz
+- aliases:
+  - Celta Vigo
+  - Celta de Vigo
+  - Celta Vigo
+  identifier: Celta Vigo
+  name:
+    en: Celta Vigo
+    sen: Celta Vigo
+- aliases:
+  - Eibar
+  - Sociedad Deportiva Eibar
+  - SD Eibar
+  - Eibar
+  identifier: Eibar
+  name:
+    en: Eibar
+    sen: Eibar
+- aliases:
+  - Elche
+  - Elche
+  - Elche
+  identifier: Elche
+  name:
+    en: Elche
+    sen: Elche
+- aliases:
+  - Getafe
+  - Getafe
+  - Getafe
+  identifier: Getafe
+  name:
+    en: Getafe
+    sen: Getafe
+- aliases:
+  - Granada
+  - Granada CF
+  - Granada
+  identifier: Granada
+  name:
+    en: Granada
+    sen: Granada
+- aliases:
+  - Huesca
+  - SD Huesca
+  - Sociedad Deportiva Huesca
+  - Huesca
+  identifier: Huesca
+  name:
+    en: Huesca
+    sen: Huesca
+- aliases:
+  - Levante
+  - Levante
+  - Levante
+  identifier: Levante
+  name:
+    en: Levante
+    sen: Levante
+- aliases:
+  - Osasuna
+  - Osasuna
+  - "Club Atl\xE9tico Osasuna"
+  - CA Osasuna
+  - Osasuna
+  identifier: Osasuna
+  name:
+    en: Osasuna
+    sen: Osasuna
+- aliases:
+  - Real Madrid
+  - Real Madrid
+  - Real Madrid
+  identifier: Real Madrid
+  name:
+    en: Real Madrid
+    sen: Real Madrid
+- aliases:
+  - Sevilla
+  - "Sevilla F\xFAtbol Club"
+  - SFC
+  - Sevilla
+  identifier: Sevilla
+  name:
+    en: Sevilla
+    sen: Sevilla
+- aliases:
+  - Sociedad
+  - Real Sociedad
+  - Sociedad
+  identifier: Sociedad
+  name:
+    en: Sociedad
+    sen: Sociedad
+- aliases:
+  - Valencia
+  - Valencia
+  - Valencia
+  identifier: Valencia
+  name:
+    en: Valencia
+    sen: Valencia
+- aliases:
+  - Valladolid
+  - Real Valladolid
+  - Valladolid
+  identifier: Valladolid
+  name:
+    en: Valladolid
+    sen: Valladolid
+- aliases:
+  - Villarreal
+  - Villareal
+  - "Villarreal Club de F\xFAtbol"
+  - Villarreal CF
+  - Vila-real
+  - VCF
+  - Villarreal
+  identifier: Villarreal
+  name:
+    en: Villarreal
+    sen: Villarreal

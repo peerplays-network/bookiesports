@@ -21,7 +21,7 @@ aliases:
 # .. and blockchain id
 id:
 
-participants: "EPL_Teams_2020-21"
+participants: "EPL_Teams_2021-22"
 
 # Define the betting market groups (each one has a subfolder)
 bettingmarketgroups:
@@ -41,7 +41,7 @@ eventscheme:
 
 
 # How long before the event do we create these group? (in days)
-leadtime_Max: 6
+leadtime_Max: 14
 
 # When does the event group/league actually begin and end?
 start_date: 2020-01-01T00:00:00Z

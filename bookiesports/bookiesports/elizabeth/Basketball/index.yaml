@@ -21,6 +21,6 @@ id:
 
 # List Event Groups (each of them has a subfolder)
 eventgroups:
-  - NBA#RegSeas
-  - NBA#Playoffs
-  - NBA#Finals
+ - NBA#RegSeas
+    #  - NBA#Playoffs
+    #  - NBA#Finals
