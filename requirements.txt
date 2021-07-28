@@ -4,3 +4,4 @@ pyyaml
 jsonschema
 colorlog
 strict_rfc3339
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
